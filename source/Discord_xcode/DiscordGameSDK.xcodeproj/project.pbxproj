@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B7BA962292C002100DBFA6F /* DiscordCommonOnce.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7BA960292C002100DBFA6F /* DiscordCommonOnce.h */; };
+		2B7BA963292C002100DBFA6F /* DiscordCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7BA961292C002100DBFA6F /* DiscordCommon.h */; };
+		2B817F0C283290E7006537BF /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817EED283290E7006537BF /* event.h */; };
+		2B817F0D283290E7006537BF /* user_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EEE283290E7006537BF /* user_manager.cpp */; };
+		2B817F0E283290E7006537BF /* achievement_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817EEF283290E7006537BF /* achievement_manager.h */; };
+		2B817F0F283290E7006537BF /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817EF0283290E7006537BF /* core.h */; };
+		2B817F10283290E7006537BF /* core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EF1283290E7006537BF /* core.cpp */; };
+		2B817F11283290E7006537BF /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817EF2283290E7006537BF /* ffi.h */; };
+		2B817F12283290E7006537BF /* relationship_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817EF3283290E7006537BF /* relationship_manager.h */; };
+		2B817F13283290E7006537BF /* types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EF4283290E7006537BF /* types.cpp */; };
+		2B817F14283290E7006537BF /* user_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817EF5283290E7006537BF /* user_manager.h */; };
+		2B817F15283290E7006537BF /* storage_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EF6283290E7006537BF /* storage_manager.cpp */; };
+		2B817F16283290E7006537BF /* relationship_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EF7283290E7006537BF /* relationship_manager.cpp */; };
+		2B817F17283290E7006537BF /* application_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EF8283290E7006537BF /* application_manager.cpp */; };
+		2B817F18283290E7006537BF /* image_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817EF9283290E7006537BF /* image_manager.h */; };
+		2B817F19283290E7006537BF /* lobby_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EFA283290E7006537BF /* lobby_manager.cpp */; };
+		2B817F1A283290E7006537BF /* network_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EFB283290E7006537BF /* network_manager.cpp */; };
+		2B817F1B283290E7006537BF /* store_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817EFC283290E7006537BF /* store_manager.h */; };
+		2B817F1C283290E7006537BF /* achievement_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EFD283290E7006537BF /* achievement_manager.cpp */; };
+		2B817F1D283290E7006537BF /* overlay_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EFE283290E7006537BF /* overlay_manager.cpp */; };
+		2B817F1E283290E7006537BF /* store_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817EFF283290E7006537BF /* store_manager.cpp */; };
+		2B817F1F283290E7006537BF /* network_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F00283290E7006537BF /* network_manager.h */; };
+		2B817F20283290E7006537BF /* lobby_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F01283290E7006537BF /* lobby_manager.h */; };
+		2B817F21283290E7006537BF /* activity_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F02283290E7006537BF /* activity_manager.h */; };
+		2B817F22283290E7006537BF /* storage_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F03283290E7006537BF /* storage_manager.h */; };
+		2B817F23283290E7006537BF /* application_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F04283290E7006537BF /* application_manager.h */; };
+		2B817F24283290E7006537BF /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F05283290E7006537BF /* types.h */; };
+		2B817F25283290E7006537BF /* image_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817F06283290E7006537BF /* image_manager.cpp */; };
+		2B817F26283290E7006537BF /* discord.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F07283290E7006537BF /* discord.h */; };
+		2B817F27283290E7006537BF /* voice_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817F08283290E7006537BF /* voice_manager.cpp */; };
+		2B817F28283290E7006537BF /* activity_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B817F09283290E7006537BF /* activity_manager.cpp */; };
+		2B817F29283290E7006537BF /* overlay_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F0A283290E7006537BF /* overlay_manager.h */; };
+		2B817F2A283290E7006537BF /* voice_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B817F0B283290E7006537BF /* voice_manager.h */; };
+		6A7A717629B770680031CBB5 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717429B770680031CBB5 /* utils.cpp */; };
+		6A7A717729B770680031CBB5 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7A717529B770680031CBB5 /* utils.h */; };
+		6A7A718429B770920031CBB5 /* Discord_Networking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717829B770920031CBB5 /* Discord_Networking.cpp */; };
+		6A7A718529B770920031CBB5 /* Discord_Relationships.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717929B770920031CBB5 /* Discord_Relationships.cpp */; };
+		6A7A718629B770920031CBB5 /* Discord_Users.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717A29B770920031CBB5 /* Discord_Users.cpp */; };
+		6A7A718729B770920031CBB5 /* Discord_Voice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717B29B770920031CBB5 /* Discord_Voice.cpp */; };
+		6A7A718829B770920031CBB5 /* Discord_Init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717C29B770920031CBB5 /* Discord_Init.cpp */; };
+		6A7A718929B770920031CBB5 /* Discord_Store.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717D29B770920031CBB5 /* Discord_Store.cpp */; };
+		6A7A718A29B770920031CBB5 /* Discord_Lobbies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717E29B770920031CBB5 /* Discord_Lobbies.cpp */; };
+		6A7A718B29B770920031CBB5 /* Discord_Overlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A717F29B770920031CBB5 /* Discord_Overlay.cpp */; };
+		6A7A718C29B770920031CBB5 /* Discord_Storage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A718029B770920031CBB5 /* Discord_Storage.cpp */; };
+		6A7A718D29B770920031CBB5 /* Discord_Applications.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A718129B770920031CBB5 /* Discord_Applications.cpp */; };
+		6A7A718E29B770920031CBB5 /* Discord_Images.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A718229B770920031CBB5 /* Discord_Images.cpp */; };
+		6A7A718F29B770920031CBB5 /* Discord_Activities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A718329B770920031CBB5 /* Discord_Activities.cpp */; };
+		6A7A719129B772350031CBB5 /* libDiscordGameSDK.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE7B6CB0281B5AB300B9E7C2 /* libDiscordGameSDK.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BE7B6D3F281B5CCF00B9E7C2 /* Ref.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D38281B5CCF00B9E7C2 /* Ref.h */; };
+		BE7B6D40281B5CCF00B9E7C2 /* YYRValue.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D39281B5CCF00B9E7C2 /* YYRValue.h */; };
+		BE7B6D41281B5CCF00B9E7C2 /* pch.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D3A281B5CCF00B9E7C2 /* pch.h */; };
+		BE7B6D42281B5CCF00B9E7C2 /* dllmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7B6D3B281B5CCF00B9E7C2 /* dllmain.cpp */; };
+		BE7B6D43281B5CCF00B9E7C2 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D3C281B5CCF00B9E7C2 /* framework.h */; };
+		BE7B6D44281B5CCF00B9E7C2 /* Extension_Interface.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D3D281B5CCF00B9E7C2 /* Extension_Interface.h */; };
+		BE7B6D45281B5CCF00B9E7C2 /* pch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7B6D3E281B5CCF00B9E7C2 /* pch.cpp */; };
+		BE7B6D47281B658D00B9E7C2 /* discord_game_sdk.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7B6D46281B658D00B9E7C2 /* discord_game_sdk.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A7A719029B772080031CBB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${PROJECT_DIR}/../Discord_gml/extensions/DiscordExt";
+			dstSubfolderSpec = 0;
+			files = (
+				6A7A719129B772350031CBB5 /* libDiscordGameSDK.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B7BA960292C002100DBFA6F /* DiscordCommonOnce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscordCommonOnce.h; path = ../Discord_vs/DiscordGameSDK/DiscordCommonOnce.h; sourceTree = "<group>"; };
+		2B7BA961292C002100DBFA6F /* DiscordCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscordCommon.h; path = ../Discord_vs/DiscordGameSDK/DiscordCommon.h; sourceTree = "<group>"; };
+		2B817EED283290E7006537BF /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = event.h; path = ../../Discord_sdk/cpp/event.h; sourceTree = "<group>"; };
+		2B817EEE283290E7006537BF /* user_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = user_manager.cpp; path = ../../Discord_sdk/cpp/user_manager.cpp; sourceTree = "<group>"; };
+		2B817EEF283290E7006537BF /* achievement_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = achievement_manager.h; path = ../../Discord_sdk/cpp/achievement_manager.h; sourceTree = "<group>"; };
+		2B817EF0283290E7006537BF /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core.h; path = ../../Discord_sdk/cpp/core.h; sourceTree = "<group>"; };
+		2B817EF1283290E7006537BF /* core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = core.cpp; path = ../../Discord_sdk/cpp/core.cpp; sourceTree = "<group>"; };
+		2B817EF2283290E7006537BF /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ffi.h; path = ../../Discord_sdk/cpp/ffi.h; sourceTree = "<group>"; };
+		2B817EF3283290E7006537BF /* relationship_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = relationship_manager.h; path = ../../Discord_sdk/cpp/relationship_manager.h; sourceTree = "<group>"; };
+		2B817EF4283290E7006537BF /* types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = types.cpp; path = ../../Discord_sdk/cpp/types.cpp; sourceTree = "<group>"; };
+		2B817EF5283290E7006537BF /* user_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = user_manager.h; path = ../../Discord_sdk/cpp/user_manager.h; sourceTree = "<group>"; };
+		2B817EF6283290E7006537BF /* storage_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = storage_manager.cpp; path = ../../Discord_sdk/cpp/storage_manager.cpp; sourceTree = "<group>"; };
+		2B817EF7283290E7006537BF /* relationship_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = relationship_manager.cpp; path = ../../Discord_sdk/cpp/relationship_manager.cpp; sourceTree = "<group>"; };
+		2B817EF8283290E7006537BF /* application_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = application_manager.cpp; path = ../../Discord_sdk/cpp/application_manager.cpp; sourceTree = "<group>"; };
+		2B817EF9283290E7006537BF /* image_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = image_manager.h; path = ../../Discord_sdk/cpp/image_manager.h; sourceTree = "<group>"; };
+		2B817EFA283290E7006537BF /* lobby_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lobby_manager.cpp; path = ../../Discord_sdk/cpp/lobby_manager.cpp; sourceTree = "<group>"; };
+		2B817EFB283290E7006537BF /* network_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = network_manager.cpp; path = ../../Discord_sdk/cpp/network_manager.cpp; sourceTree = "<group>"; };
+		2B817EFC283290E7006537BF /* store_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = store_manager.h; path = ../../Discord_sdk/cpp/store_manager.h; sourceTree = "<group>"; };
+		2B817EFD283290E7006537BF /* achievement_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = achievement_manager.cpp; path = ../../Discord_sdk/cpp/achievement_manager.cpp; sourceTree = "<group>"; };
+		2B817EFE283290E7006537BF /* overlay_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = overlay_manager.cpp; path = ../../Discord_sdk/cpp/overlay_manager.cpp; sourceTree = "<group>"; };
+		2B817EFF283290E7006537BF /* store_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = store_manager.cpp; path = ../../Discord_sdk/cpp/store_manager.cpp; sourceTree = "<group>"; };
+		2B817F00283290E7006537BF /* network_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = network_manager.h; path = ../../Discord_sdk/cpp/network_manager.h; sourceTree = "<group>"; };
+		2B817F01283290E7006537BF /* lobby_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lobby_manager.h; path = ../../Discord_sdk/cpp/lobby_manager.h; sourceTree = "<group>"; };
+		2B817F02283290E7006537BF /* activity_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = activity_manager.h; path = ../../Discord_sdk/cpp/activity_manager.h; sourceTree = "<group>"; };
+		2B817F03283290E7006537BF /* storage_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = storage_manager.h; path = ../../Discord_sdk/cpp/storage_manager.h; sourceTree = "<group>"; };
+		2B817F04283290E7006537BF /* application_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = application_manager.h; path = ../../Discord_sdk/cpp/application_manager.h; sourceTree = "<group>"; };
+		2B817F05283290E7006537BF /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = ../../Discord_sdk/cpp/types.h; sourceTree = "<group>"; };
+		2B817F06283290E7006537BF /* image_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = image_manager.cpp; path = ../../Discord_sdk/cpp/image_manager.cpp; sourceTree = "<group>"; };
+		2B817F07283290E7006537BF /* discord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = discord.h; path = ../../Discord_sdk/cpp/discord.h; sourceTree = "<group>"; };
+		2B817F08283290E7006537BF /* voice_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voice_manager.cpp; path = ../../Discord_sdk/cpp/voice_manager.cpp; sourceTree = "<group>"; };
+		2B817F09283290E7006537BF /* activity_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = activity_manager.cpp; path = ../../Discord_sdk/cpp/activity_manager.cpp; sourceTree = "<group>"; };
+		2B817F0A283290E7006537BF /* overlay_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = overlay_manager.h; path = ../../Discord_sdk/cpp/overlay_manager.h; sourceTree = "<group>"; };
+		2B817F0B283290E7006537BF /* voice_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voice_manager.h; path = ../../Discord_sdk/cpp/voice_manager.h; sourceTree = "<group>"; };
+		6A7A717429B770680031CBB5 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utils.cpp; path = ../Discord_vs/DiscordGameSDK/utils.cpp; sourceTree = "<group>"; };
+		6A7A717529B770680031CBB5 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = ../Discord_vs/DiscordGameSDK/utils.h; sourceTree = "<group>"; };
+		6A7A717829B770920031CBB5 /* Discord_Networking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Networking.cpp; sourceTree = "<group>"; };
+		6A7A717929B770920031CBB5 /* Discord_Relationships.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Relationships.cpp; sourceTree = "<group>"; };
+		6A7A717A29B770920031CBB5 /* Discord_Users.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Users.cpp; sourceTree = "<group>"; };
+		6A7A717B29B770920031CBB5 /* Discord_Voice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Voice.cpp; sourceTree = "<group>"; };
+		6A7A717C29B770920031CBB5 /* Discord_Init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Init.cpp; sourceTree = "<group>"; };
+		6A7A717D29B770920031CBB5 /* Discord_Store.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Store.cpp; sourceTree = "<group>"; };
+		6A7A717E29B770920031CBB5 /* Discord_Lobbies.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Lobbies.cpp; sourceTree = "<group>"; };
+		6A7A717F29B770920031CBB5 /* Discord_Overlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Overlay.cpp; sourceTree = "<group>"; };
+		6A7A718029B770920031CBB5 /* Discord_Storage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Storage.cpp; sourceTree = "<group>"; };
+		6A7A718129B770920031CBB5 /* Discord_Applications.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Applications.cpp; sourceTree = "<group>"; };
+		6A7A718229B770920031CBB5 /* Discord_Images.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Images.cpp; sourceTree = "<group>"; };
+		6A7A718329B770920031CBB5 /* Discord_Activities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Activities.cpp; sourceTree = "<group>"; };
+		BE7B6CB0281B5AB300B9E7C2 /* libDiscordGameSDK.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libDiscordGameSDK.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7B6D38281B5CCF00B9E7C2 /* Ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ref.h; path = ../Discord_vs/DiscordGameSDK/Ref.h; sourceTree = "<group>"; };
+		BE7B6D39281B5CCF00B9E7C2 /* YYRValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YYRValue.h; path = ../Discord_vs/DiscordGameSDK/YYRValue.h; sourceTree = "<group>"; };
+		BE7B6D3A281B5CCF00B9E7C2 /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pch.h; path = ../Discord_vs/DiscordGameSDK/pch.h; sourceTree = "<group>"; };
+		BE7B6D3B281B5CCF00B9E7C2 /* dllmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dllmain.cpp; path = ../Discord_vs/DiscordGameSDK/dllmain.cpp; sourceTree = "<group>"; };
+		BE7B6D3C281B5CCF00B9E7C2 /* framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = framework.h; path = ../Discord_vs/DiscordGameSDK/framework.h; sourceTree = "<group>"; };
+		BE7B6D3D281B5CCF00B9E7C2 /* Extension_Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Extension_Interface.h; path = ../Discord_vs/DiscordGameSDK/Extension_Interface.h; sourceTree = "<group>"; };
+		BE7B6D3E281B5CCF00B9E7C2 /* pch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pch.cpp; path = ../Discord_vs/DiscordGameSDK/pch.cpp; sourceTree = "<group>"; };
+		BE7B6D46281B658D00B9E7C2 /* discord_game_sdk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = discord_game_sdk.dylib; path = ../Discord_sdk/lib/x86_64/discord_game_sdk.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7B6CAE281B5AB300B9E7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7B6D47281B658D00B9E7C2 /* discord_game_sdk.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B7BA95E292BFE2A00DBFA6F /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2B817EFD283290E7006537BF /* achievement_manager.cpp */,
+				2B817EEF283290E7006537BF /* achievement_manager.h */,
+				2B817F09283290E7006537BF /* activity_manager.cpp */,
+				2B817F02283290E7006537BF /* activity_manager.h */,
+				2B817EF8283290E7006537BF /* application_manager.cpp */,
+				2B817F04283290E7006537BF /* application_manager.h */,
+				2B817EF1283290E7006537BF /* core.cpp */,
+				2B817EF0283290E7006537BF /* core.h */,
+				2B817F07283290E7006537BF /* discord.h */,
+				2B817EED283290E7006537BF /* event.h */,
+				2B817EF2283290E7006537BF /* ffi.h */,
+				2B817F06283290E7006537BF /* image_manager.cpp */,
+				2B817EF9283290E7006537BF /* image_manager.h */,
+				2B817EFA283290E7006537BF /* lobby_manager.cpp */,
+				2B817F01283290E7006537BF /* lobby_manager.h */,
+				2B817EFB283290E7006537BF /* network_manager.cpp */,
+				2B817F00283290E7006537BF /* network_manager.h */,
+				2B817EFE283290E7006537BF /* overlay_manager.cpp */,
+				2B817F0A283290E7006537BF /* overlay_manager.h */,
+				2B817EF7283290E7006537BF /* relationship_manager.cpp */,
+				2B817EF3283290E7006537BF /* relationship_manager.h */,
+				2B817EF6283290E7006537BF /* storage_manager.cpp */,
+				2B817F03283290E7006537BF /* storage_manager.h */,
+				2B817EFF283290E7006537BF /* store_manager.cpp */,
+				2B817EFC283290E7006537BF /* store_manager.h */,
+				2B817EF4283290E7006537BF /* types.cpp */,
+				2B817F05283290E7006537BF /* types.h */,
+				2B817EEE283290E7006537BF /* user_manager.cpp */,
+				2B817EF5283290E7006537BF /* user_manager.h */,
+				2B817F08283290E7006537BF /* voice_manager.cpp */,
+				2B817F0B283290E7006537BF /* voice_manager.h */,
+			);
+			name = SDK;
+			path = ../Discord_sdk/cpp;
+			sourceTree = "<group>";
+		};
+		2B7BA95F292BFE6700DBFA6F /* GML */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A718329B770920031CBB5 /* Discord_Activities.cpp */,
+				6A7A718129B770920031CBB5 /* Discord_Applications.cpp */,
+				6A7A718229B770920031CBB5 /* Discord_Images.cpp */,
+				6A7A717C29B770920031CBB5 /* Discord_Init.cpp */,
+				6A7A717E29B770920031CBB5 /* Discord_Lobbies.cpp */,
+				6A7A717829B770920031CBB5 /* Discord_Networking.cpp */,
+				6A7A717F29B770920031CBB5 /* Discord_Overlay.cpp */,
+				6A7A717929B770920031CBB5 /* Discord_Relationships.cpp */,
+				6A7A718029B770920031CBB5 /* Discord_Storage.cpp */,
+				6A7A717D29B770920031CBB5 /* Discord_Store.cpp */,
+				6A7A717A29B770920031CBB5 /* Discord_Users.cpp */,
+				6A7A717B29B770920031CBB5 /* Discord_Voice.cpp */,
+			);
+			name = GML;
+			path = ../Discord_vs/DiscordGameSDK/GML;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE7B6CA7281B5AB300B9E7C2 = {
+			isa = PBXGroup;
+			children = (
+				6A7A717429B770680031CBB5 /* utils.cpp */,
+				6A7A717529B770680031CBB5 /* utils.h */,
+				2B7BA961292C002100DBFA6F /* DiscordCommon.h */,
+				2B7BA960292C002100DBFA6F /* DiscordCommonOnce.h */,
+				2B7BA95F292BFE6700DBFA6F /* GML */,
+				2B7BA95E292BFE2A00DBFA6F /* SDK */,
+				BE7B6D46281B658D00B9E7C2 /* discord_game_sdk.dylib */,
+				BE7B6D3B281B5CCF00B9E7C2 /* dllmain.cpp */,
+				BE7B6D3D281B5CCF00B9E7C2 /* Extension_Interface.h */,
+				BE7B6D3C281B5CCF00B9E7C2 /* framework.h */,
+				BE7B6D3E281B5CCF00B9E7C2 /* pch.cpp */,
+				BE7B6D3A281B5CCF00B9E7C2 /* pch.h */,
+				BE7B6D38281B5CCF00B9E7C2 /* Ref.h */,
+				BE7B6D39281B5CCF00B9E7C2 /* YYRValue.h */,
+				BE7B6CB1281B5AB300B9E7C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7B6CB1281B5AB300B9E7C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7B6CB0281B5AB300B9E7C2 /* libDiscordGameSDK.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE7B6CAC281B5AB300B9E7C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B817F1F283290E7006537BF /* network_manager.h in Headers */,
+				2B817F1B283290E7006537BF /* store_manager.h in Headers */,
+				2B817F26283290E7006537BF /* discord.h in Headers */,
+				2B7BA962292C002100DBFA6F /* DiscordCommonOnce.h in Headers */,
+				2B817F0E283290E7006537BF /* achievement_manager.h in Headers */,
+				2B817F18283290E7006537BF /* image_manager.h in Headers */,
+				2B7BA963292C002100DBFA6F /* DiscordCommon.h in Headers */,
+				BE7B6D41281B5CCF00B9E7C2 /* pch.h in Headers */,
+				2B817F24283290E7006537BF /* types.h in Headers */,
+				2B817F0C283290E7006537BF /* event.h in Headers */,
+				2B817F12283290E7006537BF /* relationship_manager.h in Headers */,
+				BE7B6D43281B5CCF00B9E7C2 /* framework.h in Headers */,
+				2B817F23283290E7006537BF /* application_manager.h in Headers */,
+				BE7B6D40281B5CCF00B9E7C2 /* YYRValue.h in Headers */,
+				2B817F20283290E7006537BF /* lobby_manager.h in Headers */,
+				6A7A717729B770680031CBB5 /* utils.h in Headers */,
+				2B817F22283290E7006537BF /* storage_manager.h in Headers */,
+				BE7B6D3F281B5CCF00B9E7C2 /* Ref.h in Headers */,
+				BE7B6D44281B5CCF00B9E7C2 /* Extension_Interface.h in Headers */,
+				2B817F29283290E7006537BF /* overlay_manager.h in Headers */,
+				2B817F2A283290E7006537BF /* voice_manager.h in Headers */,
+				2B817F11283290E7006537BF /* ffi.h in Headers */,
+				2B817F14283290E7006537BF /* user_manager.h in Headers */,
+				2B817F21283290E7006537BF /* activity_manager.h in Headers */,
+				2B817F0F283290E7006537BF /* core.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE7B6CAF281B5AB300B9E7C2 /* DiscordGameSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7B6CBB281B5AB400B9E7C2 /* Build configuration list for PBXNativeTarget "DiscordGameSDK" */;
+			buildPhases = (
+				BE7B6CAC281B5AB300B9E7C2 /* Headers */,
+				BE7B6CAD281B5AB300B9E7C2 /* Sources */,
+				BE7B6CAE281B5AB300B9E7C2 /* Frameworks */,
+				6A7A719029B772080031CBB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscordGameSDK;
+			productName = DiscordGameSDK;
+			productReference = BE7B6CB0281B5AB300B9E7C2 /* libDiscordGameSDK.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7B6CA8281B5AB300B9E7C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BE7B6CAF281B5AB300B9E7C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BE7B6CAB281B5AB300B9E7C2 /* Build configuration list for PBXProject "DiscordGameSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7B6CA7281B5AB300B9E7C2;
+			productRefGroup = BE7B6CB1281B5AB300B9E7C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7B6CAF281B5AB300B9E7C2 /* DiscordGameSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7B6CAD281B5AB300B9E7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A718929B770920031CBB5 /* Discord_Store.cpp in Sources */,
+				6A7A718529B770920031CBB5 /* Discord_Relationships.cpp in Sources */,
+				6A7A718429B770920031CBB5 /* Discord_Networking.cpp in Sources */,
+				6A7A718A29B770920031CBB5 /* Discord_Lobbies.cpp in Sources */,
+				2B817F1D283290E7006537BF /* overlay_manager.cpp in Sources */,
+				2B817F1A283290E7006537BF /* network_manager.cpp in Sources */,
+				6A7A718C29B770920031CBB5 /* Discord_Storage.cpp in Sources */,
+				BE7B6D45281B5CCF00B9E7C2 /* pch.cpp in Sources */,
+				2B817F10283290E7006537BF /* core.cpp in Sources */,
+				2B817F15283290E7006537BF /* storage_manager.cpp in Sources */,
+				BE7B6D42281B5CCF00B9E7C2 /* dllmain.cpp in Sources */,
+				6A7A718D29B770920031CBB5 /* Discord_Applications.cpp in Sources */,
+				6A7A718F29B770920031CBB5 /* Discord_Activities.cpp in Sources */,
+				2B817F17283290E7006537BF /* application_manager.cpp in Sources */,
+				2B817F19283290E7006537BF /* lobby_manager.cpp in Sources */,
+				2B817F1E283290E7006537BF /* store_manager.cpp in Sources */,
+				2B817F27283290E7006537BF /* voice_manager.cpp in Sources */,
+				6A7A717629B770680031CBB5 /* utils.cpp in Sources */,
+				2B817F28283290E7006537BF /* activity_manager.cpp in Sources */,
+				2B817F1C283290E7006537BF /* achievement_manager.cpp in Sources */,
+				6A7A718B29B770920031CBB5 /* Discord_Overlay.cpp in Sources */,
+				6A7A718E29B770920031CBB5 /* Discord_Images.cpp in Sources */,
+				6A7A718629B770920031CBB5 /* Discord_Users.cpp in Sources */,
+				6A7A718829B770920031CBB5 /* Discord_Init.cpp in Sources */,
+				2B817F25283290E7006537BF /* image_manager.cpp in Sources */,
+				2B817F13283290E7006537BF /* types.cpp in Sources */,
+				6A7A718729B770920031CBB5 /* Discord_Voice.cpp in Sources */,
+				2B817F16283290E7006537BF /* relationship_manager.cpp in Sources */,
+				2B817F0D283290E7006537BF /* user_manager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE7B6CB9281B5AB400B9E7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE7B6CBA281B5AB400B9E7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE7B6CBC281B5AB400B9E7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9E7J7HL3D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXCLUDED_ARCHS = arm64;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = ../SDK/lib/x86_64/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE7B6CBD281B5AB400B9E7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9E7J7HL3D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXCLUDED_ARCHS = arm64;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = ../SDK/lib/x86_64/;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7B6CAB281B5AB300B9E7C2 /* Build configuration list for PBXProject "DiscordGameSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7B6CB9281B5AB400B9E7C2 /* Debug */,
+				BE7B6CBA281B5AB400B9E7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7B6CBB281B5AB400B9E7C2 /* Build configuration list for PBXNativeTarget "DiscordGameSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7B6CBC281B5AB400B9E7C2 /* Debug */,
+				BE7B6CBD281B5AB400B9E7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE7B6CA8281B5AB300B9E7C2 /* Project object */;
+}
