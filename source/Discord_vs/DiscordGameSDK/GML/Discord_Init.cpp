@@ -65,7 +65,7 @@ YYEXPORT void Discord_Core_Create(RValue& Result, CInstance* selfinst, CInstance
 	int64 appId = YYGetInt64(arg, 0);
 
 	discord::Core* core{};
-	auto response = discord::Core::Create(appId, DiscordCreateFlags_Default, &core);
+	discord::Core::Create(appId, DiscordCreateFlags_Default, &core);
 	state.core.reset(core);
 
 	mUserManager = &state.core->UserManager();

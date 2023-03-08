@@ -55,6 +55,9 @@
 		6A7A718E29B770920031CBB5 /* Discord_Images.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A718229B770920031CBB5 /* Discord_Images.cpp */; };
 		6A7A718F29B770920031CBB5 /* Discord_Activities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A718329B770920031CBB5 /* Discord_Activities.cpp */; };
 		6A7A719129B772350031CBB5 /* libDiscordGameSDK.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE7B6CB0281B5AB300B9E7C2 /* libDiscordGameSDK.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6A7B5F7029B8B1F40015070D /* discord_game_sdk.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7B5F6F29B8B1F40015070D /* discord_game_sdk.dylib */; };
+		6A7B5FDE29B8B2450015070D /* discord_game_sdk.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7B5FDD29B8B2450015070D /* discord_game_sdk.dylib */; };
+		6A7B5FE429B8CF8F0015070D /* discord_game_sdk.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7B5F6F29B8B1F40015070D /* discord_game_sdk.dylib */; };
 		BE7B6D3F281B5CCF00B9E7C2 /* Ref.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D38281B5CCF00B9E7C2 /* Ref.h */; };
 		BE7B6D40281B5CCF00B9E7C2 /* YYRValue.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D39281B5CCF00B9E7C2 /* YYRValue.h */; };
 		BE7B6D41281B5CCF00B9E7C2 /* pch.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D3A281B5CCF00B9E7C2 /* pch.h */; };
@@ -62,14 +65,13 @@
 		BE7B6D43281B5CCF00B9E7C2 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D3C281B5CCF00B9E7C2 /* framework.h */; };
 		BE7B6D44281B5CCF00B9E7C2 /* Extension_Interface.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7B6D3D281B5CCF00B9E7C2 /* Extension_Interface.h */; };
 		BE7B6D45281B5CCF00B9E7C2 /* pch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7B6D3E281B5CCF00B9E7C2 /* pch.cpp */; };
-		BE7B6D47281B658D00B9E7C2 /* discord_game_sdk.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7B6D46281B658D00B9E7C2 /* discord_game_sdk.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6A7A719029B772080031CBB5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "${PROJECT_DIR}/../Discord_gml/extensions/DiscordExt";
+			dstPath = "${PROJECT_DIR}/../Discord_gml/extensions/Discord";
 			dstSubfolderSpec = 0;
 			files = (
 				6A7A719129B772350031CBB5 /* libDiscordGameSDK.dylib in CopyFiles */,
@@ -126,6 +128,8 @@
 		6A7A718129B770920031CBB5 /* Discord_Applications.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Applications.cpp; sourceTree = "<group>"; };
 		6A7A718229B770920031CBB5 /* Discord_Images.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Images.cpp; sourceTree = "<group>"; };
 		6A7A718329B770920031CBB5 /* Discord_Activities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discord_Activities.cpp; sourceTree = "<group>"; };
+		6A7B5F6F29B8B1F40015070D /* discord_game_sdk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = discord_game_sdk.dylib; path = ../Discord_sdk/lib/aarch64/discord_game_sdk.dylib; sourceTree = SOURCE_ROOT; };
+		6A7B5FDD29B8B2450015070D /* discord_game_sdk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = discord_game_sdk.dylib; path = ../Discord_sdk/lib/x86_64/discord_game_sdk.dylib; sourceTree = SOURCE_ROOT; };
 		BE7B6CB0281B5AB300B9E7C2 /* libDiscordGameSDK.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libDiscordGameSDK.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7B6D38281B5CCF00B9E7C2 /* Ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ref.h; path = ../Discord_vs/DiscordGameSDK/Ref.h; sourceTree = "<group>"; };
 		BE7B6D39281B5CCF00B9E7C2 /* YYRValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YYRValue.h; path = ../Discord_vs/DiscordGameSDK/YYRValue.h; sourceTree = "<group>"; };
@@ -134,7 +138,6 @@
 		BE7B6D3C281B5CCF00B9E7C2 /* framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = framework.h; path = ../Discord_vs/DiscordGameSDK/framework.h; sourceTree = "<group>"; };
 		BE7B6D3D281B5CCF00B9E7C2 /* Extension_Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Extension_Interface.h; path = ../Discord_vs/DiscordGameSDK/Extension_Interface.h; sourceTree = "<group>"; };
 		BE7B6D3E281B5CCF00B9E7C2 /* pch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pch.cpp; path = ../Discord_vs/DiscordGameSDK/pch.cpp; sourceTree = "<group>"; };
-		BE7B6D46281B658D00B9E7C2 /* discord_game_sdk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = discord_game_sdk.dylib; path = ../Discord_sdk/lib/x86_64/discord_game_sdk.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +145,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7B6D47281B658D00B9E7C2 /* discord_game_sdk.dylib in Frameworks */,
+				6A7B5FE429B8CF8F0015070D /* discord_game_sdk.dylib in Frameworks */,
+				6A7B5FDE29B8B2450015070D /* discord_game_sdk.dylib in Frameworks */,
+				6A7B5F7029B8B1F40015070D /* discord_game_sdk.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,16 +213,48 @@
 			path = ../Discord_vs/DiscordGameSDK/GML;
 			sourceTree = SOURCE_ROOT;
 		};
+		6A7B5F6D29B8B1D00015070D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6A7B5F7129B8B2140015070D /* x86_64 */,
+				6A7B5F6E29B8B1E00015070D /* arm64 */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		6A7B5F6E29B8B1E00015070D /* arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				6A7B5F6F29B8B1F40015070D /* discord_game_sdk.dylib */,
+			);
+			path = arm64;
+			sourceTree = "<group>";
+		};
+		6A7B5F7129B8B2140015070D /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+				6A7B5FDD29B8B2450015070D /* discord_game_sdk.dylib */,
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		6A7B5FE329B8CF8F0015070D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE7B6CA7281B5AB300B9E7C2 = {
 			isa = PBXGroup;
 			children = (
+				6A7B5F6D29B8B1D00015070D /* lib */,
 				6A7A717429B770680031CBB5 /* utils.cpp */,
 				6A7A717529B770680031CBB5 /* utils.h */,
 				2B7BA961292C002100DBFA6F /* DiscordCommon.h */,
 				2B7BA960292C002100DBFA6F /* DiscordCommonOnce.h */,
 				2B7BA95F292BFE6700DBFA6F /* GML */,
 				2B7BA95E292BFE2A00DBFA6F /* SDK */,
-				BE7B6D46281B658D00B9E7C2 /* discord_game_sdk.dylib */,
 				BE7B6D3B281B5CCF00B9E7C2 /* dllmain.cpp */,
 				BE7B6D3D281B5CCF00B9E7C2 /* Extension_Interface.h */,
 				BE7B6D3C281B5CCF00B9E7C2 /* framework.h */,
@@ -226,6 +263,7 @@
 				BE7B6D38281B5CCF00B9E7C2 /* Ref.h */,
 				BE7B6D39281B5CCF00B9E7C2 /* YYRValue.h */,
 				BE7B6CB1281B5AB300B9E7C2 /* Products */,
+				6A7B5FE329B8CF8F0015070D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -418,7 +456,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -482,12 +520,12 @@
 				DEVELOPMENT_TEAM = C9E7J7HL3D;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				LIBRARY_SEARCH_PATHS = ../SDK/lib/x86_64/;
+				LIBRARY_SEARCH_PATHS = "../Discord_sdk/lib/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -500,13 +538,13 @@
 				DEVELOPMENT_TEAM = C9E7J7HL3D;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				LIBRARY_SEARCH_PATHS = ../SDK/lib/x86_64/;
-				ONLY_ACTIVE_ARCH = YES;
+				LIBRARY_SEARCH_PATHS = "../Discord_sdk/lib/**";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

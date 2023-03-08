@@ -3,32 +3,43 @@
 # ######################################################################################
 # Auxiliar Functions
 
+getExtensionName() { # output
+    pathExtractBase "$SCRIPT_PATH" loc_name
+    eval "$1=\"$loc_name\""
+}
+
+# Get extension option
+getExtOpt() { # varname result
+    getExtensionName loc_extname
+    eval "$2=\"\${YYEXTOPT_${loc_extname}_$1}\""
+}
+
 # Sets a string to uppercase
 toUpper() { # str result
-    export $2=$(echo $1 | tr '[:lower:]' '[:upper:]')
+    eval "$2=$(echo $1 | tr '[:lower:]' '[:upper:]')"
 }
 
 # Extracts the full folder path from a filepath
 pathExtractDirectory() { # fullpath result
-    export $2="$(dirname "$1")"
+    eval "$2=\"$(dirname "$1")\""
 }
 
 # Extracts the parent folder from a path
 pathExtractBase() { # fullpath result
-    export $2="$(basename $(dirname "$1"))"
+    eval "$2=\"$(basename $(dirname "$1"))\""
 }
 
 # Resolves a relative path if required
 pathResolve() { # basePath relativePath result
     pushd "$1" >/dev/null
-    export $3=$(readlink -f "$2")
+    eval "$3=\"$(readlink -f "$2")\""
     popd >/dev/null
 }
 
 # Resolves an existing relative path if required (handles errors)
 pathResolveExisting() { # basePath relativePath result
     pathResolve "$1" "$2" loc_test
-    export $3=$loc_test
+    eval "$3=\"\$loc_test\""
     [[ ! -e "$loc_test" ]] && errorPathInexistant "$2"
     unsetVars loc_test
 }
@@ -68,11 +79,11 @@ assertFileHash() { # pathToBinary hash name
     unsetVars loc_identifier loc_output
 }
 
-# Compares two version numbers and saves result into variable
 compareVersions() { # version1 version2 result
     if [[ $1 == $2 ]]
     then
-        export $3=0 && return 0
+        eval "$3=\"0\""
+        return 0
     fi
     local IFS=.
     local i ver1=($1) ver2=($2)
@@ -91,14 +102,17 @@ compareVersions() { # version1 version2 result
         fi
         if ((10#${ver1[i]} > 10#${ver2[i]}))
         then
-            export $3=1 && return 0
+            eval "$3=\"1\""
+            return 0
         fi
         if ((10#${ver1[i]} < 10#${ver2[i]}))
         then
-            export $3=-1 && return 0
+            eval "$3=\"-1\""
+            return 0
         fi
     done
-    export $3=0 %% return 0
+    eval "$3=\"0\""
+    return 0
 }
 
 # Checks minimum product version for the 3 available builds (handles errors)
@@ -159,8 +173,8 @@ logError() { # message
 
 # Logs a message with a tag
 log() { # tag message
-    [[ -z $EXTENSION_NAME ]] && EXTENSION_NAME="UNKNOWN"
-    echo [$EXTENSION_NAME] $1: $2
+    getExtensionName loc_extname
+    echo [$loc_extname] $1: $2
 }
 
 

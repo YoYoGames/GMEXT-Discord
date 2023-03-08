@@ -1,49 +1,46 @@
 #!/bin/bash
 
-source "$(dirname "$0")/scriptUtils.sh"
+export SCRIPT_PATH=$0
+source "$(dirname "$SCRIPT_PATH")/scriptUtils.sh"
 
 # ######################################################################################
 # Macros
 
-pathExtractDirectory "$0" SCRIPT_PATH
-pathExtractBase "$0" EXTENSION_NAME
-
-export SCRIPT_PATH
-export EXTENSION_NAME
-
 # Version locks
-RUNTIME_VERSION_STABLE="${!YYEXTOPT_${EXTENSION_NAME}_versionStable}"
-RUNTIME_VERSION_BETA="${!YYEXTOPT_${EXTENSION_NAME}_versionBeta}"
-RUNTIME_VERSION_RED="${!YYEXTOPT_${EXTENSION_NAME}_versionDev}"
+getExtOpt "versionStable" RUNTIME_VERSION_STABLE
+getExtOpt "versionBeta" RUNTIME_VERSION_BETA
+getExtOpt "versionDev" RUNTIME_VERSION_RED
 
 # SDK hash
-SDK_HASH_LINUX="${!YYEXTOPT_${EXTENSION_NAME}_sdkHashLinux}"
-SDK_HASH_OSX="${!YYEXTOPT_${EXTENSION_NAME}_sdkHashMac}"
+getExtOpt "sdkHashLinux" SDK_HASH_LINUX
+getExtOpt "sdkHashMac" SDK_HASH_OSX
 
-# SDK path
-SDK_PATH=${!YYEXTOPT_${EXTENSION_NAME}_sdkPath}
-SDK_PATH=${!YYEXTOPT_${EXTENSION_NAME}_sdkVersion}
+# SDK data
+getExtOpt "sdkVersion" SDK_VERSION
+getExtOpt "sdkPath" SDK_PATH
 
 # ######################################################################################
 # Script Functions
 
 setupmacOS() {
 
-    SDK_SOURCE="$SDK_PATH/lib/x86_64/discord_game_sdk.dylib"
-    assertFileHash $SDK_SOURCE $SDK_HASH_OSX "$EXTENSION_NAME SDK (v$SDK_PATH)"
-    
+    SDK_SOURCE_X64="$SDK_PATH/lib/x86_64/discord_game_sdk.dylib"
+    SDK_SOURCE_ARM64="$SDK_PATH/lib/aarch64/discord_game_sdk.dylib"
+
+    assertFileHash $SDK_SOURCE_X64 $SDK_HASH_OSX "$EXTENSION_NAME SDK (v$SDK_VERSION)"
+
     echo "Copying macOS (64 bit) dependencies"
     if [[ "$YYTARGET_runtime" == "VM" ]]; then
-        fileCopyTo $SDK_SOURCE "discord_game_sdk.dylib"
+        lipo "$SDK_SOURCE_X64" "$SDK_SOURCE_ARM64" -output "discord_game_sdk.dylib" -create
     else
-        fileCopyTo $SDK_SOURCE "${YYprojectName}/${YYprojectName}/Supporting Files/discord_game_sdk.dylib"
+        lipo "$SDK_SOURCE_X64" "$SDK_SOURCE_ARM64" -output "${YYprojectName}/${YYprojectName}/Supporting Files/discord_game_sdk.dylib" -create
     fi
 }
 
 setupLinux() {
 
     SDK_SOURCE="$SDK_PATH/lib/x86_64/libdiscord_game_sdk.so"
-    assertFileHash $SDK_SOURCE $SDK_HASH_LINUX "$EXTENSION_NAME SDK (v$SDK_PATH)"
+    assertFileHash $SDK_SOURCE $SDK_HASH_LINUX "$EXTENSION_NAME SDK (v$SDK_VERSION)"
 
     echo "Copying Linux (64 bit) dependencies"
     
