@@ -120,8 +120,16 @@
   "maclinkerflags": "",
   "macsourcedir": "",
   "options": [
+    {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"__extOptLabel","defaultValue":"BUILD OPTIONS:","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"94621621-2cf8-4f3a-af2d-9ac216b1f7ea","hidden":false,"listItems":[],"optType":5,},
     {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"sdkPath","defaultValue":"../Discord_sdk/","description":"The path to the Discord SDK folder.","displayName":"SDK Path","exportToINI":false,"extensionId":null,"guid":"e134ef2d-c3eb-4b42-a122-6e188d687799","hidden":false,"listItems":[],"optType":4,},
+    {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"__extOptLabel1","defaultValue":"APP OPTIONS:","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"41bb8b5a-8156-4801-8daa-1d63a92a633e","hidden":false,"listItems":[],"optType":5,},
     {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"appId","defaultValue":"0","description":"The current application ID.\r\nThis must be converted to int64 and passed into the 'Discord_Core_Create' function.","displayName":"Application ID","exportToINI":false,"extensionId":null,"guid":"ac8085d4-4a6b-4b74-b8fc-3d0d5bfe8788","hidden":false,"listItems":[],"optType":2,},
+    {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"__extOptLabel2","defaultValue":"EXTRA OPTIONS:","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"02bfeaa4-3ad9-41a6-89de-53589996e5b6","hidden":false,"listItems":[],"optType":5,},
+    {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"logLevel","defaultValue":"1","description":"The log level to be used by the script file.\r\n0: Show only errors\r\n1: Show errors and warnings (recommended)\r\n2: Show everything (use before submitting a bug)","displayName":"Log Level","exportToINI":false,"extensionId":null,"guid":"91c64cff-21ef-4197-b512-db6e37141d10","hidden":false,"listItems":[
+        "0",
+        "1",
+        "2",
+      ],"optType":6,},
     {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"sdkVersion","defaultValue":"3.2.1","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"36af8a07-65d3-43d9-b96c-826e989e6da9","hidden":true,"listItems":[],"optType":2,},
     {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"sdkHashWin","defaultValue":"A6B6D7DF00A58DC50248D91048578D0FE52182286B487EF89A961FD10467DBD1","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"2a612597-f7c7-40f0-a1ae-17d4a46a6f9a","hidden":true,"listItems":[],"optType":2,},
     {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"sdkHashMac","defaultValue":"C4960F31A59020F94CE394FDFC5762A6F5077DD711D26CE936086E77BECEEA09","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"9fbf9189-0eb4-452e-bdb1-08476a9fa9ef","hidden":true,"listItems":[],"optType":2,},

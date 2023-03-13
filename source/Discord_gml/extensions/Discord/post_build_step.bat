@@ -1,32 +1,31 @@
 @echo off
-setlocal enabledelayedexpansion
-
-set Utils="%~dp0\scriptUtils.bat"
-
-:: ######################################################################################
-:: Macros
-
-call %Utils% pathExtractDirectory "%~0" SCRIPT_PATH
-call %Utils% pathExtractBase "%~0" EXTENSION_NAME
+set Utils="%~dp0scriptUtils.bat"
 
 :: ######################################################################################
 :: Script Logic
 
+:: Always init the script
+call %Utils% scriptInit
+
 :: Version locks
-set RUNTIME_VERSION_STABLE="!YYEXTOPT_%EXTENSION_NAME%_versionStable!"
-set RUNTIME_VERSION_BETA="!YYEXTOPT_%EXTENSION_NAME%_versionBeta!"
-set RUNTIME_VERSION_DEV="!YYEXTOPT_%EXTENSION_NAME%_versionDev!"
+call %Utils% optionGetValue "versionStable" RUNTIME_VERSION_STABLE
+call %Utils% optionGetValue "versionBeta" RUNTIME_VERSION_BETA
+call %Utils% optionGetValue "versionDev" RUNTIME_VERSION_DEV
 
-:: SDK version v1.55
-set SDK_HASH_WIN="!YYEXTOPT_%EXTENSION_NAME%_sdkHashWin!"
-set SDK_HASH_OSX="!YYEXTOPT_%EXTENSION_NAME%_sdkHashMac!"
-set SDK_HASH_LINUX="!YYEXTOPT_%EXTENSION_NAME%_sdkHashLinux!"
+:: SDK Hash
+call %Utils% optionGetValue "sdkHashWin" SDK_HASH_WIN
+call %Utils% optionGetValue "sdkHashMac" SDK_HASH_OSX
+call %Utils% optionGetValue "sdkHashLinux" SDK_HASH_LINUX
 
-set SDK_PATH=!YYEXTOPT_%EXTENSION_NAME%_sdkPath!
-set SDK_VERSION=!YYEXTOPT_%EXTENSION_NAME%_sdkVersion!
+:: SDK Path
+call %Utils% optionGetValue "sdkPath" SDK_PATH
+call %Utils% optionGetValue "sdkVersion" SDK_VERSION
+
+:: Error String
+set ERROR_SDK_HASH="Invalid Discord SDK version, sha256 hash mismatch (expected v%SDK_VERSION%)."
 
 :: Checks IDE and Runtime versions
-call %Utils% checkMinVersion "%YYruntimeVersion%" %RUNTIME_VERSION_STABLE% %RUNTIME_VERSION_BETA% %RUNTIME_VERSION_DEV% runtime
+call %Utils% versionLockCheck "%YYruntimeVersion%" %RUNTIME_VERSION_STABLE% %RUNTIME_VERSION_BETA% %RUNTIME_VERSION_DEV%
 
 :: Resolve the SDK path (must exist)
 call %Utils% pathResolveExisting "%YYprojectDir%" "%SDK_PATH%" SDK_PATH
@@ -40,56 +39,51 @@ call :setup%YYPLATFORM_name%
 
 popd
 
-exit %ERRORLEVEL%
+exit %errorlevel%
 
 :: ----------------------------------------------------------------------------------------------------
 :setupWindows
 
     set SDK_SOURCE="%SDK_PATH%\lib\x86_64\discord_game_sdk.dll"
-    call %Utils% assertFileHash %SDK_SOURCE% %SDK_HASH_WIN% "%EXTENSION_NAME% SDK v%SDK_VERSION%"
+    call %Utils% assertFileHashEquals %SDK_SOURCE% %SDK_HASH_WIN% %ERROR_SDK_HASH%
 
     echo "Copying Windows (64 bit) dependencies"
-    if not exist "discord_game_sdk.dll" call %Utils% fileCopyTo %SDK_SOURCE% "discord_game_sdk.dll"
+    if not exist "discord_game_sdk.dll" call %Utils% itemCopyTo %SDK_SOURCE% "discord_game_sdk.dll"
 
-exit /b 0
+exit /b %errorlevel%
 
 :: ----------------------------------------------------------------------------------------------------
 :setupMacOS
 
-    set SDK_SOURCE="%SDK_PATH%\lib\x86_64\discord_game_sdk.dylib"
-    call %Utils% assertFileHash %SDK_SOURCE% %SDK_HASH_OSX% "%EXTENSION_NAME% SDK v%SDK_VERSION%"
+    set SDK_SOURCE_x64="%SDK_PATH%\lib\x86_64\discord_game_sdk.dylib"
+    set SDK_SOURCE_ARM64="%SDK_PATH%\lib\aarch64\discord_game_sdk.dylib"
+    call %Utils% assertFileHashEquals %SDK_SOURCE_x64% %SDK_HASH_OSX% %ERROR_SDK_HASH%
 
     echo "Copying macOS (64 bit) dependencies"
+
     if "%YYTARGET_runtime%" == "VM" (
         :: This is used from VM compilation
-        call %Utils% fileExtract "%YYprojectName%.zip" "_temp\"
-        call %Utils% fileCopyTo %SDK_SOURCE% "_temp\assets\discord_game_sdk.dylib"
-        call %Utils% folderCompress "_temp\*" "%YYprojectName%.zip"
-
-        rmdir /s /q _temp
-
+        call %Utils% logError "Extension is not compatible with the macOS VM export, please use YYC."
     ) else (
-
-        :: This is used from YYC compilation
-        call %Utils% fileCopyTo %SDK_SOURCE% "%YYprojectName: =_%\%YYprojectName: =_%\Supporting Files\discord_game_sdk.dylib"
+        :: This is used from YYC compilation (copy both single arch binaries, they will be processed in 'remote_built_step')
+        call %Utils% itemCopyTo %SDK_SOURCE_x64% "%YYprojectName: =_%\%YYprojectName: =_%\Supporting Files\discord_game_sdk_x64.dylib"
+        call %Utils% itemCopyTo %SDK_SOURCE_ARM64% "%YYprojectName: =_%\%YYprojectName: =_%\Supporting Files\discord_game_sdk_arm64.dylib"
     )
 
-exit /b 0
+exit /b %errorlevel%
 
 :: ----------------------------------------------------------------------------------------------------
 :setupLinux
 
     set SDK_SOURCE="%SDK_PATH%\lib\x86_64\libdiscord_game_sdk.so"
-    call %Utils% assertFileHash %SDK_SOURCE% %SDK_HASH_LINUX% "%EXTENSION_NAME% SDK v%SDK_VERSION%"
+    call %Utils% assertFileHashEquals %SDK_SOURCE% %SDK_HASH_LINUX% %ERROR_SDK_HASH%
 
     echo "Copying Linux (64 bit) dependencies"
-    
     call %Utils% fileExtract "%YYprojectName%.zip" "_temp\"
     if not exist "assets\libdiscord_game_sdk.so" (
         call %Utils% fileCopyTo %SDK_SOURCE% "_temp\assets\libdiscord_game_sdk.so"
-        call %Utils% folderCompress "_temp\*" "%YYprojectName%.zip"
+        call %Utils% folderCompress "_temp" "%YYprojectName%.zip"
     )
-
     rmdir /s /q _temp
 
-exit /b 0
+exit /b %errorlevel%
