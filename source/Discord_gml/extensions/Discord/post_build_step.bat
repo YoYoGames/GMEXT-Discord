@@ -81,7 +81,7 @@ exit /b %errorlevel%
     echo "Copying Linux (64 bit) dependencies"
     call %Utils% fileExtract "%YYprojectName%.zip" "_temp\"
     if not exist "assets\libdiscord_game_sdk.so" (
-        call %Utils% fileCopyTo %SDK_SOURCE% "_temp\assets\libdiscord_game_sdk.so"
+        call %Utils% itemCopyTo %SDK_SOURCE% "_temp\assets\libdiscord_game_sdk.so"
         call %Utils% folderCompress "_temp" "%YYprojectName%.zip"
     )
     rmdir /s /q _temp
