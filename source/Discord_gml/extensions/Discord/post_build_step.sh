@@ -1,23 +1,7 @@
 #!/bin/bash
 
-export SCRIPT_PATH=$0
-source "$(dirname "$SCRIPT_PATH")/scriptUtils.sh"
-
-# ######################################################################################
-# Macros
-
-# Version locks
-getExtOpt "versionStable" RUNTIME_VERSION_STABLE
-getExtOpt "versionBeta" RUNTIME_VERSION_BETA
-getExtOpt "versionDev" RUNTIME_VERSION_RED
-
-# SDK hash
-getExtOpt "sdkHashLinux" SDK_HASH_LINUX
-getExtOpt "sdkHashMac" SDK_HASH_OSX
-
-# SDK data
-getExtOpt "sdkVersion" SDK_VERSION
-getExtOpt "sdkPath" SDK_PATH
+chmod +x "$(dirname "$0")/scriptUtils.sh"
+source "$(dirname "$0")/scriptUtils.sh"
 
 # ######################################################################################
 # Script Functions
@@ -26,8 +10,7 @@ setupmacOS() {
 
     SDK_SOURCE_X64="$SDK_PATH/lib/x86_64/discord_game_sdk.dylib"
     SDK_SOURCE_ARM64="$SDK_PATH/lib/aarch64/discord_game_sdk.dylib"
-
-    assertFileHash $SDK_SOURCE_X64 $SDK_HASH_OSX "$EXTENSION_NAME SDK (v$SDK_VERSION)"
+    assertFileHashEquals $SDK_SOURCE_X64 $SDK_HASH_OSX $ERROR_SDK_HASH
 
     echo "Copying macOS (64 bit) dependencies"
     if [[ "$YYTARGET_runtime" == "VM" ]]; then
@@ -40,13 +23,12 @@ setupmacOS() {
 setupLinux() {
 
     SDK_SOURCE="$SDK_PATH/lib/x86_64/libdiscord_game_sdk.so"
-    assertFileHash $SDK_SOURCE $SDK_HASH_LINUX "$EXTENSION_NAME SDK (v$SDK_VERSION)"
+    assertFileHashEquals $SDK_SOURCE $SDK_HASH_LINUX $ERROR_SDK_HASH
 
     echo "Copying Linux (64 bit) dependencies"
     
     fileExtract "${YYprojectName}.zip" "_temp"
     [[ ! -f "_temp/assets/libdiscord_game_sdk.so" ]] && fileCopyTo $SDK_SOURCE "_temp/assets/libdiscord_game_sdk.so"
-	
     folderCompress "_temp" "${YYprojectName}.zip"
     rm -r _temp
 }
@@ -54,8 +36,26 @@ setupLinux() {
 # ######################################################################################
 # Script Logic
 
+# Always init the script
+scriptInit
+
+# Version locks
+optionGetValue "versionStable" RUNTIME_VERSION_STABLE
+optionGetValue "versionBeta" RUNTIME_VERSION_BETA
+optionGetValue "versionDev" RUNTIME_VERSION_RED
+
+# SDK hash
+optionGetValue "sdkHashLinux" SDK_HASH_LINUX
+optionGetValue "sdkHashMac" SDK_HASH_OSX
+
+# SDK data
+optionGetValue "sdkVersion" SDK_VERSION
+optionGetValue "sdkPath" SDK_PATH
+
+ERROR_SDK_HASH="Invalid Discord SDK version, sha256 hash mismatch (expected v$SDK_VERSION)"
+
 # Checks IDE and Runtime versions
-checkMinVersion "$YYruntimeVersion" $RUNTIME_VERSION_STABLE $RUNTIME_VERSION_BETA $RUNTIME_VERSION_RED runtime
+versionLockCheck "$YYruntimeVersion" $RUNTIME_VERSION_STABLE $RUNTIME_VERSION_BETA $RUNTIME_VERSION_RED
 
 # Resolve the SDK path (must exist)
 pathResolveExisting "$YYprojectDir" $SDK_PATH SDK_PATH
