@@ -107,6 +107,7 @@ exit /b 0
     ) else if exist "%~1" (
         :: Is a file
         powershell -NoLogo -NoProfile -Command "New-Item -ItemType Directory -Force -Path (Split-Path -Parent '%destination%'); Copy-Item -Path '%~1' -Destination '%destination%' -Force"
+
     ) else (
         call :logError "Failed to copy '%~1' to '%destination%'."
         exit /b 1
