@@ -42,7 +42,8 @@ scriptInit
 # Version locks
 optionGetValue "versionStable" RUNTIME_VERSION_STABLE
 optionGetValue "versionBeta" RUNTIME_VERSION_BETA
-optionGetValue "versionDev" RUNTIME_VERSION_RED
+optionGetValue "versionDev" RUNTIME_VERSION_DEV
+optionGetValue "versionLTS" RUNTIME_VERSION_LTS
 
 # SDK hash
 optionGetValue "sdkHashLinux" SDK_HASH_LINUX
@@ -55,7 +56,7 @@ optionGetValue "sdkPath" SDK_PATH
 ERROR_SDK_HASH="Invalid Discord SDK version, sha256 hash mismatch (expected v$SDK_VERSION)"
 
 # Checks IDE and Runtime versions
-versionLockCheck "$YYruntimeVersion" $RUNTIME_VERSION_STABLE $RUNTIME_VERSION_BETA $RUNTIME_VERSION_RED
+versionLockCheck "$YYruntimeVersion" $RUNTIME_VERSION_STABLE $RUNTIME_VERSION_BETA $RUNTIME_VERSION_DEV $RUNTIME_VERSION_LTS
 
 # Resolve the SDK path (must exist)
 pathResolveExisting "$YYprojectDir" $SDK_PATH SDK_PATH

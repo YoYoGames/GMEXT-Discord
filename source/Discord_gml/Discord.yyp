@@ -27,7 +27,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "9.9.1.262",
+    "IDEVersion": "9.9.1.303",
   },
   "resources": [
     {"id":{"name":"Room_Discord_Menu","path":"rooms/Room_Discord_Menu/Room_Discord_Menu.yy",},},
@@ -51,6 +51,7 @@
     {"id":{"name":"Spr_YoYo_button","path":"sprites/Spr_YoYo_button/Spr_YoYo_button.yy",},},
     {"id":{"name":"Obj_Discord","path":"objects/Obj_Discord/Obj_Discord.yy",},},
     {"id":{"name":"Discord","path":"extensions/Discord/Discord.yy",},},
+    {"id":{"name":"changelog","path":"notes/changelog/changelog.yy",},},
     {"id":{"name":"Obj_Discord_Overlay","path":"objects/Obj_Discord_Overlay/Obj_Discord_Overlay.yy",},},
     {"id":{"name":"Obj_YoYo_textbox","path":"objects/Obj_YoYo_textbox/Obj_YoYo_textbox.yy",},},
     {"id":{"name":"Room_Discord_Start","path":"rooms/Room_Discord_Start/Room_Discord_Start.yy",},},

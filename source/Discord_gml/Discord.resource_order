@@ -24,6 +24,7 @@
     {"name":"Font_YoYo_50","order":2,"path":"fonts/Font_YoYo_50/Font_YoYo_50.yy",},
     {"name":"Spr_YoYo_button","order":1,"path":"sprites/Spr_YoYo_button/Spr_YoYo_button.yy",},
     {"name":"Discord","order":1,"path":"extensions/Discord/Discord.yy",},
+    {"name":"changelog","order":3,"path":"notes/changelog/changelog.yy",},
     {"name":"Obj_Discord_Overlay","order":1,"path":"objects/Obj_Discord_Overlay/Obj_Discord_Overlay.yy",},
     {"name":"Obj_YoYo_textbox","order":2,"path":"objects/Obj_YoYo_textbox/Obj_YoYo_textbox.yy",},
     {"name":"Room_Discord_Start","order":7,"path":"rooms/Room_Discord_Start/Room_Discord_Start.yy",},

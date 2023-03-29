@@ -137,6 +137,7 @@
     {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"versionStable","defaultValue":"2023.1.0.0","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"7ed654e9-6841-42d2-82ae-902be5cc1a6d","hidden":true,"listItems":[],"optType":2,},
     {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"versionBeta","defaultValue":"2023.100.0.0","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"5321e9d0-efdc-4303-bfe5-031775bddde1","hidden":true,"listItems":[],"optType":2,},
     {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"versionDev","defaultValue":"9.9.1.293","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"5a08f50f-c384-4017-8588-ebe4d1633bb4","hidden":true,"listItems":[],"optType":2,},
+    {"resourceType":"GMExtensionOption","resourceVersion":"1.0","name":"versionLTS","defaultValue":"2022.0.1.24","description":"","displayName":"","exportToINI":false,"extensionId":null,"guid":"89030162-b8a9-449b-8085-3aaa1c5e5ead","hidden":true,"listItems":[],"optType":2,},
   ],
   "optionsFile": "options.json",
   "packageId": "",
