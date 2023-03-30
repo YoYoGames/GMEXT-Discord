@@ -1,6 +1,11 @@
 
 var _applicationId = int64(extension_get_option_value("Discord", "appId"));
-Discord_Core_Create(_applicationId);
+
+if(!Discord_Core_Create(_applicationId))
+{
+	show_message_async("Discord Initialization Error")
+	exit
+}
 
 OnCurrentUserUpdate_Triggered = false
 

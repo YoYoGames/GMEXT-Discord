@@ -138,10 +138,17 @@ YYEXPORT void Discord_Core_Create(RValue& Result, CInstance* selfinst, CInstance
 		});
 
 
+	bool success;
 	if (!state.core) {
 		DebugConsoleOutput("Failed to instantiate Discord\n");
-		return;//std::exit(-1);
+		success = false;
+		//return;//std::exit(-1);
 	}
+	else
+		success = true;
+
+	Result.kind = VALUE_BOOL;
+	Result.val = success;
 }
 
 YYEXPORT void Discord_Core_RunCallbacks(RValue& Result, CInstance* selfinst, CInstance* otherinst, int argc, RValue* arg)
