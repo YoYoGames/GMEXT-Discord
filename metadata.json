@@ -1,0 +1,14 @@
+[
+    {
+        "projectFile": "source/Discord_gml/Discord.yyp",
+        "extensionFile": "source/Discord_gml/extensions/Discord/Discord.yy",
+        "packageId": "com.yoyogames.discordext",
+        "packageName": "Discord Ext",
+        "packageVersion": "1.0.0",
+        "includeFolders": null,
+        "includeResources": null,
+        "excludeFolders": null,
+        "excludeResources": null,
+        "format": "LTS22"
+    }
+]
