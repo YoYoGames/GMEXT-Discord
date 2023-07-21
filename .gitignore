@@ -30,3 +30,4 @@
 
 # MacOS non-sense
 *.DS_store
+output/
