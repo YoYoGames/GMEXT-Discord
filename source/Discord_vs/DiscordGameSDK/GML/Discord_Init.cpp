@@ -65,78 +65,80 @@ YYEXPORT void Discord_Core_Create(RValue& Result, CInstance* selfinst, CInstance
 	int64 appId = YYGetInt64(arg, 0);
 
 	discord::Core* core{};
-	discord::Core::Create(appId, DiscordCreateFlags_Default, &core);
+	discord::Core::Create(appId, DiscordCreateFlags_NoRequireDiscord, &core);
 	state.core.reset(core);
 
-	mUserManager = &state.core->UserManager();
-	mUserManager->OnCurrentUserUpdate.Connect([]()
-		{
-			int map = CreateDsMap(0, 0);
-			DsMapAddString(map, "type", "Discord_Users_OnCurrentUserUpdate");
-			CreateAsyncEventWithDSMap(map, 70);
-		});
+	if (core != nullptr){
 
-	mActivityManager = &state.core->ActivityManager();
-	mActivityManager->OnActivityJoinRequest.Connect([](discord::User const& user) 
-		{
-			DebugConsoleOutput("OnActivityJoinRequest\n");
-		});
-	mActivityManager->OnActivityInvite.Connect([](discord::ActivityActionType t, discord::User const& user, discord::Activity const& a)
-		{
-			DebugConsoleOutput("OnActivityInvite\n");
-		});
-	mActivityManager->OnActivityJoin.Connect([](const char* secret)
-		{
-			DebugConsoleOutput("OnActivityJoin\n");
-		});
-	mActivityManager->OnActivitySpectate.Connect([](const char* secret)
-		{
-			DebugConsoleOutput("OnActivitySpectate\n");
-		});
-
-	mOverlayManager = &state.core->OverlayManager();
-	mOverlayManager->OnToggle.Connect([](bool locked) 
-		{
-			if(locked)
-				DebugConsoleOutput("Overlay Locked\n");
-			else
-				DebugConsoleOutput("Overlay Unlocked\n");
-		});
-
-	mAchievementManager = &state.core->AchievementManager();
-	mAchievementManager->OnUserAchievementUpdate.Connect([](auto slot)
-		{
-			DebugConsoleOutput("OnUserAchievementUpdate\n");
-		});
-
-
-	mRelationshipManager = &state.core->RelationshipManager();
-	mRelationshipManager->OnRelationshipUpdate.Connect([](discord::Relationship const& relationship)
-		{
-			DebugConsoleOutput("Relationship with ");
-			DebugConsoleOutput(relationship.GetUser().GetUsername());
-			DebugConsoleOutput(" updated!\n");
-		});
-
-	mRelationshipManager->OnRefresh.Connect([&]() 
-		{
-			int map = CreateDsMap(0, 0);
-			DsMapAddString(map, "type", "Discord_Relationships_OnCurrentUserUpdate");
-			CreateAsyncEventWithDSMap(map, 70);
-		});
-	
-	state.core->SetLogHook(discord::LogLevel::Debug, [](discord::LogLevel level, const char* message) 
-		{
-			switch (level) 
+		mUserManager = &state.core->UserManager();
+		mUserManager->OnCurrentUserUpdate.Connect([]()
 			{
-				case discord::LogLevel::Debug: DebugConsoleOutput("[Debug] %s", message); break;
-				case discord::LogLevel::Warn: DebugConsoleOutput("[Warn] %s", message); break;
-				case discord::LogLevel::Error: DebugConsoleOutput("[Error] %s", message); break;
-				case discord::LogLevel::Info: DebugConsoleOutput("[Info] %s", message); break;
-				default: DebugConsoleOutput("%s", message); break;
-			}
-		});
+				int map = CreateDsMap(0, 0);
+				DsMapAddString(map, "type", "Discord_Users_OnCurrentUserUpdate");
+				CreateAsyncEventWithDSMap(map, 70);
+			});
 
+		mActivityManager = &state.core->ActivityManager();
+		mActivityManager->OnActivityJoinRequest.Connect([](discord::User const& user) 
+			{
+				DebugConsoleOutput("OnActivityJoinRequest\n");
+			});
+		mActivityManager->OnActivityInvite.Connect([](discord::ActivityActionType t, discord::User const& user, discord::Activity const& a)
+			{
+				DebugConsoleOutput("OnActivityInvite\n");
+			});
+		mActivityManager->OnActivityJoin.Connect([](const char* secret)
+			{
+				DebugConsoleOutput("OnActivityJoin\n");
+			});
+		mActivityManager->OnActivitySpectate.Connect([](const char* secret)
+			{
+				DebugConsoleOutput("OnActivitySpectate\n");
+			});
+
+		mOverlayManager = &state.core->OverlayManager();
+		mOverlayManager->OnToggle.Connect([](bool locked) 
+			{
+				if(locked)
+					DebugConsoleOutput("Overlay Locked\n");
+				else
+					DebugConsoleOutput("Overlay Unlocked\n");
+			});
+
+		mAchievementManager = &state.core->AchievementManager();
+		mAchievementManager->OnUserAchievementUpdate.Connect([](auto slot)
+			{
+				DebugConsoleOutput("OnUserAchievementUpdate\n");
+			});
+
+
+		mRelationshipManager = &state.core->RelationshipManager();
+		mRelationshipManager->OnRelationshipUpdate.Connect([](discord::Relationship const& relationship)
+			{
+				DebugConsoleOutput("Relationship with ");
+				DebugConsoleOutput(relationship.GetUser().GetUsername());
+				DebugConsoleOutput(" updated!\n");
+			});
+
+		mRelationshipManager->OnRefresh.Connect([&]() 
+			{
+				int map = CreateDsMap(0, 0);
+				DsMapAddString(map, "type", "Discord_Relationships_OnCurrentUserUpdate");
+				CreateAsyncEventWithDSMap(map, 70);
+			});
+	
+		state.core->SetLogHook(discord::LogLevel::Debug, [](discord::LogLevel level, const char* message) 
+			{
+				switch (level) 
+				{
+					case discord::LogLevel::Debug: DebugConsoleOutput("[Debug] %s", message); break;
+					case discord::LogLevel::Warn: DebugConsoleOutput("[Warn] %s", message); break;
+					case discord::LogLevel::Error: DebugConsoleOutput("[Error] %s", message); break;
+					case discord::LogLevel::Info: DebugConsoleOutput("[Info] %s", message); break;
+					default: DebugConsoleOutput("%s", message); break;
+				}
+			});
+	}
 
 	bool success;
 	if (!state.core) {
