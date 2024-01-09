@@ -30,4 +30,11 @@
 
 # MacOS non-sense
 *.DS_store
+*/xcuserstate/*
+*xcworkspace/xcuserdata/*
 output/
+
+# Windows user files
+.vcxproj.user
+.vcxproj.filters
+
