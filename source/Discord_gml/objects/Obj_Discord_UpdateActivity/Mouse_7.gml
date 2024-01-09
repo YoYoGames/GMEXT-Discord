@@ -17,6 +17,6 @@ Discord_Activities_UpdateActivity({
 	largeImage: "download",
 	largeText: "YoYoGames",
 	smallImage: "yoyoimgsmall",
-	smallText: "YoYoGames"
+	smallText: "YoYoGames",
 });
 
