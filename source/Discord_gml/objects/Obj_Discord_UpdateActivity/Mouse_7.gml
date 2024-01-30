@@ -1,14 +1,6 @@
 
 // Here we can update out current activity status
-// This function allows the use of a struct with the following members:
-//
-//	state {string}
-//	details {string}
-//	type {constant.Discord_ActivityType*}
-//	largeImage {string}
-//	largeText {string}
-//	smallImage {string}
-//	smallText {string}
+// This function allows the use of an activity {struct.Activity} struct
 //
 Discord_Activities_UpdateActivity({
 	type: Discord_ActivityType_Playing,
