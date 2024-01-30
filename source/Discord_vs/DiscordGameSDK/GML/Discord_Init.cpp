@@ -129,10 +129,10 @@ YYEXPORT void Discord_Core_Create(RValue& Result, CInstance* selfinst, CInstance
 		{
 			switch (level) 
 			{
-				case discord::LogLevel::Debug: DebugConsoleOutput("[Debug] %s", message); break;
-				case discord::LogLevel::Warn: DebugConsoleOutput("[Warn] %s", message); break;
-				case discord::LogLevel::Error: DebugConsoleOutput("[Error] %s", message); break;
-				case discord::LogLevel::Info: DebugConsoleOutput("[Info] %s", message); break;
+				case discord::LogLevel::Debug: DebugConsoleOutput("[Debug] %s\n", message); break;
+				case discord::LogLevel::Warn: DebugConsoleOutput("[Warn] %s\n", message); break;
+				case discord::LogLevel::Error: DebugConsoleOutput("[Error] %s\n", message); break;
+				case discord::LogLevel::Info: DebugConsoleOutput("[Info] %s\n", message); break;
 				default: DebugConsoleOutput("%s", message); break;
 			}
 		});

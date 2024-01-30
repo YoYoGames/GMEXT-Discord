@@ -16,9 +16,8 @@
 
 bool tryStructGetStringMember(RValue* val, const char* key, std::string &result, const char* function = "")
 {
-	DebugConsoleOutput("Something %p\n", val);
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		if (KIND_RValue(member) == VALUE_STRING)
 		{
@@ -35,7 +34,7 @@ bool tryStructGetStringMember(RValue* val, const char* key, std::string &result,
 bool tryStructGetRealMember(RValue* val, const char* key, double &result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		int kind = KIND_RValue(member);
 		if (kind == VALUE_REAL || kind == VALUE_INT32 || kind == VALUE_INT64 || kind == VALUE_BOOL)
@@ -53,7 +52,7 @@ bool tryStructGetRealMember(RValue* val, const char* key, double &result, const 
 bool tryStructGetBoolMember(RValue* val, const char* key, bool& result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		int kind = KIND_RValue(member);
 		if (kind == VALUE_REAL || kind == VALUE_INT32 || kind == VALUE_INT64 || kind == VALUE_BOOL)
@@ -71,7 +70,7 @@ bool tryStructGetBoolMember(RValue* val, const char* key, bool& result, const ch
 bool tryStructGetStructMember(RValue* val, const char* key, RValue* &result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		int kind = KIND_RValue(member);
 		if (kind == VALUE_OBJECT)
@@ -89,12 +88,12 @@ bool tryStructGetStructMember(RValue* val, const char* key, RValue* &result, con
 bool tryStructGetInt64Member(RValue* val, const char* key, int64_t& result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		int kind = KIND_RValue(member);
 		if (kind == VALUE_REAL || kind == VALUE_INT32 || kind == VALUE_INT64 || kind == VALUE_BOOL)
 		{
-			result = YYGetInt64(val, 0);
+			result = YYGetInt64(member, 0);
 			return true;
 		}
 
@@ -185,12 +184,12 @@ YYEXPORT void Discord_Activities_UpdateActivity(RValue& Result, CInstance* selfi
 			RValue* partySizeData = nullptr;
 			if (tryStructGetStructMember(partyData, "size", partySizeData, __FUNCTION__))
 			{
-				if (tryStructGetRealMember(partyData, "currentSize", number, __FUNCTION__))
+				if (tryStructGetRealMember(partySizeData, "currentSize", number, __FUNCTION__))
 				{
 					activity.GetParty().GetSize().SetCurrentSize((int32_t)number);
 				}
 
-				if (tryStructGetRealMember(partyData, "maxSize", number, __FUNCTION__))
+				if (tryStructGetRealMember(partySizeData, "maxSize", number, __FUNCTION__))
 				{
 					activity.GetParty().GetSize().SetMaxSize((int32_t)number);
 				}
