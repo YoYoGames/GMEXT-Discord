@@ -16,7 +16,7 @@
   "date": "2022-04-26T12:19:14.7380247+01:00",
   "description": "",
   "exportToGame": true,
-  "extensionVersion": "1.1.1",
+  "extensionVersion": "1.1.2",
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"Discord Game SDK.dll","constants":[
         {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"Discord_OK","hidden":false,"value":"0",},
