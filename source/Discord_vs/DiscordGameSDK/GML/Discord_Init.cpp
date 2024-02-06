@@ -84,11 +84,6 @@ YYEXPORT void Discord_Core_Create(RValue& Result, CInstance* selfinst, CInstance
 				int map = CreateDsMap(0, 0);
 				DsMapAddString(map, "type", "Discord_Users_OnCurrentUserUpdate");
 				CreateAsyncEventWithDSMap(map, 70);
-				case discord::LogLevel::Debug: DebugConsoleOutput("[Debug] %s\n", message); break;
-				case discord::LogLevel::Warn: DebugConsoleOutput("[Warn] %s\n", message); break;
-				case discord::LogLevel::Error: DebugConsoleOutput("[Error] %s\n", message); break;
-				case discord::LogLevel::Info: DebugConsoleOutput("[Info] %s\n", message); break;
-				default: DebugConsoleOutput("%s", message); break;
 			});
 
 		mActivityManager = &state.core->ActivityManager();
