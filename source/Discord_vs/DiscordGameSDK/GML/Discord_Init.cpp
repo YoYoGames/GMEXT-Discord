@@ -64,8 +64,16 @@ YYEXPORT void Discord_Core_Create(RValue& Result, CInstance* selfinst, CInstance
 {
 	int64 appId = YYGetInt64(arg, 0);
 
+	EDiscordCreateFlags flag = DiscordCreateFlags_Default;
+	if (argc >= 1)
+	{
+		double optional_flag = YYGetReal(arg, 1);
+		//DebugConsoleOutput("Flag: %i\n",(int)optional_flag);
+		flag = (EDiscordCreateFlags) optional_flag;
+	}
+
 	discord::Core* core{};
-	discord::Core::Create(appId, DiscordCreateFlags_NoRequireDiscord, &core);
+	discord::Core::Create(appId, flag, &core);
 	state.core.reset(core);
 
 	if (core != nullptr){

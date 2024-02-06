@@ -29,7 +29,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.800.0.377",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"Room_Discord_Menu","path":"rooms/Room_Discord_Menu/Room_Discord_Menu.yy",},},
@@ -64,6 +64,7 @@
     {"roomId":{"name":"Room_Discord_Overlay","path":"rooms/Room_Discord_Overlay/Room_Discord_Overlay.yy",},},
     {"roomId":{"name":"Room_Discord_Relationship","path":"rooms/Room_Discord_Relationship/Room_Discord_Relationship.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
