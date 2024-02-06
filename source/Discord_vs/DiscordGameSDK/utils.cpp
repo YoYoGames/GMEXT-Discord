@@ -30,8 +30,8 @@ RValue partySize_getStruct(discord::PartySize partySize)
 	RValue Struct = { 0 };
 	YYStructCreate(&Struct);
 
-	YYStructAddInt32(&Struct, "partyId", partySize.GetCurrentSize());
-	YYStructAddInt32(&Struct, "size", partySize.GetMaxSize());
+	YYStructAddInt32(&Struct, "currentSize", partySize.GetCurrentSize());
+	YYStructAddInt32(&Struct, "maxSize", partySize.GetMaxSize());
 
 	return Struct;
 }
@@ -80,6 +80,7 @@ RValue activityParty_getStruct(discord::ActivityParty activityParty)
 	YYStructCreate(&Struct);
 
 	YYStructAddString(&Struct, "partyId", activityParty.GetId());
+	YYStructAddString(&Struct, "id", activityParty.GetId());
 
 	RValue result;
 

@@ -17,7 +17,7 @@
 bool tryStructGetStringMember(RValue* val, const char* key, std::string &result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		if (KIND_RValue(member) == VALUE_STRING)
 		{
@@ -34,7 +34,7 @@ bool tryStructGetStringMember(RValue* val, const char* key, std::string &result,
 bool tryStructGetRealMember(RValue* val, const char* key, double &result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		int kind = KIND_RValue(member);
 		if (kind == VALUE_REAL || kind == VALUE_INT32 || kind == VALUE_INT64 || kind == VALUE_BOOL)
@@ -52,7 +52,7 @@ bool tryStructGetRealMember(RValue* val, const char* key, double &result, const 
 bool tryStructGetBoolMember(RValue* val, const char* key, bool& result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		int kind = KIND_RValue(member);
 		if (kind == VALUE_REAL || kind == VALUE_INT32 || kind == VALUE_INT64 || kind == VALUE_BOOL)
@@ -67,15 +67,15 @@ bool tryStructGetBoolMember(RValue* val, const char* key, bool& result, const ch
 	return false;
 }
 
-bool tryStructGetStructMember(RValue* val, const char* key, RValue& result, const char* function = "")
+bool tryStructGetStructMember(RValue* val, const char* key, RValue* &result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		int kind = KIND_RValue(member);
 		if (kind == VALUE_OBJECT)
 		{
-			SET_RValue(&result, member, NULL, 0);
+			result = member;
 			return true;
 		}
 
@@ -88,12 +88,12 @@ bool tryStructGetStructMember(RValue* val, const char* key, RValue& result, cons
 bool tryStructGetInt64Member(RValue* val, const char* key, int64_t& result, const char* function = "")
 {
 	RValue* member = YYStructGetMember(val, key);
-	if (member != NULL)
+	if (member != NULL && member->kind != VALUE_UNSET)
 	{
 		int kind = KIND_RValue(member);
 		if (kind == VALUE_REAL || kind == VALUE_INT32 || kind == VALUE_INT64 || kind == VALUE_BOOL)
 		{
-			result = YYGetInt64(val, 0);
+			result = YYGetInt64(member, 0);
 			return true;
 		}
 
@@ -127,16 +127,16 @@ YYEXPORT void Discord_Activities_UpdateActivity(RValue& Result, CInstance* selfi
 
 	// Timestamps
 	{
-		RValue timestampsData = { 0 };
+		RValue* timestampsData = nullptr;
 		if (tryStructGetStructMember(activityData, "timestamps", timestampsData, __FUNCTION__))
 		{
 			int64_t _timestamp = 0;
-			if (tryStructGetInt64Member(&timestampsData, "startTime", _timestamp, __FUNCTION__))
+			if (tryStructGetInt64Member(timestampsData, "startTime", _timestamp, __FUNCTION__))
 			{
 				activity.GetTimestamps().SetStart(_timestamp);
 			}
 
-			if (tryStructGetInt64Member(&timestampsData, "endTime", _timestamp, __FUNCTION__))
+			if (tryStructGetInt64Member(timestampsData, "endTime", _timestamp, __FUNCTION__))
 			{
 				activity.GetTimestamps().SetEnd(_timestamp);
 			}
@@ -145,25 +145,25 @@ YYEXPORT void Discord_Activities_UpdateActivity(RValue& Result, CInstance* selfi
 
 	// Assets
 	{
-		RValue assetsData = { 0 };
+		RValue* assetsData = nullptr;
 		if (tryStructGetStructMember(activityData, "assets", assetsData, __FUNCTION__))
 		{
-			if (tryStructGetStringMember(&assetsData, "smallImage", text, __FUNCTION__))
+			if (tryStructGetStringMember(assetsData, "smallImage", text, __FUNCTION__))
 			{
 				activity.GetAssets().SetSmallImage(text.c_str());
 			}
 
-			if (tryStructGetStringMember(&assetsData, "smallText", text, __FUNCTION__))
+			if (tryStructGetStringMember(assetsData, "smallText", text, __FUNCTION__))
 			{
 				activity.GetAssets().SetSmallText(text.c_str());
 			}
 
-			if (tryStructGetStringMember(&assetsData, "largeImage", text, __FUNCTION__))
+			if (tryStructGetStringMember(assetsData, "largeImage", text, __FUNCTION__))
 			{
 				activity.GetAssets().SetLargeImage(text.c_str());
 			}
 
-			if (tryStructGetStringMember(&assetsData, "largeText", text, __FUNCTION__))
+			if (tryStructGetStringMember(assetsData, "largeText", text, __FUNCTION__))
 			{
 				activity.GetAssets().SetLargeText(text.c_str());
 			}
@@ -172,24 +172,24 @@ YYEXPORT void Discord_Activities_UpdateActivity(RValue& Result, CInstance* selfi
 
 	// Party
 	{
-		RValue partyData = { 0 };
+		RValue* partyData = nullptr;
 		if (tryStructGetStructMember(activityData, "party", partyData, __FUNCTION__))
 		{
-			if (tryStructGetStringMember(&partyData, "id", text, __FUNCTION__))
+			if (tryStructGetStringMember(partyData, "id", text, __FUNCTION__))
 			{
 				activity.GetParty().SetId(text.c_str());
 			}
 
 			// PartySize
-			RValue partySizeData = { 0 };
-			if (tryStructGetStructMember(&partyData, "size", partySizeData, __FUNCTION__))
+			RValue* partySizeData = nullptr;
+			if (tryStructGetStructMember(partyData, "size", partySizeData, __FUNCTION__))
 			{
-				if (tryStructGetRealMember(&partyData, "currentSize", number, __FUNCTION__))
+				if (tryStructGetRealMember(partySizeData, "currentSize", number, __FUNCTION__))
 				{
 					activity.GetParty().GetSize().SetCurrentSize((int32_t)number);
 				}
 
-				if (tryStructGetRealMember(&partyData, "maxSize", number, __FUNCTION__))
+				if (tryStructGetRealMember(partySizeData, "maxSize", number, __FUNCTION__))
 				{
 					activity.GetParty().GetSize().SetMaxSize((int32_t)number);
 				}
@@ -201,20 +201,20 @@ YYEXPORT void Discord_Activities_UpdateActivity(RValue& Result, CInstance* selfi
 
 	// Secrets
 	{
-		RValue secretsData = { 0 };
+		RValue* secretsData = nullptr;
 		if (tryStructGetStructMember(activityData, "secrets", secretsData, __FUNCTION__))
 		{
-			if (tryStructGetStringMember(&secretsData, "match", text, __FUNCTION__))
+			if (tryStructGetStringMember(secretsData, "match", text, __FUNCTION__))
 			{
 				activity.GetSecrets().SetMatch(text.c_str());
 			}
 
-			if (tryStructGetStringMember(&secretsData, "join", text, __FUNCTION__))
+			if (tryStructGetStringMember(secretsData, "join", text, __FUNCTION__))
 			{
 				activity.GetSecrets().SetJoin(text.c_str());
 			}
 
-			if (tryStructGetStringMember(&secretsData, "spectate", text, __FUNCTION__))
+			if (tryStructGetStringMember(secretsData, "spectate", text, __FUNCTION__))
 			{
 				activity.GetSecrets().SetSpectate(text.c_str());
 			}
