@@ -143,7 +143,7 @@
  * Here is a table summarizing the fields in the "relationship" structure and their meanings:
  * 
  * @member {constant.Discord_RelationshipType} type The username of the user, which is the name displayed on their profile and in chat messages.
- * @member {struct.user} user The user the relationship is for.
+ * @member {struct.User} user The user the relationship is for.
  * @member {struct.Presence} presence That user's current presence
  * @struct_end
  */

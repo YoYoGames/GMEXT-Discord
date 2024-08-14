@@ -24,7 +24,7 @@
  * 
  * This function opens the overlay modal for sending game invitations to users, channels, and servers. If you do not have a valid activity with all the required fields, this call will error. See [Activity Action Field Requirements](https://discord.com/developers/docs/game-sdk/activities#activity-action-field-requirements) for the fields required to have join and spectate invites function properly.
  * 
- * @param {Discord_ActivityActionType} value What type of invite to send
+ * @param {constant.Discord_ActivityActionType} value What type of invite to send
  * 
  * @example 
  * ```gml

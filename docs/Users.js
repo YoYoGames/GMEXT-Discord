@@ -17,6 +17,7 @@
  * 
  * @section_const
  * @ref Discord_PremiumType
+ * @ref Discord_UserStatus
  * @section_end
  * 
  * @module_end
@@ -83,7 +84,7 @@
  * @event social
  * @member {real} result The result code of the async request
  * @member {string} type The string `"Discord_User_GetUser"`
- * @member {struct.user} user The user data
+ * @member {struct.User} user The user data
  * @event_end
  * 
  * @example
@@ -157,7 +158,7 @@
  * The Presence struct contains information about a user's current online status and activity.
  * 
  * @member {constant.Discord_UserStatus} Status The user's current online status.
- * @member {constant.Activity} Activity The user's current activity, if any.
+ * @member {struct.Activity} Activity The user's current activity, if any.
  * 
  * @struct_end
  */

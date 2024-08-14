@@ -18,6 +18,7 @@
  * @ref ActivityAssets
  * @ref ActivityParty
  * @ref ActivitySecrets
+ * @ref PartySize
  * @section_end
  * 
  * @section_const
@@ -40,7 +41,7 @@
  * 
  * [[Warning: This has a rate limit of 5 updates per 20 seconds.]]
  * 
- * @param {struct.activityData} The data to be applied to the user's activity
+ * @param {struct.Activity} The data to be applied to the user's activity
  * 
  * @event social
  * @member {string} type The string `"Discord_Activities_UpdateActivity"`
@@ -129,7 +130,7 @@
  * This function sends a game invite to a given user. If you do not have a valid activity with all the required fields, this call will error. See [Activity Action Field Requirements](https://discord.com/developers/docs/game-sdk/activities#activity-action-field-requirements) for the fields required to have join and spectate invites function properly.
  * 
  * @param {int64} userId the ID of the user to invite
- * @param {constant.ActivityActionType} type marks the invite as an invitation to join or spectate
+ * @param {constant.Discord_ActivityActionType} type marks the invite as an invitation to join or spectate
  * @param {string} content a message to send along with the invite
  * 
  * @event social
@@ -153,7 +154,7 @@
  * This function sends a reply to an Ask to Join request.
  * 
  * @param {int64} userId The user ID of the person who asked to join
- * @param {constant.ActivityJoinRequestReply} reply No, Yes or Ignore
+ * @param {constant.Discord_ActivityJoinRequestReply} reply No, Yes or Ignore
  * @event social
  * @member {string} type The string `"Discord_Activities_SendRequestReply"`
  * @member {real} result Result code of the async request.
@@ -233,8 +234,8 @@
  * 
  * The `PartySize` struct contains information about the size of a party, including both the current size and maximum possible size.
  * 
- * @member {int32} currentSize The current size of the party.
- * @member {int32} maxSize The max possible size of the party.
+ * @member {real} currentSize The current size of the party.
+ * @member {real} maxSize The max possible size of the party.
  * @struct_end
  */
 
