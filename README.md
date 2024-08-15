@@ -1,6 +1,7 @@
 # GMEXT-Discord
 
-> **WARNING**: This extension makes use of the Discord [Game SDK](https://discord.com/developers/docs/developer-tools/game-sdk), which has been replaced by a [REST API](https://discord.com/developers/docs/reference). Several parts of functionality have been deprecated by Discord and may or may not work. See [https://discord.com/developers/docs/developer-tools/game-sdk](discord.com/developers/docs/developer-tools/game-sdk) for what's supported and what's no longer supported.
+> [!WARNING]
+> This extension makes use of the Discord [Game SDK](https://discord.com/developers/docs/developer-tools/game-sdk), which has been replaced by a [REST API](https://discord.com/developers/docs/reference). Several parts of functionality have been deprecated by Discord and may or may not work. See [https://discord.com/developers/docs/developer-tools/game-sdk](discord.com/developers/docs/developer-tools/game-sdk) for what's supported and what's no longer supported.
 
 This is the source repository for GameMaker's Discord Extension.
 
