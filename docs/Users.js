@@ -1,7 +1,7 @@
 /**
  * @module users
  * @title Users
- * @desc **Discord SDK:** [Users](https://discord.com/developers/docs/game-sdk/users)
+ * @desc **Discord SDK:** [Users](https://discord.com/developers/docs/developer-tools/game-sdk#users)
  * 
  * @section_func
  * @ref Discord_Users_GetCurrentUser
@@ -26,7 +26,7 @@
 
 /**
  * @function Discord_Users_GetCurrentUser
- * @desc **Discord Function:** [GetCurrentUser](https://discord.com/developers/docs/game-sdk/users#getcurrentuser)
+ * @desc **Discord Function:** [GetCurrentUser](https://discord.com/developers/docs/developer-tools/game-sdk#getcurrentuser)
  * 
  * This function fetches information about the currently connected user account.
  * 
@@ -46,7 +46,7 @@
 
 /**
  * @func Discord_Users_GetCurrentUserPremiumType
- * @desc **Discord Function:** [GetCurrentUserPremiumType](https://discord.com/developers/docs/game-sdk/users#getcurrentuserpremiumtype)
+ * @desc **Discord Function:** [GetCurrentUserPremiumType](https://discord.com/developers/docs/developer-tools/game-sdk#getcurrentuserpremiumtype)
 
  * This function gets the ${constant.Discord_PremiumType} for the currently connected user.
 
@@ -75,7 +75,7 @@
 
 /**
  * @func Discord_Users_GetUser
- * @desc **Discord Function:** [GetUser](https://discord.com/developers/docs/game-sdk/users#getuser)
+ * @desc **Discord Function:** [GetUser](https://discord.com/developers/docs/developer-tools/game-sdk#getuser)
  * 
  * This function gets user information for a given ID.
  * 
@@ -113,18 +113,17 @@
  * The code above matches the response against the correct event **type** and logs the success of the task.
  * 
  * @func_end
- * */
+ */
 
 
 /**
  * @func Discord_Users_SetCurrentUsername
  * @desc **Discord Function:** N/A
 
- * Set the current user's username information.
+ * This function sets the current user's username information.
  *
  * @param {string} username The new username to be applied to the current user.
  * 
- * @returns {string}
  * @example
  * 
  * ```gml
@@ -138,7 +137,7 @@
 
 /**
  * @struct User
- * @desc **Discord Struct:** [User Structure](https://discord.com/developers/docs/resources/user#user-object-user-structure)
+ * @desc **Discord Struct:** [User Structure](https://discord.com/developers/docs/developer-tools/game-sdk#user-struct)
  * 
  * This struct stores information about a Discord user.
  * 
@@ -153,7 +152,7 @@
 
 /**
  * @struct Presence
- * @desc **Discord Struct:** [Presence Struct](https://discord.com/developers/docs/game-sdk/relationships#data-models-presence-struct)
+ * @desc **Discord Struct:** [Presence Struct](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#presence-struct)
  * 
  * The Presence struct contains information about a user's current online status and activity.
  * 
@@ -168,7 +167,7 @@
 
 /**
  * @const Discord_UserStatus
- * @desc **Discord Enum:** [Status Enum](https://discord.com/developers/docs/game-sdk/relationships#data-models-status-enum)
+ * @desc **Discord Enum:** [Status Enum](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#status-enum)
  * 
  * The Status enum represents the online status of a user on Discord.
  * 
@@ -183,7 +182,7 @@
 
 /**
  * @const Discord_PremiumType
- * @desc **Discord Enum:** [PremiumType Enum](https://discord.com/developers/docs/game-sdk/users#data-models-premiumtype-enum)
+ * @desc **Discord Enum:** [PremiumType Enum](https://discord.com/developers/docs/developer-tools/game-sdk#premiumtype-enum)
  * 
  * The PremiumType enum describes the type of Nitro subscription a user has. It has the following values and descriptions: 
  * 

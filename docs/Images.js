@@ -2,6 +2,10 @@
 /**
  * @module images
  * @title Images
+ * @desc **Discord SDK:** [Images](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Images.md)
+ * 
+ * [[Warning: The Game SDK's Images functionality has been deprecated by Discord.]]
+ * 
  * @section_func
  * @ref Discord_Images_Fetch
  * @section_end
@@ -12,7 +16,7 @@
 
 /**
  * @function Discord_Images_Fetch
- * @desc **Discord Function:** [Fetch](https://discord.com/developers/docs/game-sdk/images#fetch)
+ * @desc **Discord Function:** [Fetch](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Images.md#fetch)
  * 
  * This function prepares an image to later retrieve data about it.
  * 

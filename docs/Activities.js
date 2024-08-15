@@ -2,6 +2,7 @@
 /**
  * @module activities
  * @title Activities
+ * @desc **Discord SDK:** [Activities](https://discord.com/developers/docs/developer-tools/game-sdk#activities)
  * 
  * @section_func
  * @ref Discord_Activities_UpdateActivity
@@ -33,7 +34,7 @@
 
 /**
  * @function Discord_Activities_UpdateActivity
- * @desc **Discord Function:** [UpdateActivity](https://discord.com/developers/docs/game-sdk/activities#updateactivity)
+ * @desc **Discord Function:** [UpdateActivity](https://discord.com/developers/docs/developer-tools/game-sdk#updateactivity)
  * 
  * This function sets a user's presence in Discord to a new activity.
  * 
@@ -41,17 +42,17 @@
  * 
  * [[Warning: This has a rate limit of 5 updates per 20 seconds.]]
  * 
- * @param {struct.Activity} The data to be applied to the user's activity
+ * @param {struct.Activity} activity The data to be applied to the user's activity
  * 
  * @event social
  * @member {string} type The string `"Discord_Activities_UpdateActivity"`
  * @member {real} result Result code of the async request.
- * @member {bool} Whether the current request was successful or not.
+ * @member {bool} success Whether the current request was successful or not.
  * @event_end
  * 
  * @example
  * ```gml
- * Discord_Activity_UpdateActivity({
+ * identifier = Discord_Activity_UpdateActivity({
  *    state: "Creating Games",
  *    type: Discord_Activity_Type_Playing,
  *    details: "Details...",
@@ -61,7 +62,7 @@
  *    largeText: "myLargeText"
  * });
  * ```
- * The code sample above saves the identifier that can be used inside an ${event.social}.
+ * The code sample above saves the identifier that can be used to differentiate between two requests in the ${event.social}.
  * 
  * ```gml
  * if (async_load[? "type"] == "Discord_Activity_UpdateActivity")
@@ -83,7 +84,7 @@
 
 /**
  * @function Discord_Activities_AcceptInvite
- * @desc **Discord Function:** [AcceptInvite](https://discord.com/developers/docs/game-sdk/activities#acceptinvite)
+ * @desc **Discord Function:** [AcceptInvite](https://discord.com/developers/docs/developer-tools/game-sdk#acceptinvite)
  * 
  * This function accepts a game invitation from a given userId.
  * 
@@ -105,7 +106,7 @@
 
 /**
  * @function Discord_Activities_ClearActivity
- * @desc **Discord Function:** [ClearActivity](https://discord.com/developers/docs/game-sdk/activities#clearactivity)
+ * @desc **Discord Function:** [ClearActivity](https://discord.com/developers/docs/developer-tools/game-sdk#clearactivity)
  * 
  * This function clears a user's presence in Discord to make it show nothing.
  * 
@@ -125,7 +126,7 @@
 
 /**
  * @function Discord_Activities_SendInvite
- * @desc **Discord Function:** [SendInvite](https://discord.com/developers/docs/game-sdk/activities#sendinvite)
+ * @desc **Discord Function:** [SendInvite](https://discord.com/developers/docs/developer-tools/game-sdk#sendinvite)
  * 
  * This function sends a game invite to a given user. If you do not have a valid activity with all the required fields, this call will error. See [Activity Action Field Requirements](https://discord.com/developers/docs/game-sdk/activities#activity-action-field-requirements) for the fields required to have join and spectate invites function properly.
  * 
@@ -149,12 +150,12 @@
 
 /**
  * @function Discord_Activities_SendRequestReply
- * @desc **Discord Function:** [SendRequestReply](https://discord.com/developers/docs/game-sdk/activities#sendrequestreply)
+ * @desc **Discord Function:** [SendRequestReply](https://discord.com/developers/docs/developer-tools/game-sdk#sendrequestreply)
  * 
  * This function sends a reply to an Ask to Join request.
  * 
  * @param {int64} userId The user ID of the person who asked to join
- * @param {constant.Discord_ActivityJoinRequestReply} reply No, Yes or Ignore
+ * @param {constant.Discord_ActivityJoinRequestReply} reply `Discord_ActivityJoinRequestReply_No`, `Discord_ActivityJoinRequestReply_Yes` or `Discord_ActivityJoinRequestReply_Ignore`
  * @event social
  * @member {string} type The string `"Discord_Activities_SendRequestReply"`
  * @member {real} result Result code of the async request.
@@ -173,7 +174,7 @@
 
 /**
  * @struct Activity
- * @desc **Discord Struct:** [Activity Struct](https://discord.com/developers/docs/game-sdk/activities#data-models-activity-struct)
+ * @desc **Discord Struct:** [Activity Struct](https://discord.com/developers/docs/developer-tools/game-sdk#activity-struct)
  * 
  * The `Activity` struct contains information about a user's current activity, including the application ID, name of the application, current party status, what the player is currently doing, timestamps, assets to display on the player's profile, party information, and secret passwords for joining and spectating the player's game.
  * 
@@ -192,7 +193,7 @@
 
 /**
  * @struct ActivityTimestamps
- * @desc **Discord Struct:** [ActivityTimestamps Struct](https://discord.com/developers/docs/game-sdk/activities#data-models-activitytimestamps-struct)
+ * @desc **Discord Struct:** [ActivityTimestamps Struct](https://discord.com/developers/docs/developer-tools/game-sdk#activitytimestamps-struct)
  * 
  * The `ActivityTimestamps` struct is used to create elapsed/remaining timestamps on a player's profile. It contains two fields: `startTimestamp` and `endTimestamp`, both of which are Unix timestamps.
  * 
@@ -204,7 +205,7 @@
 
 /**
  * @struct ActivityAssets
- * @desc **Discord Struct:** [ActivityAssets Struct](https://discord.com/developers/docs/game-sdk/activities#data-models-activityassets-struct)
+ * @desc **Discord Struct:** [ActivityAssets Struct](https://discord.com/developers/docs/developer-tools/game-sdk#activityassets-struct)
  * 
  * The `ActivityAssets` struct contains assets to display on a player's profile, including both large and small images and corresponding hover text.
  * 
@@ -218,7 +219,7 @@
 
 /**
  * @struct ActivityParty
- * @desc **Discord Struct:** [ActivityParty Struct](https://discord.com/developers/docs/game-sdk/activities#data-models-activityparty-struct)
+ * @desc **Discord Struct:** [ActivityParty Struct](https://discord.com/developers/docs/developer-tools/game-sdk#activityparty-struct)
  * 
  * The `ActivityParty` struct contains information about the player's party, including a unique identifier and party size.
  * 
@@ -230,7 +231,7 @@
 
 /**
  * @struct PartySize
- * @desc **Discord Struct:** [PartySize Struct](https://discord.com/developers/docs/game-sdk/activities#data-models-partysize-struct)
+ * @desc **Discord Struct:** [PartySize Struct](https://discord.com/developers/docs/developer-tools/game-sdk#partysize-struct)
  * 
  * The `PartySize` struct contains information about the size of a party, including both the current size and maximum possible size.
  * 
@@ -242,7 +243,7 @@
 
 /**
  * @struct ActivitySecrets
- * @desc **Discord Struct:** [ActivitySecrets Struct](https://discord.com/developers/docs/game-sdk/activities#data-models-activitysecrets-struct)
+ * @desc **Discord Struct:** [ActivitySecrets Struct](https://discord.com/developers/docs/developer-tools/game-sdk#activitysecrets-struct)
  * 
  * The `ActivitySecrets` struct contains secret passwords for joining and spectating the player's game, as well as a unique hash for the given match context.
  * 
@@ -256,7 +257,7 @@
 
 /**
  * @constant Discord_ActivityType
- * @desc **Discord Enum:** [ActivityType Enum](https://discord.com/developers/docs/game-sdk/activities#data-models-activitytype-enum)
+ * @desc **Discord Enum:** [ActivityType Enum](https://discord.com/developers/docs/developer-tools/game-sdk#activitytype-enum)
  * 
  * This represents the type of a user activity and is to be used with [`Discord_Activities_UpdateActivity`](#discord_activities_updateactivity).
  * 
@@ -272,7 +273,7 @@
 
 /**
  * @constant Discord_ActivityActionType
- * @desc **Discord Enum:** [ActivityActionType Enum](https://discord.com/developers/docs/game-sdk/activities#data-models-activityactiontype-enum)
+ * @desc **Discord Enum:** [ActivityActionType Enum](https://discord.com/developers/docs/developer-tools/game-sdk#activityactiontype-enum)
  * 
  * This represents the type of activity action and is to be used with [`Discord_Overlay_OpenActivityInvite`](Overlay#discord_overlay_openactivityinvite).
  * 
@@ -284,7 +285,7 @@
 
 /**
  * @constant Discord_ActivityJoinRequestReply
- * @desc **Discord Enum:** [ActivityJoinRequestReply Enum](https://discord.com/developers/docs/game-sdk/activities#data-models-activityjoinrequestreply-enum)
+ * @desc **Discord Enum:** [ActivityJoinRequestReply Enum](https://discord.com/developers/docs/developer-tools/game-sdk#activityjoinrequestreply-enum)
  * 
  * This enum provides options for how to respond to a user's request to join an activity.
  * 

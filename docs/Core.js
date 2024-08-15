@@ -21,7 +21,7 @@
 
 /**
  * @function Discord_Core_Create
- * @desc *Discord Function*: [Core::Create](https://discord.com/developers/docs/game-sdk/discord#create)
+ * @desc **Discord Function:** [Create](https://discord.com/developers/docs/developer-tools/game-sdk#create)
  * 
  * This function initialises the Discord extension and returns whether this was successful.
  * The `creationFlag` parameter determines if the Discord extension requires or doesn't require Discord to be running. If the optional `creationFlag` is set to `Discord_CreateFlags_Default` (the default value) and Discord is not running, it will:
@@ -31,7 +31,7 @@
  *   3. Attempt to re-open your game
  * 
  * @param {int64} appId  Application identifier
- * @param {constant.Discord_CreateFlags} [creationFlag] `Discord_CreateFlags_Default` or `Discord_CreateFlags_NoRequireDiscord`
+ * @param {constant.Discord_CreateFlags} [creationFlag=Discord_CreateFlags_Default] `Discord_CreateFlags_Default` or `Discord_CreateFlags_NoRequireDiscord`
  * 
  * @returns {bool}
  * @example
@@ -47,7 +47,7 @@
 
 /**
  * @function Discord_Core_RunCallbacks
- * @desc **Discord Function:** [RunCallbacks](https://discord.com/developers/docs/game-sdk/discord#runcallbacks)
+ * @desc **Discord Function:** [RunCallbacks](https://discord.com/developers/docs/developer-tools/game-sdk#runcallbacks)
  * 
  * This function requests the extension instances to do work.
  * 
@@ -73,7 +73,7 @@
 
 /**
  * @constant Discord_Result
- * @desc **Discord Enum:** [Result Enum](https://discord.com/developers/docs/game-sdk/discord#data-models-result-enum)
+ * @desc **Discord Enum:** [Result Enum](https://discord.com/developers/docs/developer-tools/game-sdk#result-enum)
  * 
  * @member Discord_OK 0 A constant that indicates that the result is OK
  * 
@@ -82,10 +82,10 @@
 
 /**
  * @constant Discord_CreateFlags
- * @desc **Discord Enum:** [CreateFlags Enum](https://discord.com/developers/docs/game-sdk/discord#data-models-createflags-enum)
+ * @desc **Discord Enum:** [CreateFlags Enum](https://discord.com/developers/docs/developer-tools/game-sdk#createflags-enum)
  * 
  * @member Discord_CreateFlags_Default 0 Requires Discord to be running to play the game
- * @member Discord_CreateFlags_NoRequireDiscord 1 Requires Discord to be running to play the game
+ * @member Discord_CreateFlags_NoRequireDiscord 1 Does not require Discord to be running, use this on other platforms
  * 
  * @constant_end
  */

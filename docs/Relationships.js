@@ -1,6 +1,9 @@
 /**
  * @module relationships
  * @title Relationships
+ * @desc **Discord SDK:** [Relationships](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#relationships)
+ * 
+ * [[Warning: The Game SDK's Relationships functionality has been deprecated by Discord.]]
  * 
  * @section_func
  * @ref Discord_Relationships_Filter
@@ -24,7 +27,7 @@
 
 /**
  * @function Discord_Relationships_Filter
- * @desc **Discord Function:** [Filter](https://discord.com/developers/docs/game-sdk/relationships#filter)
+ * @desc **Discord Function:** [Filter](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#filter)
  * 
  * This function performs a query over the relationships of the current user selection only the ones that match the given type.
  * 
@@ -52,7 +55,7 @@
 
 /**
  * @function Discord_Relationships_Count
- * @desc **Discord Function:** [Count](https://discord.com/developers/docs/game-sdk/relationships#count)
+ * @desc **Discord Function:** [Count](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#count)
  * 
  * This function gets the number of relationships that match your previous query.
  * 
@@ -79,7 +82,7 @@
 
 /**
  * @function Discord_Relationships_Get
- * @desc **Discord Function:** [Get](https://discord.com/developers/docs/game-sdk/relationships#get)
+ * @desc **Discord Function:** [Get](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#get)
  * 
  * This function gets the relationship between the current user and a given user by ID.
  * 
@@ -102,10 +105,11 @@
 
 /**
  * @function Discord_Relationships_GetAt
- * @desc **Discord Function:** [GetAt](https://discord.com/developers/docs/game-sdk/relationships#getat)
+ * @desc **Discord Function:** [GetAt](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#getat)
+ * 
  * This function gets the relationship at a given index when iterating over a list of relationships.
  * 
- * [[Warning: This function requires a previous call to the function ${function.Discord_Relationships_Filter}.
+ * [[Warning: This function requires a previous call to the function ${function.Discord_Relationships_Filter}.]]
  * 
  * @param index Index of the relationship
  * 
@@ -135,7 +139,7 @@
 
 /**
  * @struct Relationship
- * @desc **Discord Struct:** [Relationship Struct](https://discord.com/developers/docs/game-sdk/relationships#data-models-relationship-struct)
+ * @desc **Discord Struct:** [Relationship Struct](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#relationship-struct)
  * 
  * This struct contains information about the user with whom the connected user has a relationship. It includes the type of relationship with the user, the other user's presence and details on the other user.
  * The details on the other user are stored in the `user` field, which holds a struct with: the username of the user (the name displayed on their profile and in chat messages), the `avatar` field (the URL of the user's avatar image), the `userId` field (the unique user ID assigned by Discord), the `bot` field (a boolean value indicating whether the user is a bot account or a human user) and the `discriminator` field (contains the four-digit number that appears after the username, used to distinguish between users with the same username).
@@ -153,7 +157,7 @@
 
 /**
  * @const Discord_RelationshipType
- * @desc **Discord Function:** [RelationshipType Enum](https://discord.com/developers/docs/game-sdk/relationships#data-models-relationshiptype-enum)
+ * @desc **Discord Function:** [RelationshipType Enum](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Relationships.md#relationshiptype-enum)
  * 
  * @member Discord_RelationshipType_None 0 User has no intrinsic relationship on Discord.
  * @member Discord_RelationshipType_Friend 1 User is a friend of the connected user, and they can see each other's online status, send direct messages, etc.

@@ -1,9 +1,9 @@
-* ### [Discord](Home)
-* ### [Quick Start Guide](Quick_Start_Guide)
+* ### ${module.home}
+* ### ${page.Quick_Start_Guide}
 * ### Modules
-  * ### [Core](Core)
-  * ### [Overlay](Overlay)
-  * ### [Users](Users)
-  * ### [Activities](Activities)
-  * ### [Relationships](Relationships)
-  * ### [Images](Images)
+  * ### ${module.core}
+  * ### ${module.overlay}
+  * ### ${module.users}
+  * ### ${module.activities}
+  * ### ${module.relationships} (deprecated)
+  * ### ${module.images} (deprecated)

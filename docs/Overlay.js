@@ -1,7 +1,7 @@
 /**
  * @module overlay
  * @title Overlay
- * @desc **Discord SDK:** [Overlay](https://discord.com/developers/docs/game-sdk/overlay)
+ * @desc **Discord SDK:** [Overlay](https://discord.com/developers/docs/developer-tools/game-sdk#overlay)
  * 
  * @section_func
  * @ref Discord_Overlay_OpenActivityInvite
@@ -20,7 +20,7 @@
 
 /**
  * @function Discord_Overlay_OpenActivityInvite
- * @desc **Discord Function:** [OpenActivityInvite](https://discord.com/developers/docs/game-sdk/overlay#openactivityinvite)
+ * @desc **Discord Function:** [OpenActivityInvite](https://discord.com/developers/docs/developer-tools/game-sdk#openactivityinvite)
  * 
  * This function opens the overlay modal for sending game invitations to users, channels, and servers. If you do not have a valid activity with all the required fields, this call will error. See [Activity Action Field Requirements](https://discord.com/developers/docs/game-sdk/activities#activity-action-field-requirements) for the fields required to have join and spectate invites function properly.
  * 
@@ -53,7 +53,7 @@
 
 /**
  * @function Discord_Overlay_IsEnabled
- * @desc **Discord Function:** [IsEnabled](https://discord.com/developers/docs/game-sdk/overlay#isenabled)
+ * @desc **Discord Function:** [IsEnabled](https://discord.com/developers/docs/developer-tools/game-sdk#isenabled)
  * 
  * This function checks whether the user has the overlay enabled or disabled. If the overlay is disabled, all the functionality in this manager will still work. The calls will instead focus the Discord client and show the modal there instead.
  * 
@@ -69,7 +69,7 @@
 
 /**
  * @function Discord_Overlay_IsLocked
- * @desc **Discord Function:** [IsLocked](https://discord.com/developers/docs/game-sdk/overlay#islocked)
+ * @desc **Discord Function:** [IsLocked](https://discord.com/developers/docs/developer-tools/game-sdk#islocked)
  * 
  * This function checks if the overlay is currently locked or unlocked.
  * 
@@ -85,7 +85,7 @@
 
 /**
  * @function Discord_Overlay_OpenGuildInvite
- * @desc **Discord Function:** [OpenGuildInvite](https://discord.com/developers/docs/game-sdk/overlay#openguildinvite)
+ * @desc **Discord Function:** [OpenGuildInvite](https://discord.com/developers/docs/developer-tools/game-sdk#openguildinvite)
  * 
  * This function opens the overlay modal for joining a Discord guild, given its invite code.
  * 
@@ -123,7 +123,7 @@
 
 /**
  * @function Discord_Overlay_OpenVoiceSettings
- * @desc **Discord Function:** [OpenVoiceSettings](https://discord.com/developers/docs/game-sdk/overlay#openvoicesettings)
+ * @desc **Discord Function:** [OpenVoiceSettings](https://discord.com/developers/docs/developer-tools/game-sdk#openvoicesettings)
  * 
  * This function opens the overlay widget for voice settings for the currently connected application. These settings are unique to each user within the context of your application. That means that a user can have different favorite voice settings for each of their games!
  * 
@@ -161,7 +161,7 @@
 
 /**
  * @function Discord_Overlay_SetLocked
- * @desc **Discord Function:** [SetLocked](https://discord.com/developers/docs/game-sdk/overlay#setlocked)
+ * @desc **Discord Function:** [SetLocked](https://discord.com/developers/docs/developer-tools/game-sdk#setlocked)
  * 
  * This function locks or unlocks input in the overlay. Calling `Discord_Overlay_SetLocked(true)` will also close any modals in the overlay or in-app from things like IAP purchase flows and disallow input.
  * 
