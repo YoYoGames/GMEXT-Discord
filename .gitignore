@@ -36,3 +36,7 @@ output/
 # Windows user files
 *.vcxproj.user
 *.vcxproj.filters
+
+source/Discord_gml/extensions/Discord/scriptUtils.bat.bak
+
+source/Discord_gml/extensions/Discord/scriptUtils.sh.bak
