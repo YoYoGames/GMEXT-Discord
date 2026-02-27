@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Discord Demo","order":2,"path":"folders/Discord Demo.yy",},
     {"name":"Activity","order":6,"path":"folders/Discord Demo/Activity.yy",},
     {"name":"Menu","order":2,"path":"folders/Discord Demo/Menu.yy",},
@@ -10,23 +10,23 @@
     {"name":"Objects","order":2,"path":"folders/YoYo Extensions Assets/Objects.yy",},
     {"name":"Sprites","order":1,"path":"folders/YoYo Extensions Assets/Sprites.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
+    {"name":"Discord","order":1,"path":"extensions/Discord/Discord.yy",},
     {"name":"Font_YoYo_20","order":1,"path":"fonts/Font_YoYo_20/Font_YoYo_20.yy",},
+    {"name":"Font_YoYo_30","order":2,"path":"fonts/Font_YoYo_30/Font_YoYo_30.yy",},
+    {"name":"changelog","order":3,"path":"notes/changelog/changelog.yy",},
     {"name":"Obj_Button_GoTo","order":1,"path":"objects/Obj_Button_GoTo/Obj_Button_GoTo.yy",},
+    {"name":"Obj_Discord_Overlay_OpenActivityInvite","order":2,"path":"objects/Obj_Discord_Overlay_OpenActivityInvite/Obj_Discord_Overlay_OpenActivityInvite.yy",},
     {"name":"Obj_Discord_Overlay_OpenGuildInvite","order":3,"path":"objects/Obj_Discord_Overlay_OpenGuildInvite/Obj_Discord_Overlay_OpenGuildInvite.yy",},
+    {"name":"Obj_Discord_Overlay_OpenVoiceSettings","order":4,"path":"objects/Obj_Discord_Overlay_OpenVoiceSettings/Obj_Discord_Overlay_OpenVoiceSettings.yy",},
+    {"name":"Obj_Discord_Overlay_SetLocked","order":5,"path":"objects/Obj_Discord_Overlay_SetLocked/Obj_Discord_Overlay_SetLocked.yy",},
+    {"name":"Obj_Discord_Overlay","order":1,"path":"objects/Obj_Discord_Overlay/Obj_Discord_Overlay.yy",},
+    {"name":"Obj_Discord_Relationship","order":1,"path":"objects/Obj_Discord_Relationship/Obj_Discord_Relationship.yy",},
+    {"name":"Obj_Discord_User","order":1,"path":"objects/Obj_Discord_User/Obj_Discord_User.yy",},
+    {"name":"Obj_YoYo_text","order":1,"path":"objects/Obj_YoYo_text/Obj_YoYo_text.yy",},
+    {"name":"Obj_YoYo_textbox","order":2,"path":"objects/Obj_YoYo_textbox/Obj_YoYo_textbox.yy",},
+    {"name":"Room_Discord_Start","order":7,"path":"rooms/Room_Discord_Start/Room_Discord_Start.yy",},
     {"name":"Spr_YoYo_button","order":1,"path":"sprites/Spr_YoYo_button/Spr_YoYo_button.yy",},
     {"name":"Spr_YoYo_textbox","order":2,"path":"sprites/Spr_YoYo_textbox/Spr_YoYo_textbox.yy",},
-    {"name":"Obj_Discord_Overlay_OpenActivityInvite","order":2,"path":"objects/Obj_Discord_Overlay_OpenActivityInvite/Obj_Discord_Overlay_OpenActivityInvite.yy",},
-    {"name":"Obj_Discord_Overlay_SetLocked","order":5,"path":"objects/Obj_Discord_Overlay_SetLocked/Obj_Discord_Overlay_SetLocked.yy",},
-    {"name":"Obj_Discord_User","order":1,"path":"objects/Obj_Discord_User/Obj_Discord_User.yy",},
-    {"name":"Obj_Discord_Relationship","order":1,"path":"objects/Obj_Discord_Relationship/Obj_Discord_Relationship.yy",},
-    {"name":"Obj_YoYo_textbox","order":2,"path":"objects/Obj_YoYo_textbox/Obj_YoYo_textbox.yy",},
-    {"name":"Font_YoYo_30","order":2,"path":"fonts/Font_YoYo_30/Font_YoYo_30.yy",},
-    {"name":"Obj_Discord_Overlay_OpenVoiceSettings","order":4,"path":"objects/Obj_Discord_Overlay_OpenVoiceSettings/Obj_Discord_Overlay_OpenVoiceSettings.yy",},
-    {"name":"Discord","order":1,"path":"extensions/Discord/Discord.yy",},
-    {"name":"Obj_YoYo_text","order":1,"path":"objects/Obj_YoYo_text/Obj_YoYo_text.yy",},
-    {"name":"changelog","order":3,"path":"notes/changelog/changelog.yy",},
-    {"name":"Obj_Discord_Overlay","order":1,"path":"objects/Obj_Discord_Overlay/Obj_Discord_Overlay.yy",},
-    {"name":"Room_Discord_Start","order":7,"path":"rooms/Room_Discord_Start/Room_Discord_Start.yy",},
   ],
 }
