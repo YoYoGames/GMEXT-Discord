@@ -1,0 +1,2 @@
+
+text = "Clear Rich Presence"

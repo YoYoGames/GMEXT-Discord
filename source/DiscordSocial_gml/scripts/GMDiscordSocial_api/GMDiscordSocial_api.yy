@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"GMDiscordSocial_api",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GMDiscordSocial_api",
+  "parent":{
+    "name":"DiscordSocial",
+    "path":"folders/DiscordSocial/Extensions/DiscordSocial.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

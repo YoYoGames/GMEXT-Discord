@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Call - GMEXT-Discord</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link href="assets/css/gmext_style.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Call";
+        var mkdocs_page_input_path = "call.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/gml.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> GMEXT-Discord
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="general.html">General</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="client.html">Client</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Call</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#functions">Functions</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivityinvite">DiscordActivityInvite</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordaudiodevice">DiscordAudioDevice</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordguildminimal">DiscordGuildMinimal</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordlinkedlobby">DiscordLinkedLobby</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclientresult">DiscordClientResult</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discorduserhandle">DiscordUserHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discorduserapplicationprofilehandle">DiscordUserApplicationProfileHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordchannelhandle">DiscordChannelHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordadditionalcontent">DiscordAdditionalContent</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordlinkedchannel">DiscordLinkedChannel</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcallinfohandle">DiscordCallInfoHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordvoicestatehandle">DiscordVoiceStateHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivityparty">DiscordActivityParty</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitysecrets">DiscordActivitySecrets</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivityassets">DiscordActivityAssets</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitytimestamps">DiscordActivityTimestamps</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitybutton">DiscordActivityButton</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordguildchannel">DiscordGuildChannel</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordrelationshiphandle">DiscordRelationshipHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordrelationshipsnapshot">DiscordRelationshipSnapshot</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordlobbymemberhandle">DiscordLobbyMemberHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcall">DiscordCall</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcallvoicestateentry">DiscordCallVoiceStateEntry</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivity">DiscordActivity</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordlobbyhandle">DiscordLobbyHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordmessagehandle">DiscordMessageHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordusermessagesummary">DiscordUserMessageSummary</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordvadthresholdsettings">DiscordVADThresholdSettings</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclientcreateoptions">DiscordClientCreateOptions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordauthorizationargs">DiscordAuthorizationArgs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcallerror">DiscordCallError</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcallstatus">DiscordCallStatus</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordavatartype">DiscordAvatarType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordadditionalcontenttype">DiscordAdditionalContentType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discorderrortype">DiscordErrorType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordchanneltype">DiscordChannelType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitygameplatforms">DiscordActivityGamePlatforms</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordauthenticationexternalauthtype">DiscordAuthenticationExternalAuthType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordstatustype">DiscordStatusType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordstatusdisplaytypes">DiscordStatusDisplayTypes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitytypes">DiscordActivityTypes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordrelationshiptype">DiscordRelationshipType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordrelationshipgrouptype">DiscordRelationshipGroupType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discorddisclosuretypes">DiscordDisclosureTypes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitypartyprivacy">DiscordActivityPartyPrivacy</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclientthread">DiscordClientThread</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclientstatus">DiscordClientStatus</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#activityactiontypes">ActivityActionTypes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordloggingseverity">DiscordLoggingSeverity</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclienterror">DiscordClientError</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordauthorizationtokentype">DiscordAuthorizationTokenType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordaudiomodetype">DiscordAudioModeType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordaudiosystem">DiscordAudioSystem</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">GMEXT-Discord</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Call</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/YoYoGames/GMEXT-Discord/edit/master/docs/call.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p><a id="top"></a></p>
+<h1 id="call"><strong>Call</strong></h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html">discordpp::Call</a></p>
+<p>The Call module contains functions to manage an active voice session in a Lobby.</p>
+<h2 id="functions">Functions</h2>
+<p>These are the functions in the Call module:</p>
+<ul>
+<li><a href="call.html#discord_social_call_set_audio_mode">discord_social_call_set_audio_mode</a></li>
+<li><a href="call.html#discord_social_call_set_local_mute">discord_social_call_set_local_mute</a></li>
+<li><a href="call.html#discord_social_call_get_local_mute">discord_social_call_get_local_mute</a></li>
+<li><a href="call.html#discord_social_call_get_voice_state_handle">discord_social_call_get_voice_state_handle</a></li>
+<li><a href="call.html#discord_social_call_set_on_voice_state_changed_callback">discord_social_call_set_on_voice_state_changed_callback</a></li>
+<li><a href="call.html#discord_social_call_set_participant_changed_callback">discord_social_call_set_participant_changed_callback</a></li>
+<li><a href="call.html#discord_social_call_set_participant_volume">discord_social_call_set_participant_volume</a></li>
+<li><a href="call.html#discord_social_call_get_participant_volume">discord_social_call_get_participant_volume</a></li>
+<li><a href="call.html#discord_social_call_set_ptt_active">discord_social_call_set_ptt_active</a></li>
+<li><a href="call.html#discord_social_call_set_ptt_release_delay">discord_social_call_set_ptt_release_delay</a></li>
+<li><a href="call.html#discord_social_call_get_ptt_release_delay">discord_social_call_get_ptt_release_delay</a></li>
+<li><a href="call.html#discord_social_call_set_self_deaf">discord_social_call_set_self_deaf</a></li>
+<li><a href="call.html#discord_social_call_set_self_mute">discord_social_call_set_self_mute</a></li>
+<li><a href="call.html#discord_social_call_set_speaking_status_changed_callback">discord_social_call_set_speaking_status_changed_callback</a></li>
+<li><a href="call.html#discord_social_call_set_status_changed_callback">discord_social_call_set_status_changed_callback</a></li>
+<li><a href="call.html#discord_social_call_set_vad_threshold">discord_social_call_set_vad_threshold</a></li>
+<li><a href="call.html#discord_social_call_get_vad_threshold">discord_social_call_get_vad_threshold</a></li>
+<li><a href="call.html#discord_social_call_audio_should_mute">discord_social_call_audio_should_mute</a></li>
+<li><a href="call.html#discord_social_call_fetch_received_data">discord_social_call_fetch_received_data</a></li>
+<li><a href="call.html#discord_social_call_fetch_captured_data">discord_social_call_fetch_captured_data</a></li>
+<li><a href="call.html#discord_social_call_remove_on_voice_state_changed_callback">discord_social_call_remove_on_voice_state_changed_callback</a></li>
+<li><a href="call.html#discord_social_call_remove_participant_changed_callback">discord_social_call_remove_participant_changed_callback</a></li>
+<li><a href="call.html#discord_social_call_remove_speaking_status_changed_callback">discord_social_call_remove_speaking_status_changed_callback</a></li>
+<li><a href="call.html#discord_social_call_remove_status_changed_callback">discord_social_call_remove_status_changed_callback</a></li>
+</ul>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_audio_mode">discord_social_call_set_audio_mode</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#ae6613253763877950408d29f4d68d13f">discordpp::Call::SetAudioMode()</a></p>
+<p>This function sets whether to use voice auto detection or push to talk for the current user on this call.</p>
+<p>If using push to talk you should call <a href="call.html#discord_social_call_set_ptt_active">discord_social_call_set_ptt_active</a> whenever the user presses their confused push to talk key.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_audio_mode(channel_id, audio_mode)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>audio_mode</td>
+<td><a href="general.html#discordaudiomodetype">DiscordAudioModeType</a></td>
+<td>The audio mode type.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_local_mute">discord_social_call_set_local_mute</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#aaf8e7728b15da5d1be8d8b4258225171">discordpp::Call::SetLocalMute()</a></p>
+<p>This function locally mutes the given user ID, so that the current user cannot hear them anymore.</p>
+<p>Does not affect whether the given user is muted for any other connected clients.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_local_mute(channel_id, user_id, mute)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+<tr>
+<td>mute</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether to mute the user (<code>true</code>) or not (<code>false</code>).</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_get_local_mute">discord_social_call_get_local_mute</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#ae71f2a124c13e20f55bf1e6dee5017c3">discordpp::Call::GetLocalMute</a></p>
+<p>This function returns whether the current user has locally muted the given <code>user_id</code> for themselves.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_get_local_mute(channel_id, user_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID to check.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_get_voice_state_handle">discord_social_call_get_voice_state_handle</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#a5b162505a2a076a14ff977ba0377f7a2">discordpp::Call::GetVoiceStateHandle</a></p>
+<p>This function returns a reference to the VoiceStateHandle for the user ID of the given call participant.</p>
+<p>The <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1VoiceStateHandle.html">VoiceStateHandle</a> allows other users to know if the target user has muted or deafened themselves.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_get_voice_state_handle(channel_id, user_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="general.html#discordvoicestatehandle">DiscordVoiceStateHandle</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_on_voice_state_changed_callback">discord_social_call_set_on_voice_state_changed_callback</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#a257a02bdfd79a6443eb810cb687e098a">discordpp::Call::SetOnVoiceStateChangedCallback()</a></p>
+<p>This function sets a callback function to generally be invoked whenever a field on a VoiceStateHandle object for a user would have changed.</p>
+<p>For example when a user mutes themselves, all other connected clients will invoke the VoiceStateChanged callback, because the "self mute" field will be <code>true</code> now. The callback is generally not invoked when users join or leave channels.</p>
+<p>This function operates asynchronously, which means that it does not immediately return the requested result. Instead, upon completion of the task, it will trigger the <a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Method_Variables.htm">Callback</a>.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_on_voice_state_changed_callback(channel_id, callback)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>callback</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Script_Functions.htm">Function</a></td>
+<td>The callback function to use.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<p><strong>Triggers:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Method_Variables.htm">Callback</a></p>
+</blockquote>
+<p>Triggered when a field on a VoiceStateHandle object for a user would have changed.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_participant_changed_callback">discord_social_call_set_participant_changed_callback</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#acb20d338a04abec2369217f41c22c0e5">discordpp::Call::SetParticipantChangedCallback()</a></p>
+<p>This function sets a callback function to be invoked whenever some joins or leaves a voice call.</p>
+<p>This function operates asynchronously, which means that it does not immediately return the requested result. Instead, upon completion of the task, it will trigger the <a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Method_Variables.htm">Callback</a>.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_participant_changed_callback(channel_id, callback)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>callback</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Script_Functions.htm">Function</a></td>
+<td>The callback function to use.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<p><strong>Triggers:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Method_Variables.htm">Callback</a></p>
+</blockquote>
+<p>Triggered when someone joins or leaves a voice call.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+<tr>
+<td>added</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td><code>true</code> if the participant was added, <code>false</code> otherwise.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_participant_volume">discord_social_call_set_participant_volume</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#ad974fadbe89c453e4d8a3f9824e21ceb">discordpp::Call::SetParticipantVolume()</a></p>
+<p>This function locally changes the playout volume of the given user ID.</p>
+<p>Does not affect the volume of this user for any other connected clients. The range of volume is [0, 200], where 100 indicate default audio volume of the playback device.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_participant_volume(channel_id, user_id, vol)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+<tr>
+<td>vol</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The volume.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_get_participant_volume">discord_social_call_get_participant_volume</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#aeff7fa60c6029ffde272160bf1f16748">discordpp::Call::GetParticipantVolume</a></p>
+<p>This function returns the locally set playout volume of the given <code>user_id</code>.</p>
+<p>Does not affect the volume of this user for any other connected clients. The range of volume is [0, 200], where 100 indicates default audio volume of the playback device.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_get_participant_volume(channel_id, user_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_ptt_active">discord_social_call_set_ptt_active</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#ac442b1d69b9256abbb188583c0c81c41">discordpp::Call::SetPTTActive()</a></p>
+<p>When push to talk is enabled, this should be called whenever the user pushes or releases their configured push to talk key. This key must be configured in the game, the SDK does not handle keybinds itself.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_ptt_active(channel_id, active)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>active</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether push to talk should be active.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_ptt_release_delay">discord_social_call_set_ptt_release_delay</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#ad3d36056f2b19a98d5efb99897753b66">discordpp::Call::SetPTTReleaseDelay()</a></p>
+<p>If set, extends the time that PTT is active after the user releases the PTT key and <code>discord_social_call_set_ptt_active(false)</code> is called.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_ptt_release_delay(channel_id, release_delay_ms)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>release_delay_ms</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The release delay in milliseconds.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_get_ptt_release_delay">discord_social_call_get_ptt_release_delay</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#ab8dc6b1527728fecb17f266d5b3e9e6e">discordpp::Call::GetPTTReleaseDelay</a></p>
+<p>This function returns the time that PTT is active after the user releases the PTT key and <code>discord_social_call_set_ptt_active(false)</code> is called.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_get_ptt_release_delay(channel_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_self_deaf">discord_social_call_set_self_deaf</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#a07d67c210f2a4655c6f1d2899c6d32d6">discordpp::Call::SetSelfDeaf()</a></p>
+<p>This function mutes all audio from the currently active call for the current user. They will not be able to hear any other participants, and no other participants will be able to hear the current user either.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_self_deaf(channel_id, deaf)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>deaf</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether to mute all audio (<code>true</code>) or not (<code>false</code>).</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_self_mute">discord_social_call_set_self_mute</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#afa35a5d6a4564df97452df58bb74f617">discordpp::Call::SetSelfMute()</a></p>
+<p>This function mutes the current user's microphone so that no other participant in their active calls can hear them.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_self_mute(channel_id, mute)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>mute</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether to mute the current user's microphone (<code>true</code>) or not (<code>false</code>).</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_speaking_status_changed_callback">discord_social_call_set_speaking_status_changed_callback</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#ab29b68345ffa1d6af3c8321bdc39e9f0">discordpp::Call::SetSpeakingStatusChangedCallback()</a></p>
+<p>This function sets a callback function to be invoked whenever a user starts or stops speaking and is passed in the user ID and whether they are currently speaking.</p>
+<p>It can be invoked in other cases as well, such as if the priority speaker changes or if the user plays a soundboard sound.</p>
+<p>This function operates asynchronously, which means that it does not immediately return the requested result. Instead, upon completion of the task, it will trigger the <a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Method_Variables.htm">Callback</a>.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_speaking_status_changed_callback(channel_id, callback)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>callback</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Script_Functions.htm">Function</a></td>
+<td>The callback function to use.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<p><strong>Triggers:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Method_Variables.htm">Callback</a></p>
+</blockquote>
+<p>Triggered when a user's speaking status changed.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+<tr>
+<td>is_playing_sound</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether the user is currently speaking.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_status_changed_callback">discord_social_call_set_status_changed_callback</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#adffbbbd726f05fa574c96635e76c7860">discordpp::Call::SetStatusChangedCallback()</a></p>
+<p>This function sets a callback function to be invoked when the call status changes, such as when it fully connects or starts reconnecting.</p>
+<p>This function operates asynchronously, which means that it does not immediately return the requested result. Instead, upon completion of the task, it will trigger the <a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Method_Variables.htm">Callback</a>.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_status_changed_callback(channel_id, callback)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>callback</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Script_Functions.htm">Function</a></td>
+<td>The callback function to use.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<p><strong>Triggers:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Method_Variables.htm">Callback</a></p>
+</blockquote>
+<p>Triggered when the call status changes.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td><a href="general.html#discordcallstatus">DiscordCallStatus</a></td>
+<td>The call status.</td>
+</tr>
+<tr>
+<td>error</td>
+<td><a href="general.html#discordcallerror">DiscordCallError</a></td>
+<td>The error code.</td>
+</tr>
+<tr>
+<td>error_detail</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>A 32 bit value indicating the detailed error.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_set_vad_threshold">discord_social_call_set_vad_threshold</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#a7c3fd83c5dfe37d796e30c5e28c93b6e">discordpp::Call::SetVADThreshold()</a></p>
+<p>This function customizes the void auto detection thresholds for picking up activity from a user's mic.</p>
+<ul>
+<li>When <code>automatic</code> is set to <code>true</code>, Discord will automatically detect the appropriate threshold to use.</li>
+<li>When <code>automatic</code> is set to <code>false</code>, the given threshold value will be used.</li>
+</ul>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_set_vad_threshold(channel_id, automatic, threshold)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+<tr>
+<td>automatic</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether to automatically detect the appropriate threshold to use.</td>
+</tr>
+<tr>
+<td>threshold</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The threshold value. Threshold has a range of -100, 0, and defaults to -60.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_get_vad_threshold">discord_social_call_get_vad_threshold</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#a55fbfb0e3333f227bf16801b787f0a63">discordpp::Call::GetVADThreshold</a></p>
+<p>This function returns the current configuration for void auto detection thresholds. See the description of the struct for specifics.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_get_vad_threshold(channel_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="general.html#discordvadthresholdsettings">DiscordVADThresholdSettings</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_audio_should_mute">discord_social_call_audio_should_mute</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function sets whether audio played by Discord should be muted in the audio received callback (see <a href="client.html#discord_social_client_start_call_with_audio_callbacks">discord_social_client_start_call_with_audio_callbacks</a>). If you process and play the audio yourself you can set this to <code>true</code> to mute the audio being played by Discord.</p>
+<p>See: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Client.html#a49934aeb3ba5093c2362dedfd1e9ad3b">discordpp::Client::UserAudioReceivedCallback</a></p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_audio_should_mute(should_mute)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>should_mute</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether to mute the audio played by Discord or not.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p>N/A</p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_fetch_received_data">discord_social_call_fetch_received_data</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function fetches received data in a buffer and returns the number of bytes written to the buffer.</p>
+<p>In the next frame the <code>out_buffer</code> is cleared and writing of new audio starts at the start of the buffer.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A call must first have been started using <a href="client.html#discord_social_client_start_call_with_audio_callbacks">discord_social_client_start_call_with_audio_callbacks</a>.</p>
+</div>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_fetch_received_data(lobby_id, user_id, out_buffer)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lobby_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The lobby ID.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+<tr>
+<td>out_buffer</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Buffers/Buffers.htm">Buffer</a></td>
+<td>The buffer to write the data to (needs to be <strong>at least</strong> samples_per_channel * number_of_channels, where each sample is two bytes).</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_fetch_captured_data">discord_social_call_fetch_captured_data</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function fetches captured data in a buffer and returns the number of bytes written to the buffer.</p>
+<p>In the next frame the <code>out_buffer</code> is cleared and writing of new audio starts at the start of the buffer.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A call must first have been started using <a href="client.html#discord_social_client_start_call_with_audio_callbacks">discord_social_client_start_call_with_audio_callbacks</a>.</p>
+</div>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_fetch_captured_data(lobby_id, out_buffer)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lobby_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The lobby ID.</td>
+</tr>
+<tr>
+<td>out_buffer</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Buffers/Buffers.htm">Buffer</a></td>
+<td>The buffer to write the data to (needs to be <strong>at least</strong> samples_per_channel * number_of_channels, where each sample is two bytes).</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_remove_on_voice_state_changed_callback">discord_social_call_remove_on_voice_state_changed_callback</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function removes the callback set with a call to <a href="call.html#discord_social_call_set_on_voice_state_changed_callback">discord_social_call_set_on_voice_state_changed_callback</a>.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_remove_on_voice_state_changed_callback(channel_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p>N/A</p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_remove_participant_changed_callback">discord_social_call_remove_participant_changed_callback</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function removes the callback set with a call to <a href="call.html#discord_social_call_set_participant_changed_callback">discord_social_call_set_participant_changed_callback</a>.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_remove_participant_changed_callback(channel_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p>N/A</p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_remove_speaking_status_changed_callback">discord_social_call_remove_speaking_status_changed_callback</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function removes the callback set with a call to <a href="call.html#discord_social_call_set_speaking_status_changed_callback">discord_social_call_set_speaking_status_changed_callback</a>.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_remove_speaking_status_changed_callback(channel_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p>N/A</p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_call_remove_status_changed_callback">discord_social_call_remove_status_changed_callback</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function removes the callback set with a call to <a href="call.html#discord_social_call_set_status_changed_callback">discord_social_call_set_status_changed_callback</a>.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_call_remove_status_changed_callback(channel_id)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p>N/A</p>
+</blockquote>
+<p><br></p>
+<hr />
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="client.html" class="btn btn-neutral float-left" title="Client"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>YoYoGames 2026</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/YoYoGames/GMEXT-Discord" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="client.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/gml.min.js"></script>
+      <script src="assets/js/gmext_script.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

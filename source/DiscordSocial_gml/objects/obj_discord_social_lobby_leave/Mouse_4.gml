@@ -1,0 +1,16 @@
+
+if(locked)
+	exit
+
+discord_social_call_remove_speaking_status_changed_callback(obj_discord_social_lobby_create_join.lobby_id)
+discord_social_call_remove_on_voice_state_changed_callback(obj_discord_social_lobby_create_join.lobby_id)
+discord_social_call_remove_participant_changed_callback(obj_discord_social_lobby_create_join.lobby_id)
+
+discord_social_client_leave_lobby(obj_discord_social_lobby_create_join.lobby_id,function(){})
+
+obj_discord_social_lobby_create_join.locked = false
+obj_discord_social_lobby_leave.locked = true
+obj_discord_social_lobby_send_message.locked = true
+obj_discord_social_lobby_call.locked = true
+obj_discord_social_lobby_end_call.locked = true
+			
