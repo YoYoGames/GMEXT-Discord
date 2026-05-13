@@ -1,0 +1,3127 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>General - GMEXT-Discord</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link href="assets/css/gmext_style.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "General";
+        var mkdocs_page_input_path = "general.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/gml.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> GMEXT-Discord
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">General</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#functions">Functions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#structs">Structs</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#constants">Constants</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="client.html">Client</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="call.html">Call</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivityinvite">DiscordActivityInvite</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordaudiodevice">DiscordAudioDevice</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordguildminimal">DiscordGuildMinimal</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordlinkedlobby">DiscordLinkedLobby</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclientresult">DiscordClientResult</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discorduserhandle">DiscordUserHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discorduserapplicationprofilehandle">DiscordUserApplicationProfileHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordchannelhandle">DiscordChannelHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordadditionalcontent">DiscordAdditionalContent</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordlinkedchannel">DiscordLinkedChannel</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcallinfohandle">DiscordCallInfoHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordvoicestatehandle">DiscordVoiceStateHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivityparty">DiscordActivityParty</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitysecrets">DiscordActivitySecrets</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivityassets">DiscordActivityAssets</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitytimestamps">DiscordActivityTimestamps</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitybutton">DiscordActivityButton</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordguildchannel">DiscordGuildChannel</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordrelationshiphandle">DiscordRelationshipHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordrelationshipsnapshot">DiscordRelationshipSnapshot</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordlobbymemberhandle">DiscordLobbyMemberHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcall">DiscordCall</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcallvoicestateentry">DiscordCallVoiceStateEntry</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivity">DiscordActivity</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordlobbyhandle">DiscordLobbyHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordmessagehandle">DiscordMessageHandle</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordusermessagesummary">DiscordUserMessageSummary</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordvadthresholdsettings">DiscordVADThresholdSettings</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclientcreateoptions">DiscordClientCreateOptions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordauthorizationargs">DiscordAuthorizationArgs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcallerror">DiscordCallError</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordcallstatus">DiscordCallStatus</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordavatartype">DiscordAvatarType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordadditionalcontenttype">DiscordAdditionalContentType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discorderrortype">DiscordErrorType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordchanneltype">DiscordChannelType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitygameplatforms">DiscordActivityGamePlatforms</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordauthenticationexternalauthtype">DiscordAuthenticationExternalAuthType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordstatustype">DiscordStatusType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordstatusdisplaytypes">DiscordStatusDisplayTypes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitytypes">DiscordActivityTypes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordrelationshiptype">DiscordRelationshipType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordrelationshipgrouptype">DiscordRelationshipGroupType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discorddisclosuretypes">DiscordDisclosureTypes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordactivitypartyprivacy">DiscordActivityPartyPrivacy</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclientthread">DiscordClientThread</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclientstatus">DiscordClientStatus</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#activityactiontypes">ActivityActionTypes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordloggingseverity">DiscordLoggingSeverity</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordclienterror">DiscordClientError</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordauthorizationtokentype">DiscordAuthorizationTokenType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordaudiomodetype">DiscordAudioModeType</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="general.md#discordaudiosystem">DiscordAudioSystem</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">GMEXT-Discord</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">General</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/YoYoGames/GMEXT-Discord/edit/master/docs/general.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p><a id="top"></a></p>
+<h1 id="general"><strong>General</strong></h1>
+<p><strong>Discord Class</strong>: N / A</p>
+<p>This is the General module.</p>
+<h2 id="functions">Functions</h2>
+<p>These are the functions in the General module:</p>
+<ul>
+<li><a href="general.html#discord_social_init">discord_social_init</a></li>
+<li><a href="general.html#discord_social_shutdown">discord_social_shutdown</a></li>
+<li><a href="general.html#discord_social_run_callbacks">discord_social_run_callbacks</a></li>
+</ul>
+<h2 id="structs">Structs</h2>
+<p>These are the structs used by the Discord Social extension:</p>
+<ul>
+<li><a href="general.html#discordactivityinvite">DiscordActivityInvite</a></li>
+<li><a href="general.html#discordaudiodevice">DiscordAudioDevice</a></li>
+<li><a href="general.html#discordguildminimal">DiscordGuildMinimal</a></li>
+<li><a href="general.html#discordlinkedlobby">DiscordLinkedLobby</a></li>
+<li><a href="general.html#discordclientresult">DiscordClientResult</a></li>
+<li><a href="general.html#discorduserhandle">DiscordUserHandle</a></li>
+<li><a href="general.html#discorduserapplicationprofilehandle">DiscordUserApplicationProfileHandle</a></li>
+<li><a href="general.html#discordchannelhandle">DiscordChannelHandle</a></li>
+<li><a href="general.html#discordadditionalcontent">DiscordAdditionalContent</a></li>
+<li><a href="general.html#discordlinkedchannel">DiscordLinkedChannel</a></li>
+<li><a href="general.html#discordcallinfohandle">DiscordCallInfoHandle</a></li>
+<li><a href="general.html#discordvoicestatehandle">DiscordVoiceStateHandle</a></li>
+<li><a href="general.html#discordactivityparty">DiscordActivityParty</a></li>
+<li><a href="general.html#discordactivitysecrets">DiscordActivitySecrets</a></li>
+<li><a href="general.html#discordactivityassets">DiscordActivityAssets</a></li>
+<li><a href="general.html#discordactivitytimestamps">DiscordActivityTimestamps</a></li>
+<li><a href="general.html#discordactivitybutton">DiscordActivityButton</a></li>
+<li><a href="general.html#discordguildchannel">DiscordGuildChannel</a></li>
+<li><a href="general.html#discordrelationshiphandle">DiscordRelationshipHandle</a></li>
+<li><a href="general.html#discordrelationshipsnapshot">DiscordRelationshipSnapshot</a></li>
+<li><a href="general.html#discordlobbymemberhandle">DiscordLobbyMemberHandle</a></li>
+<li><a href="general.html#discordcall">DiscordCall</a></li>
+<li><a href="general.html#discordcallvoicestateentry">DiscordCallVoiceStateEntry</a></li>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+<li><a href="general.html#discordlobbyhandle">DiscordLobbyHandle</a></li>
+<li><a href="general.html#discordmessagehandle">DiscordMessageHandle</a></li>
+<li><a href="general.html#discordusermessagesummary">DiscordUserMessageSummary</a></li>
+<li><a href="general.html#discordvadthresholdsettings">DiscordVADThresholdSettings</a></li>
+<li><a href="general.html#discordclientcreateoptions">DiscordClientCreateOptions</a></li>
+<li><a href="general.html#discordauthorizationargs">DiscordAuthorizationArgs</a></li>
+</ul>
+<h2 id="constants">Constants</h2>
+<p>These are the constants used by the Discord Social extension:</p>
+<ul>
+<li><a href="general.html#discordcallerror">DiscordCallError</a></li>
+<li><a href="general.html#discordcallstatus">DiscordCallStatus</a></li>
+<li><a href="general.html#discordavatartype">DiscordAvatarType</a></li>
+<li><a href="general.html#discordadditionalcontenttype">DiscordAdditionalContentType</a></li>
+<li><a href="general.html#discorderrortype">DiscordErrorType</a></li>
+<li><a href="general.html#discordchanneltype">DiscordChannelType</a></li>
+<li><a href="general.html#discordactivitygameplatforms">DiscordActivityGamePlatforms</a></li>
+<li><a href="general.html#discordauthenticationexternalauthtype">DiscordAuthenticationExternalAuthType</a></li>
+<li><a href="general.html#discordstatustype">DiscordStatusType</a></li>
+<li><a href="general.html#discordstatusdisplaytypes">DiscordStatusDisplayTypes</a></li>
+<li><a href="general.html#discordactivitytypes">DiscordActivityTypes</a></li>
+<li><a href="general.html#discordrelationshiptype">DiscordRelationshipType</a></li>
+<li><a href="general.html#discordrelationshipgrouptype">DiscordRelationshipGroupType</a></li>
+<li><a href="general.html#discorddisclosuretypes">DiscordDisclosureTypes</a></li>
+<li><a href="general.html#discordactivitypartyprivacy">DiscordActivityPartyPrivacy</a></li>
+<li><a href="general.html#discordclientthread">DiscordClientThread</a></li>
+<li><a href="general.html#discordclientstatus">DiscordClientStatus</a></li>
+<li><a href="general.html#activityactiontypes">ActivityActionTypes</a></li>
+<li><a href="general.html#discordloggingseverity">DiscordLoggingSeverity</a></li>
+<li><a href="general.html#discordclienterror">DiscordClientError</a></li>
+<li><a href="general.html#discordauthorizationtokentype">DiscordAuthorizationTokenType</a></li>
+<li><a href="general.html#discordaudiomodetype">DiscordAudioModeType</a></li>
+<li><a href="general.html#discordaudiosystem">DiscordAudioSystem</a></li>
+</ul>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_run_callbacks">discord_social_run_callbacks</h1>
+<p><strong>Discord Function</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#ab5dd8cf274f581ee1885de5816be3c29">discordpp::RunCallbacks()</a></p>
+<p>This function runs pending callbacks from the Discord SDK.</p>
+<p>You should call this function periodically to process callbacks, e.g. once per frame.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_run_callbacks()</code></p>
+</blockquote>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p>N/A</p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_init">discord_social_init</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function initialises the Discord Social extension.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_init(options=undefined)</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><a href="general.html#discordclientcreateoptions">DiscordClientCreateOptions</a></td>
+<td>The options to pass to the Discord client instance being created.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p>N/A</p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discord_social_shutdown">discord_social_shutdown</h1>
+<p><strong>Discord Function</strong>: N / A</p>
+<p>This function shuts down the Discord Social extension.</p>
+<p><br></p>
+<p><strong>Syntax:</strong></p>
+<blockquote>
+<p><code>gml
+discord_social_shutdown()</code></p>
+</blockquote>
+<p><br></p>
+<p><strong>Returns:</strong></p>
+<blockquote>
+<p>N/A</p>
+</blockquote>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordcallerror">DiscordCallError</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#a92b477828e777e1cab576821a170dff0">discordpp::Call::Error</a></p>
+<p>This enum represents any network errors with the Call.</p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="call.html#discord_social_call_set_status_changed_callback">discord_social_call_set_status_changed_callback</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>None</code></td>
+<td>None.</td>
+</tr>
+<tr>
+<td><code>SignalingConnectionFailed</code></td>
+<td>SignalingConnectionFailed.</td>
+</tr>
+<tr>
+<td><code>SignalingUnexpectedClose</code></td>
+<td>SignalingUnexpectedClose.</td>
+</tr>
+<tr>
+<td><code>VoiceConnectionFailed</code></td>
+<td>VoiceConnectionFailed.</td>
+</tr>
+<tr>
+<td><code>JoinTimeout</code></td>
+<td>JoinTimeout.</td>
+</tr>
+<tr>
+<td><code>Forbidden</code></td>
+<td>Forbidden.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordcallstatus">DiscordCallStatus</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html#a9a8311653be2263ad61243749ff44d4e">discordpp::Call::Status</a></p>
+<p>This enum respresents the state of the Call's network connection.</p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="call.html#discord_social_call_set_status_changed_callback">discord_social_call_set_status_changed_callback</a></li>
+</ul>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordcall">DiscordCall</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Disconnected</code></td>
+<td>Disconnected.</td>
+</tr>
+<tr>
+<td><code>Joining</code></td>
+<td>Joining.</td>
+</tr>
+<tr>
+<td><code>Connecting</code></td>
+<td>Connecting.</td>
+</tr>
+<tr>
+<td><code>SignalingConnected</code></td>
+<td>SignalingConnected.</td>
+</tr>
+<tr>
+<td><code>Connected</code></td>
+<td>Connected.</td>
+</tr>
+<tr>
+<td><code>Reconnecting</code></td>
+<td>Reconnecting.</td>
+</tr>
+<tr>
+<td><code>Disconnecting</code></td>
+<td>Disconnecting.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordavatartype">DiscordAvatarType</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1UserHandle.html#a9cbf5933bc6181eb1900574f6eda9b18">discordpp::UserHandle::AvatarType</a></p>
+<p>This enum represents the desired type of avatar URL to generate for a User.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discorduserhandle">DiscordUserHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Gif</code></td>
+<td>Gif.</td>
+</tr>
+<tr>
+<td><code>Webp</code></td>
+<td>Webp.</td>
+</tr>
+<tr>
+<td><code>Png</code></td>
+<td>Png.</td>
+</tr>
+<tr>
+<td><code>Jpeg</code></td>
+<td>Jpeg.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordadditionalcontenttype">DiscordAdditionalContentType</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#aee4b786af6ac9cd4ade73eb2f873177b">discordpp::AdditionalContentType</a></p>
+<p>This enum represents the type of additional content contained in a message.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordadditionalcontent">DiscordAdditionalContent</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Other</code></td>
+<td>Other.</td>
+</tr>
+<tr>
+<td><code>Attachment</code></td>
+<td>Attachment.</td>
+</tr>
+<tr>
+<td><code>Poll</code></td>
+<td>Poll.</td>
+</tr>
+<tr>
+<td><code>VoiceMessage</code></td>
+<td>VoiceMessage.</td>
+</tr>
+<tr>
+<td><code>Thread</code></td>
+<td>Thread.</td>
+</tr>
+<tr>
+<td><code>Embed</code></td>
+<td>Embed.</td>
+</tr>
+<tr>
+<td><code>Sticker</code></td>
+<td>Sticker.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discorderrortype">DiscordErrorType</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#ae19a5aed498bc40359e4d89d14ffb446">discordpp::ErrorType</a></p>
+<p>This enum represents the various types of errors the SDK returns.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordclientresult">DiscordClientResult</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>None</code></td>
+<td>No error, the operation was successful.</td>
+</tr>
+<tr>
+<td><code>NetworkError</code></td>
+<td>The user is offline or there was some network issue that prevented an underlying HTTP call from succeeding.</td>
+</tr>
+<tr>
+<td><code>HTTPError</code></td>
+<td>An HTTP call was made to Discord's servers but a non success HTTP status code was returned. In some cases this may be retryable, and if so ClientResult::Retryable will be true. In most cases though the failure is due to a validation or permissions error, and the request is not retryable. ClientResult::Error and ClientResult::ErrorCode will have more information.</td>
+</tr>
+<tr>
+<td><code>ClientNotReady</code></td>
+<td>An operation such as sending a friend request or joining a lobby was attempted but the Client is not yet ready. Wait for Client::Status to change to Client::Status::Ready before trying again. Also be sure to call Client::Connect to begin the process of connecting to Discord's servers, otherwise the Client will never become ready.</td>
+</tr>
+<tr>
+<td><code>Disabled</code></td>
+<td>An operation was temporarily disabled for stability reasons.</td>
+</tr>
+<tr>
+<td><code>ClientDestroyed</code></td>
+<td>The Client has been destroyed and so this operation cannot complete.</td>
+</tr>
+<tr>
+<td><code>ValidationError</code></td>
+<td>Used when an SDK method is called but the inputs don't pass local validation. For example if one attempts to accept a friend request when there is no pending friend request for that user, this ErrorType would be used. The specific validation error will be included in the error field, and no other ClientResult fields will be set.</td>
+</tr>
+<tr>
+<td><code>Aborted</code></td>
+<td>The user or developer aborted an operation, such as an authorization flow.</td>
+</tr>
+<tr>
+<td><code>AuthorizationFailed</code></td>
+<td>An authorization function failed, but not necessarily as the result of an HTTP call that returned an error.</td>
+</tr>
+<tr>
+<td><code>RPCError</code></td>
+<td>An RPC call was made to Discord's desktop application, but it returned a non-success result. The error and errorCode fields should both be set with more information.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordchanneltype">DiscordChannelType</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a1b68b260e8659da9a7792b2b2046fe58">discordpp::ChannelType</a></p>
+<p>This enum represents the various channel types on Discord.</p>
+<p>For more information see:</p>
+<blockquote>
+<p>https://discord.com/developers/docs/resources/channel</p>
+</blockquote>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordguildchannel">DiscordGuildChannel</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>GuildText</code></td>
+<td>GuildText.</td>
+</tr>
+<tr>
+<td><code>Dm</code></td>
+<td>Dm.</td>
+</tr>
+<tr>
+<td><code>GuildVoice</code></td>
+<td>GuildVoice.</td>
+</tr>
+<tr>
+<td><code>GroupDm</code></td>
+<td>GroupDm.</td>
+</tr>
+<tr>
+<td><code>GuildCategory</code></td>
+<td>GuildCategory.</td>
+</tr>
+<tr>
+<td><code>GuildNews</code></td>
+<td>GuildNews.</td>
+</tr>
+<tr>
+<td><code>GuildStore</code></td>
+<td>GuildStore.</td>
+</tr>
+<tr>
+<td><code>GuildNewsThread</code></td>
+<td>GuildNewsThread.</td>
+</tr>
+<tr>
+<td><code>GuildPublicThread</code></td>
+<td>GuildPublicThread.</td>
+</tr>
+<tr>
+<td><code>GuildPrivateThread</code></td>
+<td>GuildPrivateThread.</td>
+</tr>
+<tr>
+<td><code>GuildStageVoice</code></td>
+<td>GuildStageVoice.</td>
+</tr>
+<tr>
+<td><code>GuildDirectory</code></td>
+<td>GuildDirectory.</td>
+</tr>
+<tr>
+<td><code>GuildForum</code></td>
+<td>GuildForum.</td>
+</tr>
+<tr>
+<td><code>GuildMedia</code></td>
+<td>GuildMedia.</td>
+</tr>
+<tr>
+<td><code>Lobby</code></td>
+<td>Lobby.</td>
+</tr>
+<tr>
+<td><code>EphemeralDm</code></td>
+<td>EphemeralDm.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordstatusdisplaytypes">DiscordStatusDisplayTypes</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a9a99c608f6825577fbcd89ded0378e25">discordpp::StatusDisplayTypes</a></p>
+<p>This enum lists which Discord RichPresence field is displayed in the user's status.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Name</code></td>
+<td>Name.</td>
+</tr>
+<tr>
+<td><code>State</code></td>
+<td>State.</td>
+</tr>
+<tr>
+<td><code>Details</code></td>
+<td>Details.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivitygameplatforms">DiscordActivityGamePlatforms</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a591ad54a3029d15c9c58d6064770fe87">discordpp::ActivityGamePlatforms</a></p>
+<p>This enum represents the type of platforms that an activity invite can be accepted on.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Desktop</code></td>
+<td>Desktop.</td>
+</tr>
+<tr>
+<td><code>Xbox</code></td>
+<td>Xbox.</td>
+</tr>
+<tr>
+<td><code>Samsung</code></td>
+<td>Samsung.</td>
+</tr>
+<tr>
+<td><code>IOS</code></td>
+<td>IOS.</td>
+</tr>
+<tr>
+<td><code>Android</code></td>
+<td>Android.</td>
+</tr>
+<tr>
+<td><code>Embedded</code></td>
+<td>Embedded.</td>
+</tr>
+<tr>
+<td><code>PS4</code></td>
+<td>PS4.</td>
+</tr>
+<tr>
+<td><code>PS5</code></td>
+<td>PS5.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordauthenticationexternalauthtype">DiscordAuthenticationExternalAuthType</h1>
+<p><strong>Discord Docs</strong>: <a href="https://discord.com/developers/docs/social-sdk/authentication.html#autotoc_md53">External Auth Types</a></p>
+<p>This enumeration lists the possible external auth types.</p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_provisional_token">discord_social_client_get_provisional_token</a></li>
+<li><a href="client.html#discord_social_client_get_token_from_device_provisional_merge">discord_social_client_get_token_from_device_provisional_merge</a></li>
+<li><a href="client.html#discord_social_client_get_token_from_provisional_merge">discord_social_client_get_token_from_provisional_merge</a></li>
+<li><a href="client.html#discord_social_client_unmerge_into_provisional_account">discord_social_client_unmerge_into_provisional_account</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OIDC</code></td>
+<td>OpenID Connect ID token.</td>
+</tr>
+<tr>
+<td><code>EpicOnlineServicesAccessToken</code></td>
+<td>Access token for Epic Online Services. Supports EOS Auth access tokens.</td>
+</tr>
+<tr>
+<td><code>EpicOnlineServicesIdToken</code></td>
+<td>ID token for Epic Online Services. Supports both EOS Auth + Connect ID tokens.</td>
+</tr>
+<tr>
+<td><code>SteamSessionTicket</code></td>
+<td>A Steam auth ticket for web generated with <code>discord</code> as the <code>identity</code>.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordstatustype">DiscordStatusType</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a7e874dde2b41420ed5d26d4bc3ea5b43">discordpp::StatusType</a></p>
+<p>This enum specifies the various online statuses for a user.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discorduserhandle">DiscordUserHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Online</code></td>
+<td>The user is online and recently active.</td>
+</tr>
+<tr>
+<td><code>Offline</code></td>
+<td>The user is offline and not connected to Discord.</td>
+</tr>
+<tr>
+<td><code>Blocked</code></td>
+<td>Blocked.</td>
+</tr>
+<tr>
+<td><code>Idle</code></td>
+<td>The user is online, but has not been active for a while and may be away from their computer.</td>
+</tr>
+<tr>
+<td><code>Dnd</code></td>
+<td>The user is online, but wishes to suppress notifications for the time being.</td>
+</tr>
+<tr>
+<td><code>Invisible</code></td>
+<td>The user is online, but wishes to appear as if they are offline to other users.</td>
+</tr>
+<tr>
+<td><code>Streaming</code></td>
+<td>The user is online and is actively streaming content.</td>
+</tr>
+<tr>
+<td><code>Unknown</code></td>
+<td>Unknown.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivitytypes">DiscordActivityTypes</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a6c76a8cbbc9270f025fd6854d5558660">discordpp::ActivityTypes</a></p>
+<p>This enumeration holds the possible types of activities that a user can be doing.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Playing</code></td>
+<td>Playing.</td>
+</tr>
+<tr>
+<td><code>Streaming</code></td>
+<td>Streaming.</td>
+</tr>
+<tr>
+<td><code>Listening</code></td>
+<td>Listening.</td>
+</tr>
+<tr>
+<td><code>Watching</code></td>
+<td>Watching.</td>
+</tr>
+<tr>
+<td><code>CustomStatus</code></td>
+<td>CustomStatus.</td>
+</tr>
+<tr>
+<td><code>Competing</code></td>
+<td>Competing.</td>
+</tr>
+<tr>
+<td><code>HangStatus</code></td>
+<td>HangStatus.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordrelationshiptype">DiscordRelationshipType</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a28fc5199b9211c24124c06f30c1d0cbb">discordpp::RelationshipType</a></p>
+<p>This enum represents the possible types of relationships that can exist between two users.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordrelationshipsnapshot">DiscordRelationshipSnapshot</a></li>
+<li><a href="general.html#discordrelationshiphandle">DiscordRelationshipHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>None</code></td>
+<td>The user has no relationship with the other user.</td>
+</tr>
+<tr>
+<td><code>Friend</code></td>
+<td>The user is friends with the other user.</td>
+</tr>
+<tr>
+<td><code>Blocked</code></td>
+<td>The current user has blocked the target user, and so certain actions such as sending messages between these users will not work.</td>
+</tr>
+<tr>
+<td><code>PendingIncoming</code></td>
+<td>The current user has received a friend request from the target user, but it is not yet accepted.</td>
+</tr>
+<tr>
+<td><code>PendingOutgoing</code></td>
+<td>The current user has sent a friend request to the target user, but it is not yet accepted.</td>
+</tr>
+<tr>
+<td><code>Implicit</code></td>
+<td>The Implicit type is documented for visibility, but should be unused in the SDK.</td>
+</tr>
+<tr>
+<td><code>Suggestion</code></td>
+<td>The Suggestion type is documented for visibility, but should be unused in the SDK.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordrelationshipgrouptype">DiscordRelationshipGroupType</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a503ed2f7b0bfbd435321a0e8b1dfba35">discordpp::RelationshipGroupType</a></p>
+<p>Enum that represents the logical groups of relationships based on online status and game activity.</p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_relationships_by_group">discord_social_client_get_relationships_by_group</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OnlinePlayingGame</code></td>
+<td>Users who are online and currently playing the game.</td>
+</tr>
+<tr>
+<td><code>OnlineElsewhere</code></td>
+<td>Users who are online but not playing the game.</td>
+</tr>
+<tr>
+<td><code>Offline</code></td>
+<td>Users who are offline.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discorddisclosuretypes">DiscordDisclosureTypes</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a0d3a4099faa1d5870eb8a49828e05d34">discordpp::DisclosureTypes</a></p>
+<p>This enum represents various informational disclosures that Discord may make to users, so that the game can identity them and customize their rendering as desired.</p>
+<p>See <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1MessageHandle.html">MessageHandle</a> for more details.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordmessagehandle">DiscordMessageHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MessageDataVisibleOnDiscord</code></td>
+<td>This disclosure type happens the first time a user sends a message in game, and that message will be able to be viewed on Discord, so the user knows their content is being copied out of the game.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivitypartyprivacy">DiscordActivityPartyPrivacy</h1>
+<p><strong>Discord Enum</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a05688bf2282548dba7cca3fd26f8dbd4">discordpp::ActivityPartyPrivacy</a></p>
+<p>Allows your game to control the privacy of the party the user is in.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivityparty">DiscordActivityParty</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Private</code></td>
+<td>The party is private (or unknown), which means that the user is in a party but it is not joinable without sending a request to join the party. This is the default value. You will also receive this value when receiving other users' activities as the party privacy for other users is not exposed.</td>
+</tr>
+<tr>
+<td><code>Public</code></td>
+<td>The party is public, which means that the user is in a party which <em>could</em> be joinable by either friends or mutual voice participants without sending a request to join the party. This depends on a user's desired Discord account privacy settings.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordclientthread">DiscordClientThread</h1>
+<p><strong>Discord Enumeration</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Client.html#adadf74b4796b37cf738bdaa61993f0ba">discordpp::Client::Thread</a></p>
+<p>This enum represents the type of thread to control thread priority on.</p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_set_thread_priority">discord_social_client_set_thread_priority</a></li>
+<li><a href="client.html#discord_social_client_thread_to_string">discord_social_client_thread_to_string</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Client</code></td>
+<td>Client.</td>
+</tr>
+<tr>
+<td><code>Voice</code></td>
+<td>Voice.</td>
+</tr>
+<tr>
+<td><code>Network</code></td>
+<td>Network.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordclientstatus">DiscordClientStatus</h1>
+<p><strong>Discord Enumeration</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Client.html#a6f714c5d6aebefa91c1ff8ba97bcce22">discordpp::Client::Status</a></p>
+<p>This enum refers to the status of the internal websocket the SDK uses to communicate with Discord.</p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_status">discord_social_client_get_status</a></li>
+<li><a href="client.html#discord_social_client_set_status_changed_callback">discord_social_client_set_status_changed_callback</a></li>
+<li><a href="client.html#discord_social_client_set_online_status">discord_social_client_set_online_status</a></li>
+<li><a href="client.html#discord_social_client_status_to_string">discord_social_client_status_to_string</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Disconnected</code></td>
+<td>Disconnected.</td>
+</tr>
+<tr>
+<td><code>Connecting</code></td>
+<td>Connecting.</td>
+</tr>
+<tr>
+<td><code>Connected</code></td>
+<td>Connected.</td>
+</tr>
+<tr>
+<td><code>Ready</code></td>
+<td>Ready.</td>
+</tr>
+<tr>
+<td><code>Reconnecting</code></td>
+<td>Reconnecting.</td>
+</tr>
+<tr>
+<td><code>Disconnecting</code></td>
+<td>Disconnecting.</td>
+</tr>
+<tr>
+<td><code>HttpWait</code></td>
+<td>HttpWait.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="activityactiontypes">ActivityActionTypes</h1>
+<p><strong>Discord Enumeration</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#afff4c537aa07d869a4576c87a28f36b8">discordpp::ActivityActionTypes</a></p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivityinvite">DiscordActivityInvite</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Invalid</code></td>
+<td>Invalid.</td>
+</tr>
+<tr>
+<td><code>Join</code></td>
+<td>Join.</td>
+</tr>
+<tr>
+<td><code>JoinRequest</code></td>
+<td>JoinRequest.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordloggingseverity">DiscordLoggingSeverity</h1>
+<p><strong>Discord Enumeration</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a4b50332ce64ddd00391c442b60c99a35">discordpp::LoggingSeverity</a></p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_add_log_callback">discord_social_client_add_log_callback</a></li>
+<li><a href="client.html#discord_social_client_add_voice_log_callback">discord_social_client_add_voice_log_callback</a></li>
+<li><a href="client.html#discord_social_client_set_log_dir">discord_social_client_set_log_dir</a></li>
+<li><a href="client.html#discord_social_client_set_voice_log_dir">discord_social_client_set_voice_log_dir</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Verbose</code></td>
+<td>Verbose.</td>
+</tr>
+<tr>
+<td><code>Info</code></td>
+<td>Info.</td>
+</tr>
+<tr>
+<td><code>Warning</code></td>
+<td>Warning.</td>
+</tr>
+<tr>
+<td><code>Error</code></td>
+<td>Error.</td>
+</tr>
+<tr>
+<td><code>None</code></td>
+<td>None.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordclienterror">DiscordClientError</h1>
+<p><strong>Discord Enumeration</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Client.html#ac8d8140b9e1251e59e59a267f8a6295f">discordpp::Client::Error</a></p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_set_status_changed_callback">discord_social_client_set_status_changed_callback</a></li>
+<li><a href="client.html#discord_social_client_error_to_string">discord_social_client_error_to_string</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>None</code></td>
+<td>None.</td>
+</tr>
+<tr>
+<td><code>ConnectionFailed</code></td>
+<td>ConnectionFailed.</td>
+</tr>
+<tr>
+<td><code>UnexpectedClose</code></td>
+<td>UnexpectedClose.</td>
+</tr>
+<tr>
+<td><code>ConnectionCanceled</code></td>
+<td>ConnectionCanceled.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordauthorizationtokentype">DiscordAuthorizationTokenType</h1>
+<p><strong>Discord Enumeration</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a1968a8b2eabcbe41a254cc88ab330a89">discordpp::AuthorizationTokenType</a></p>
+<p>This enumeration represents the type of auth token used by the SDK, either the normal tokens produced by the Discord desktop app, or an OAuth2 bearer token. Only the latter can be used by the SDK.</p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_provisional_token">discord_social_client_get_provisional_token</a></li>
+<li><a href="client.html#discord_social_client_get_token">discord_social_client_get_token</a></li>
+<li><a href="client.html#discord_social_client_get_token_from_device">discord_social_client_get_token_from_device</a></li>
+<li><a href="client.html#discord_social_client_get_token_from_device_provisional_merge">discord_social_client_get_token_from_device_provisional_merge</a></li>
+<li><a href="client.html#discord_social_client_get_token_from_provisional_merge">discord_social_client_get_token_from_provisional_merge</a></li>
+<li><a href="client.html#discord_social_client_refresh_token">discord_social_client_refresh_token</a></li>
+<li><a href="client.html#discord_social_client_update_token">discord_social_client_update_token</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>User</code></td>
+<td>User.</td>
+</tr>
+<tr>
+<td><code>Bearer</code></td>
+<td>Bearer.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordaudiomodetype">DiscordAudioModeType</h1>
+<p><strong>Discord Enumeration</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#ad12f4e0df799c97f417320ef861fcffb">discordpp::AudioModeType</a></p>
+<p>This enum represents whether a voice call is using push to talk or auto voice detection.</p>
+<p>These constants are referenced by the following functions:</p>
+<ul>
+<li><a href="call.html#discord_social_call_set_audio_mode">discord_social_call_set_audio_mode</a></li>
+</ul>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordcall">DiscordCall</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ModeUninit</code></td>
+<td>MODE_UNINIT.</td>
+</tr>
+<tr>
+<td><code>ModeVAD</code></td>
+<td>MODE_VAD.</td>
+</tr>
+<tr>
+<td><code>ModePTT</code></td>
+<td>MODE_PTT.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordaudiosystem">DiscordAudioSystem</h1>
+<p><strong>Discord Docs</strong>: <a href="https://discord.com/developers/docs/social-sdk/namespacediscordpp.html#a566c99cfc3b8ee94ca322d35bc008633">discordpp::AudioSystem</a></p>
+<p>The Discord Voice audio system to use.</p>
+<p>These constants are referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordclientcreateoptions">DiscordClientCreateOptions</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Standard</code></td>
+<td>Use the standard audio system.</td>
+</tr>
+<tr>
+<td><code>Game</code></td>
+<td>Use the game audio system.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivityinvite">DiscordActivityInvite</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ActivityInvite.html">discordpp::ActivityInvite</a></p>
+<p>When one user invites another to join their game on Discord, it will send a message to that user. The SDK will parse those messages for you automatically, and this struct contains all of the relevant invite information which is needed to later accept that invite.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_accept_activity_invite">discord_social_client_accept_activity_invite</a></li>
+<li><a href="client.html#discord_social_client_send_activity_join_request_reply">discord_social_client_send_activity_join_request_reply</a></li>
+<li><a href="client.html#discord_social_client_set_activity_invite_created_callback">discord_social_client_set_activity_invite_created_callback</a></li>
+<li><a href="client.html#discord_social_client_set_activity_invite_updated_callback">discord_social_client_set_activity_invite_updated_callback</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td><a href="general.html#activityactiontypes">ActivityActionTypes</a></td>
+<td>The type of invite that was sent.</td>
+</tr>
+<tr>
+<td>sender_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID of the user who sent the invite.</td>
+</tr>
+<tr>
+<td>application_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The target application of the invite.</td>
+</tr>
+<tr>
+<td>parent_application_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The application ID of the parent - this is only applicable if there is a parent for a publisher's suite of applications.</td>
+</tr>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the Discord channel in which the invite was sent.</td>
+</tr>
+<tr>
+<td>message_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the Discord message that contains the invite.</td>
+</tr>
+<tr>
+<td>is_valid</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether or not this invite is currently joinable. An invite becomes invalid if it was sent more than 6 hours ago or if the sender is no longer playing the game the invite is for.</td>
+</tr>
+<tr>
+<td>party_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The ID of the party the invite was sent for.</td>
+</tr>
+<tr>
+<td>session_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The session ID of the user who sent the invite.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordaudiodevice">DiscordAudioDevice</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1AudioDevice.html">discordpp::AudioDevice</a></p>
+<p>This struct represents a single input or output audio device available to the user.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_current_input_device">discord_social_client_get_current_input_device</a></li>
+<li><a href="client.html#discord_social_client_get_current_output_device">discord_social_client_get_current_output_device</a></li>
+<li><a href="client.html#discord_social_client_get_input_devices">discord_social_client_get_input_devices</a></li>
+<li><a href="client.html#discord_social_client_get_output_devices">discord_social_client_get_output_devices</a></li>
+<li><a href="client.html#discord_social_client_set_device_change_callback">discord_social_client_set_device_change_callback</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The ID of the audio device.</td>
+</tr>
+<tr>
+<td>name</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The display name of the audio device.</td>
+</tr>
+<tr>
+<td>is_default</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether the audio device is the system default device.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordrelationshipsnapshot">DiscordRelationshipSnapshot</h1>
+<p><strong>Discord Class</strong>: N / A</p>
+<p>A RelationshipHandle represents the relationship between the current user and a target user on Discord. Relationships include friends, blocked users, and friend invites.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discorduserhandle">DiscordUserHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the target user in this relationship.</td>
+</tr>
+<tr>
+<td>discord_relationship_type</td>
+<td><a href="general.html#discordrelationshiptype">DiscordRelationshipType</a></td>
+<td>The type of the Discord relationship.</td>
+</tr>
+<tr>
+<td>game_relationship_type</td>
+<td><a href="general.html#discordrelationshiptype">DiscordRelationshipType</a></td>
+<td>The type of the Game relationship.</td>
+</tr>
+<tr>
+<td>is_spam_request</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether this relationship is a spam request.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordguildminimal">DiscordGuildMinimal</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1GuildMinimal.html">discordpp::GuildMinimal</a></p>
+<p>This struct represents a guild (also known as a Discord server), that the current user is a member of, that contains channels that can be linked to a lobby.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_user_guilds">discord_social_client_get_user_guilds</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the guild.</td>
+</tr>
+<tr>
+<td>name</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The name of the guild.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordlinkedlobby">DiscordLinkedLobby</h1>
+<p><strong>Discord Struct</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1LinkedLobby.html">discordpp::LinkedLobby</a></p>
+<p>This struct stores information about the lobby linked to a channel.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordguildchannel">DiscordGuildChannel</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>application_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the application that owns the lobby.</td>
+</tr>
+<tr>
+<td>lobby_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the lobby.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordclientresult">DiscordClientResult</h1>
+<p><strong>Discord Struct</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ClientResult.html">discordpp::ClientResult</a></p>
+<p>This struct stores information about the result of an SDK function call.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_set_input_device">discord_social_client_set_input_device</a></li>
+<li><a href="client.html#discord_social_client_set_output_device">discord_social_client_set_output_device</a></li>
+<li><a href="client.html#discord_social_client_authorize">discord_social_client_authorize</a></li>
+<li><a href="client.html#discord_social_client_get_provisional_token">discord_social_client_get_provisional_token</a></li>
+<li><a href="client.html#discord_social_client_get_token">discord_social_client_get_token</a></li>
+<li><a href="client.html#discord_social_client_get_token_from_device">discord_social_client_get_token_from_device</a></li>
+<li><a href="client.html#discord_social_client_get_token_from_device_provisional_merge">discord_social_client_get_token_from_device_provisional_merge</a></li>
+<li><a href="client.html#discord_social_client_get_token_from_provisional_merge">discord_social_client_get_token_from_provisional_merge</a></li>
+<li><a href="client.html#discord_social_client_refresh_token">discord_social_client_refresh_token</a></li>
+<li><a href="client.html#discord_social_client_update_provisional_account_display_name">discord_social_client_update_provisional_account_display_name</a></li>
+<li><a href="client.html#discord_social_client_update_token">discord_social_client_update_token</a></li>
+<li><a href="client.html#discord_social_client_delete_user_message">discord_social_client_delete_user_message</a></li>
+<li><a href="client.html#discord_social_client_open_message_in_discord">discord_social_client_open_message_in_discord</a></li>
+<li><a href="client.html#discord_social_client_send_lobby_message">discord_social_client_send_lobby_message</a></li>
+<li><a href="client.html#discord_social_client_send_lobby_message_with_metadata">discord_social_client_send_lobby_message_with_metadata</a></li>
+<li><a href="client.html#discord_social_client_send_user_message">discord_social_client_send_user_message</a></li>
+<li><a href="client.html#discord_social_client_send_user_message_with_metadata">discord_social_client_send_user_message_with_metadata</a></li>
+<li><a href="client.html#discord_social_client_create_or_join_lobby">discord_social_client_create_or_join_lobby</a></li>
+<li><a href="client.html#discord_social_client_create_or_join_lobby_with_metadata">discord_social_client_create_or_join_lobby_with_metadata</a></li>
+<li><a href="client.html#discord_social_client_get_guild_channels">discord_social_client_get_guild_channels</a></li>
+<li><a href="client.html#discord_social_client_get_user_guilds">discord_social_client_get_user_guilds</a></li>
+<li><a href="client.html#discord_social_client_leave_lobby">discord_social_client_leave_lobby</a></li>
+<li><a href="client.html#discord_social_client_link_channel_to_lobby">discord_social_client_link_channel_to_lobby</a></li>
+<li><a href="client.html#discord_social_client_unlink_channel_from_lobby">discord_social_client_unlink_channel_from_lobby</a></li>
+<li><a href="client.html#discord_social_client_accept_activity_invite">discord_social_client_accept_activity_invite</a></li>
+<li><a href="client.html#discord_social_client_send_activity_invite">discord_social_client_send_activity_invite</a></li>
+<li><a href="client.html#discord_social_client_send_activity_join_request">discord_social_client_send_activity_join_request</a></li>
+<li><a href="client.html#discord_social_client_send_activity_join_request_reply">discord_social_client_send_activity_join_request_reply</a></li>
+<li><a href="client.html#discord_social_client_set_online_status">discord_social_client_set_online_status</a></li>
+<li><a href="client.html#discord_social_client_update_rich_presence">discord_social_client_update_rich_presence</a></li>
+<li><a href="client.html#discord_social_client_accept_discord_friend_request">discord_social_client_accept_discord_friend_request</a></li>
+<li><a href="client.html#discord_social_client_accept_game_friend_request">discord_social_client_accept_game_friend_request</a></li>
+<li><a href="client.html#discord_social_client_block_user">discord_social_client_block_user</a></li>
+<li><a href="client.html#discord_social_client_cancel_discord_friend_request">discord_social_client_cancel_discord_friend_request</a></li>
+<li><a href="client.html#discord_social_client_cancel_game_friend_request">discord_social_client_cancel_game_friend_request</a></li>
+<li><a href="client.html#discord_social_client_reject_discord_friend_request">discord_social_client_reject_discord_friend_request</a></li>
+<li><a href="client.html#discord_social_client_reject_game_friend_request">discord_social_client_reject_game_friend_request</a></li>
+<li><a href="client.html#discord_social_client_remove_discord_and_game_friend">discord_social_client_remove_discord_and_game_friend</a></li>
+<li><a href="client.html#discord_social_client_remove_game_friend">discord_social_client_remove_game_friend</a></li>
+<li><a href="client.html#discord_social_client_send_discord_friend_request">discord_social_client_send_discord_friend_request</a></li>
+<li><a href="client.html#discord_social_client_send_discord_friend_request_by_id">discord_social_client_send_discord_friend_request_by_id</a></li>
+<li><a href="client.html#discord_social_client_send_game_friend_request">discord_social_client_send_game_friend_request</a></li>
+<li><a href="client.html#discord_social_client_send_game_friend_request_by_id">discord_social_client_send_game_friend_request_by_id</a></li>
+<li><a href="client.html#discord_social_client_unblock_user">discord_social_client_unblock_user</a></li>
+<li><a href="client.html#discord_social_client_get_discord_client_connected_user">discord_social_client_get_discord_client_connected_user</a></li>
+<li><a href="client.html#discord_social_client_revoke_token">discord_social_client_revoke_token</a></li>
+<li><a href="client.html#discord_social_client_exchange_child_token">discord_social_client_exchange_child_token</a></li>
+<li><a href="client.html#discord_social_client_unmerge_into_provisional_account">discord_social_client_unmerge_into_provisional_account</a></li>
+<li><a href="client.html#discord_social_client_edit_user_message">discord_social_client_edit_user_message</a></li>
+<li><a href="client.html#discord_social_client_get_lobby_messages_with_limit">discord_social_client_get_lobby_messages_with_limit</a></li>
+<li><a href="client.html#discord_social_client_get_user_message_summaries">discord_social_client_get_user_message_summaries</a></li>
+<li><a href="client.html#discord_social_client_get_user_messages_with_limit">discord_social_client_get_user_messages_with_limit</a></li>
+<li><a href="client.html#discord_social_client_join_linked_lobby_guild">discord_social_client_join_linked_lobby_guild</a></li>
+<li><a href="client.html#discord_social_client_open_connected_games_settings_in_discord">discord_social_client_open_connected_games_settings_in_discord</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>error</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A description of the error that occurred.</td>
+</tr>
+<tr>
+<td>error_code</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>A more detailed error code for this failure. Currently the only use of this is when an API request is made to Discord's backend and that fails with a specific error, that error will be included in this field.</td>
+</tr>
+<tr>
+<td>successful</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Equivalent to <code>type == DiscordErrorType.None</code>.</td>
+</tr>
+<tr>
+<td>retryable</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Indicates if, although an API request failed, it is safe and recommended to retry it.</td>
+</tr>
+<tr>
+<td>response_body</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The full HTTP response body, which will usually be a JSON string.</td>
+</tr>
+<tr>
+<td>status</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The HTTP status code of the API call.</td>
+</tr>
+<tr>
+<td>type</td>
+<td><a href="general.html#discorderrortype">DiscordErrorType</a></td>
+<td>The type of error that occurred. See <a href="general.html#discorderrortype">DiscordErrorType</a> for more information.</td>
+</tr>
+<tr>
+<td>retry_after</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>When a user is being rate limited by Discord (and so <code>status == 429</code>), this field should be set and is the number of seconds to wait before trying again.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordchannelhandle">DiscordChannelHandle</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ChannelHandle.html">discordpp::ChannelHandle</a></p>
+<p>All messages sent on Discord are done so in a Channel. <code>DiscordMessageHandle.channel_id</code> will contain the ID of the channel a message was sent in, and <a href="client.html#discord_social_client_get_channel_handle">discord_social_client_get_channel_handle</a> will return an instance of this class.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_channel_handle">discord_social_client_get_channel_handle</a></li>
+</ul>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordmessagehandle">DiscordMessageHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the channel.</td>
+</tr>
+<tr>
+<td>name</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The name of the channel.</td>
+</tr>
+<tr>
+<td>type</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The type of the channel.</td>
+</tr>
+<tr>
+<td>recipients</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Arrays.htm">Array</a> of <a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>For DMs and GroupDMs, the user IDs of the members of the channel. For all other channels an empty array.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordadditionalcontent">DiscordAdditionalContent</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1AdditionalContent.html">discordpp::AdditionalContent</a></p>
+<p>This struct contains information about non-text content in a message that likely cannot be rendered in game such as images, videos, embeds, polls, and more.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordmessagehandle">DiscordMessageHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td><a href="general.html#discordadditionalcontenttype">DiscordAdditionalContentType</a></td>
+<td>Represents the type of additional content in the message.</td>
+</tr>
+<tr>
+<td>title</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>When the additional content is a poll or thread, this field will contain the name of the poll or thread.</td>
+</tr>
+<tr>
+<td>count</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>Represents the number of pieces of additional content so you could for example render "2 additional images".</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordlinkedchannel">DiscordLinkedChannel</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1LinkedChannel.html">discordpp::LinkedChannel</a></p>
+<p>This struct stores information about the channel that a lobby is linked to.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordlobbyhandle">DiscordLobbyHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the linked channel.</td>
+</tr>
+<tr>
+<td>guild_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the guild (aka server) that owns the linked channel.</td>
+</tr>
+<tr>
+<td>name</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The name of the linked channel.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordvoicestatehandle">DiscordVoiceStateHandle</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1VoiceStateHandle.html">discordpp::VoiceStateHandle</a></p>
+<p>This struct represents the state of a single participant in a Discord voice call.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="call.html#discord_social_call_get_voice_state_handle">discord_social_call_get_voice_state_handle</a></li>
+</ul>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordcallvoicestateentry">DiscordCallVoiceStateEntry</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self_deaf</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Returns <code>true</code> if the given user has deafened themselves so that no one else in the call can hear them and so that they do not hear anyone else in the call either.</td>
+</tr>
+<tr>
+<td>self_mute</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Returns <code>true</code> if the given user has muted themselves so that no one else in the call can hear them.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivityparty">DiscordActivityParty</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ActivityParty.html">discordpp::ActivityParty</a></p>
+<p>This struct represents an activity party.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>activity_party_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>Specifies the ID of the party. "Party" is used colloquially to refer to a group of players in a shared context. This could be a lobby ID, server ID, team ID, etc.</td>
+</tr>
+<tr>
+<td>current_size</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The number of people currently in the party, must be at least 1.</td>
+</tr>
+<tr>
+<td>max_size</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The maximum number of people that can be in the party, must be at least 0. When 0, the UI will not display a maximum.</td>
+</tr>
+<tr>
+<td>privacy</td>
+<td><a href="general.html#discordactivitypartyprivacy">DiscordActivityPartyPrivacy</a></td>
+<td>The privacy of the party.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivitysecrets">DiscordActivitySecrets</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ActivitySecrets.html">discordpp::ActivitySecrets</a></p>
+<p>This struct represents an activity secret.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>join</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A secret string that is shared with users who are accepted into the party so the game knows how to join the user to the party. For example you might specify an internal game server ID or a Discord lobby ID or secret. If specified, must be a string between 2 and 128 characters.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivityassets">DiscordActivityAssets</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ActivityAssets.html">discordpp::ActivityAssets</a></p>
+<p>This struct controls what your rich presence looks like in the Discord client. If you don't specify any values, the icon and name of your application will be used as defaults.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>large_image</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The primary image identifier or URL, rendered as a large square icon on a user's rich presence.</td>
+</tr>
+<tr>
+<td>large_text</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A tooltip string that is shown when the user hovers over the large image.</td>
+</tr>
+<tr>
+<td>large_url</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A URL that opens when the user clicks/taps the large image.</td>
+</tr>
+<tr>
+<td>small_image</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The secondary image, rendered as a small circle over the <code>large_image</code>.</td>
+</tr>
+<tr>
+<td>small_text</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A tooltip string that is shown when the user hovers over the small image.</td>
+</tr>
+<tr>
+<td>small_url</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A URL that opens when the user clicks/taps the small image.</td>
+</tr>
+<tr>
+<td>invite_cover_image</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The invite cover image identifier or URL, rendered as a banner image on activity invites.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivitybutton">DiscordActivityButton</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ActivityButton.html">discordpp::ActivityButton</a></p>
+<p>This struct represents a button added to an activity.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>label</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The label of the button.</td>
+</tr>
+<tr>
+<td>url</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The URL of the button.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivitytimestamps">DiscordActivityTimestamps</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ActivityTimestamps.html">discordpp::ActivityTimestamps</a></p>
+<p>This struct holds timestamps that represent the start and end time of an activity.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordactivity">DiscordActivity</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>start</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The start timestamp.</td>
+</tr>
+<tr>
+<td>end</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The end timestamp.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discorduserapplicationprofilehandle">DiscordUserApplicationProfileHandle</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1UserApplicationProfileHandle.html">discordpp::UserApplicationProfileHandle</a></p>
+<p>This struct represents a profile from an external identity provider, such as Steam or Epic Online Services.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discorduserhandle">DiscordUserHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>avatar_hash</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The user's in-game avatar hash.</td>
+</tr>
+<tr>
+<td>metadata</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>Any metadata set by the developer.</td>
+</tr>
+<tr>
+<td>provider_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The user's external identity provider ID if it exists.</td>
+</tr>
+<tr>
+<td>provider_issued_user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The user's external identity provider issued user ID.</td>
+</tr>
+<tr>
+<td>provider_type</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The type of the external identity provider.</td>
+</tr>
+<tr>
+<td>username</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The user's in-game username.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordusermessagesummary">DiscordUserMessageSummary</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1UserMessageSummary.html">discordpp::UserMessageSummary</a></p>
+<p>This struct represents a summary of a DM conversation with a user.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_user_message_summaries">discord_social_client_get_user_message_summaries</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the other user in the DM conversation.</td>
+</tr>
+<tr>
+<td>last_message_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the last message sent in the DM conversation.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordvadthresholdsettings">DiscordVADThresholdSettings</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1VADThresholdSettings.html">discordpp::VADThresholdSettings</a></p>
+<p>This struct holds settings for the void auto detection threshold for picking up activity from a user's mic.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="call.html#discord_social_call_get_vad_threshold">discord_social_call_get_vad_threshold</a></li>
+</ul>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordcall">DiscordCall</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>automatic</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether or not Discord is currently automatically setting and detecting the appropriate threshold to use.</td>
+</tr>
+<tr>
+<td>vad_threshold</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The current void auto detection threshold value, has a range of -100, 0 and defaults to -60.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordauthorizationargs">DiscordAuthorizationArgs</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1AuthorizationArgs.html">discordpp::AuthorizationArgs</a></p>
+<p>This struct holds arguments to the <a href="client.html#discord_social_client_authorize">discord_social_client_authorize</a> function.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_authorize">discord_social_client_authorize</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>client_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The Discord application ID for your game.</td>
+</tr>
+<tr>
+<td>scopes</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A space separated string of the OAuth scopes your game is requesting.</td>
+</tr>
+<tr>
+<td>state</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>See https://discord.com/developers/docs/topics/oauth2#state-and-security for details on this field.</td>
+</tr>
+<tr>
+<td>nonce</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The nonce field is generally only useful for backend integrations using ID tokens.</td>
+</tr>
+<tr>
+<td>use_code_challenge</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether to use a code challenge.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordclientcreateoptions">DiscordClientCreateOptions</h1>
+<p><strong>Discord Struct</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1ClientCreateOptions.html">discordpp::ClientCreateOptions</a></p>
+<p>This struct defines the options to use when creating the Discord client.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="general.html#discord_social_init">discord_social_init</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>api_base</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The base URL for the Discord API.</td>
+</tr>
+<tr>
+<td>web_base</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The base URL for the Discord web application.</td>
+</tr>
+<tr>
+<td>experimental_audio_system</td>
+<td><a href="general.html#discordaudiosystem">DiscordAudioSystem</a></td>
+<td>The audio system to use. Defaults to <code>DiscordAudioSystem.Standard</code>.</td>
+</tr>
+<tr>
+<td>experimental_android_prevent_comms_for_bluetooth</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether to prevent communications mode on Android when Bluetooth is connected.</td>
+</tr>
+<tr>
+<td>cpu_affinity_mask</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>CPU affinity mask hint for certain platforms. Depending on platform support, may or may not be ignored.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordguildchannel">DiscordGuildChannel</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1GuildChannel.html">discordpp::GuildChannel</a></p>
+<p>This struct represents a channel in a guild that the current user is a member of and may be able to be linked to a lobby.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_guild_channels">discord_social_client_get_guild_channels</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the channel.</td>
+</tr>
+<tr>
+<td>is_linkable</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether the current user is able to link this channel to a lobby.</td>
+</tr>
+<tr>
+<td>is_fully_public</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether the channel is "fully public" which means every member of the guild is able to view and send messages in that channel.</td>
+</tr>
+<tr>
+<td>is_viewable_and_writeable_by_all_members</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether the channel is "fully public" which means every member of the guild is able to view and send messages in that channel.</td>
+</tr>
+<tr>
+<td>linked_lobby</td>
+<td><a href="general.html#discordlinkedlobby">DiscordLinkedLobby</a></td>
+<td>Information about the currently linked lobby, if any. Currently Discord enforces that a channel can only be linked to a single lobby.</td>
+</tr>
+<tr>
+<td>name</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The name of the channel.</td>
+</tr>
+<tr>
+<td>parent_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the parent category channel, if any.</td>
+</tr>
+<tr>
+<td>position</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The position of the channel in the guild's channel list.</td>
+</tr>
+<tr>
+<td>type</td>
+<td><a href="general.html#discordchanneltype">DiscordChannelType</a></td>
+<td>The type of the channel.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordcallvoicestateentry">DiscordCallVoiceStateEntry</h1>
+<p><strong>Discord Class</strong>: N / A</p>
+<p>This struct holds a mapping between a user ID and the corresponding voice state handle.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordcallinfohandle">DiscordCallInfoHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>user_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID.</td>
+</tr>
+<tr>
+<td>voice_state_handle</td>
+<td><a href="general.html#discordvoicestatehandle">DiscordVoiceStateHandle</a></td>
+<td>The voice state handle.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordactivity">DiscordActivity</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Activity.html">discordpp::Activity</a></p>
+<p>This struct represents one "thing" a user is doing on Discord and is part of their rich presence.</p>
+<p>Additional information is located on the Discord Developer Portal:</p>
+<ul>
+<li>https://discord.com/developers/docs/rich-presence/overview</li>
+<li>https://discord.com/developers/docs/developer-tools/game-sdk#activities</li>
+<li>https://discord.com/developers/docs/rich-presence/best-practices</li>
+</ul>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_update_rich_presence">discord_social_client_update_rich_presence</a></li>
+</ul>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discorduserhandle">DiscordUserHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td><a href="general.html#discordactivitytypes">DiscordActivityTypes</a></td>
+<td>The type of activity this is.</td>
+</tr>
+<tr>
+<td>details</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The state <em>of the what the user is doing</em> for this activity.</td>
+</tr>
+<tr>
+<td>state</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The state of <em>the party</em> for this activity.</td>
+</tr>
+<tr>
+<td>name</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The name of the game or application that the activity is associated with.</td>
+</tr>
+<tr>
+<td>status_display_type</td>
+<td><a href="general.html#discordstatusdisplaytypes">DiscordStatusDisplayTypes</a></td>
+<td>Controls which field is used for the user's status message.</td>
+</tr>
+<tr>
+<td>state_url</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A URL that opens when the user clicks/taps the state text.</td>
+</tr>
+<tr>
+<td>details_url</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A URL that opens when the user clicks/taps the details text.</td>
+</tr>
+<tr>
+<td>application_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The application ID of the game that the activity is associated with.</td>
+</tr>
+<tr>
+<td>parent_application_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The application ID of the parent application that the activity is associated with if it exists. This is to help identify a collection of games that are from the same publisher.</td>
+</tr>
+<tr>
+<td>assets</td>
+<td><a href="general.html#discordactivityassets">DiscordActivityAssets</a></td>
+<td>Images used to customize how the Activity is displayed in the Discord client.</td>
+</tr>
+<tr>
+<td>timestamps</td>
+<td><a href="general.html#discordactivitytimestamps">DiscordActivityTimestamps</a></td>
+<td>The timestamps struct can be used to render either:</td>
+</tr>
+<tr>
+<td>supported_platforms</td>
+<td><a href="general.html#discordactivitygameplatforms">DiscordActivityGamePlatforms</a></td>
+<td>If an activity is joinable, but only on certain platforms, this field can be used to indicate which platforms the activity is joinable on. For example if a game is available on both PC and Mobile, but PC users cannot join Mobile users and vice versa, this field can be used so that an activity only shows as joinable on Discord if the user is on the appropriate platform.</td>
+</tr>
+<tr>
+<td>party</td>
+<td><a href="general.html#discordactivityparty">DiscordActivityParty</a></td>
+<td>The party struct is used to indicate the size and members of the people the current user is playing with.</td>
+</tr>
+<tr>
+<td>secrets</td>
+<td><a href="general.html#discordactivitysecrets">DiscordActivitySecrets</a></td>
+<td>The secrets struct is used in combination with the party struct to make an Activity joinable.</td>
+</tr>
+<tr>
+<td>buttons</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Arrays.htm">Array</a> of <a href="general.html#discordactivitybutton">DiscordActivityButton</a></td>
+<td>The custom buttons for the rich presence.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordcall">DiscordCall</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1Call.html">discordpp::Call</a></p>
+<p>This struct holds information on an active voice session in a Lobby.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_call">discord_social_client_get_call</a></li>
+<li><a href="client.html#discord_social_client_get_calls">discord_social_client_get_calls</a></li>
+<li><a href="client.html#discord_social_client_start_call">discord_social_client_start_call</a></li>
+<li><a href="client.html#discord_social_client_start_call_with_audio_callbacks">discord_social_client_start_call_with_audio_callbacks</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>audio_mode</td>
+<td><a href="general.html#discordaudiomodetype">DiscordAudioModeType</a></td>
+<td>Whether the call is configured to use voice auto detection or push to talk for the current user.</td>
+</tr>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the lobby with which this call is associated.</td>
+</tr>
+<tr>
+<td>guild_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the lobby with which this call is associated.</td>
+</tr>
+<tr>
+<td>participants</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Arrays.htm">Array</a> of <a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>Holds a list of all of the user IDs of the participants in the call.</td>
+</tr>
+<tr>
+<td>ptt_active</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether push to talk is currently active, meaning the user is currently pressing their configured push to talk key.</td>
+</tr>
+<tr>
+<td>ptt_release_delay</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>Holds the time that PTT is active after the user releases the PTT key and <code>ptt_active</code> is set to <code>false</code>.</td>
+</tr>
+<tr>
+<td>self_deaf</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether the current user is deafened.</td>
+</tr>
+<tr>
+<td>self_mute</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether the current user's microphone is muted.</td>
+</tr>
+<tr>
+<td>vad_threshold</td>
+<td><a href="general.html#discordvadthresholdsettings">DiscordVADThresholdSettings</a></td>
+<td>Holds the current configuration for void auto detection thresholds. See the description of the struct for specifics.</td>
+</tr>
+<tr>
+<td>status</td>
+<td><a href="general.html#discordcallstatus">DiscordCallStatus</a></td>
+<td>The current call status.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordcallinfohandle">DiscordCallInfoHandle</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1CallInfoHandle.html">discordpp::CallInfoHandle</a></p>
+<p>This is a convenience struct that represents the state of a single Discord call in a lobby.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordlobbyhandle">DiscordLobbyHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The lobby ID of the call.</td>
+</tr>
+<tr>
+<td>guild_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The lobby ID of the call.</td>
+</tr>
+<tr>
+<td>participants</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Arrays.htm">Array</a> of <a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>An array holding the user IDs of the participants in the call.</td>
+</tr>
+<tr>
+<td>voice_state_handles</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Arrays.htm">Array</a> of <a href="general.html#discordcallvoicestateentry">DiscordCallVoiceStateEntry</a></td>
+<td>An array holding the voice states of all users so you can know if they have muted or deafened themselves.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discorduserhandle">DiscordUserHandle</h1>
+<p><strong>Discord Struct</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1UserHandle.html">discordpp::UserHandle</a></p>
+<p>This struct represents a single user on Discord that the SDK knows about and contains basic account information for them such as ID, name, and avatar, as well as their "status" information which includes both whether they are online/offline/etc as well as whether they are playing this game.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_search_friends_by_username">discord_social_client_search_friends_by_username</a></li>
+<li><a href="client.html#discord_social_client_get_current_user">discord_social_client_get_current_user</a></li>
+<li><a href="client.html#discord_social_client_get_user">discord_social_client_get_user</a></li>
+</ul>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordrelationshiphandle">DiscordRelationshipHandle</a></li>
+<li><a href="general.html#discordlobbymemberhandle">DiscordLobbyMemberHandle</a></li>
+<li><a href="general.html#discordmessagehandle">DiscordMessageHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of this user.</td>
+</tr>
+<tr>
+<td>username</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The globally unique username of this user.</td>
+</tr>
+<tr>
+<td>display_name</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The user's preferred name, if one is set, otherwise their unique username.</td>
+</tr>
+<tr>
+<td>avatar</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The hash of the user's Discord profile avatar, if one is set.</td>
+</tr>
+<tr>
+<td>avatar_type</td>
+<td><a href="general.html#discordavatartype">DiscordAvatarType</a></td>
+<td>The desired type of avatar URL to generate for a User.</td>
+</tr>
+<tr>
+<td>avatar_type_string</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The avatar type as a string.</td>
+</tr>
+<tr>
+<td>avatar_url</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>A CDN URL to the user's Discord profile avatar.</td>
+</tr>
+<tr>
+<td>global_name</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The preferred display name of this user, if one is set.</td>
+</tr>
+<tr>
+<td>is_provisional</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td><code>true</code> if this user is a provisional account, <code>false</code> otherwise.</td>
+</tr>
+<tr>
+<td>status</td>
+<td><a href="general.html#discordstatustype">DiscordStatusType</a></td>
+<td>The user's online/offline/idle status.</td>
+</tr>
+<tr>
+<td>game_activity</td>
+<td><a href="general.html#discordactivity">DiscordActivity</a></td>
+<td>Holds the user's rich presence activity that is associated with the current game, if one is set.</td>
+</tr>
+<tr>
+<td>relationship</td>
+<td><a href="general.html#discordrelationshipsnapshot">DiscordRelationshipSnapshot</a></td>
+<td>Holds a reference to the RelationshipHandle between the currently authenticated user and this user, if any.</td>
+</tr>
+<tr>
+<td>user_application_profiles</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Arrays.htm">Array</a> of <a href="general.html#discorduserapplicationprofilehandle">DiscordUserApplicationProfileHandle</a></td>
+<td>Holds a list of UserApplicationProfileHandles for this user. Currently, a user can only have a single profile per application, so this list will always contain at most one UserApplicationProfileHandle.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordrelationshiphandle">DiscordRelationshipHandle</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1RelationshipHandle.html">discordpp::RelationshipHandle</a></p>
+<p>A RelationshipHandle represents the relationship between the current user and a target user on Discord. Relationships include friends, blocked users, and friend invites.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_relationship_handle">discord_social_client_get_relationship_handle</a></li>
+<li><a href="client.html#discord_social_client_get_relationships">discord_social_client_get_relationships</a></li>
+<li><a href="client.html#discord_social_client_get_relationships_by_group">discord_social_client_get_relationships_by_group</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the target user in this relationship.</td>
+</tr>
+<tr>
+<td>discord_relationship_type</td>
+<td><a href="general.html#discordrelationshiptype">DiscordRelationshipType</a></td>
+<td>The type of the Discord relationship.</td>
+</tr>
+<tr>
+<td>game_relationship_type</td>
+<td><a href="general.html#discordrelationshiptype">DiscordRelationshipType</a></td>
+<td>The type of the Game relationship.</td>
+</tr>
+<tr>
+<td>is_spam_request</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Whether this relationship is a spam request.</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="general.html#discorduserhandle">DiscordUserHandle</a></td>
+<td>A handle to the target user in this relationship, if one is available.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordlobbymemberhandle">DiscordLobbyMemberHandle</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1LobbyMemberHandle.html">discordpp::LobbyMemberHandle</a></p>
+<p>This struct represents the state of a single user in a Lobby.</p>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordlobbyhandle">DiscordLobbyHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID of the lobby member.</td>
+</tr>
+<tr>
+<td>can_link_lobby</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td><code>true</code> if the user is allowed to link a channel to this lobby, <code>false</code> otherwise. This flag can only be set via the server API.</td>
+</tr>
+<tr>
+<td>connected</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td><code>true</code> if the user is currently connected to the lobby, <code>false</code> otherwise.</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="general.html#discorduserhandle">DiscordUserHandle</a></td>
+<td>The UserHandle of the lobby member.</td>
+</tr>
+<tr>
+<td>metadata</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Structs.htm">Struct</a></td>
+<td>Metadata is a set of string key/value pairs that the game developer can use.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordlobbyhandle">DiscordLobbyHandle</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1LobbyHandle.html">discordpp::LobbyHandle</a></p>
+<p>This struct represents a single lobby in the SDK. A lobby can be thought of as just an arbitrary, developer-controlled group of users that can communicate with each other.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_lobby_handle">discord_social_client_get_lobby_handle</a></li>
+</ul>
+<p>This struct is referenced by the following structs:</p>
+<ul>
+<li><a href="general.html#discordmessagehandle">DiscordMessageHandle</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of the lobby.</td>
+</tr>
+<tr>
+<td>lobby_member_ids</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Arrays.htm">Array</a> of <a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>An array of the user IDs that are members of this lobby.</td>
+</tr>
+<tr>
+<td>lobby_members</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Arrays.htm">Array</a> of <a href="general.html#discordlobbymemberhandle">DiscordLobbyMemberHandle</a></td>
+<td>An array holding the LobbyMemberHandle objects for each member of this lobby.</td>
+</tr>
+<tr>
+<td>call_info_handle</td>
+<td><a href="general.html#discordcallinfohandle">DiscordCallInfoHandle</a></td>
+<td>A reference to the CallInfoHandle if there is an active voice call in this lobby.</td>
+</tr>
+<tr>
+<td>linked_channel</td>
+<td><a href="general.html#discordlinkedchannel">DiscordLinkedChannel</a></td>
+<td>Information about the channel linked to this lobby, if any.</td>
+</tr>
+<tr>
+<td>metadata</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Structs.htm">Struct</a></td>
+<td>Any developer supplied metadata for this lobby.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p align="right"><a href="#top">Back To Top</a></p>
+
+<h1 id="discordmessagehandle">DiscordMessageHandle</h1>
+<p><strong>Discord Class</strong>: <a href="https://discord.com/developers/docs/social-sdk/classdiscordpp_1_1MessageHandle.html">discordpp::MessageHandle</a></p>
+<p>A MessageHandle represents a single message received by the SDK.</p>
+<p>This struct is referenced by the following functions:</p>
+<ul>
+<li><a href="client.html#discord_social_client_get_message_handle">discord_social_client_get_message_handle</a></li>
+<li><a href="client.html#discord_social_client_get_lobby_messages_with_limit">discord_social_client_get_lobby_messages_with_limit</a></li>
+<li><a href="client.html#discord_social_client_get_user_messages_with_limit">discord_social_client_get_user_messages_with_limit</a></li>
+</ul>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Member</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The ID of this message.</td>
+</tr>
+<tr>
+<td>author</td>
+<td><a href="general.html#discorduserhandle">DiscordUserHandle</a></td>
+<td>The UserHandle for the author of this message.</td>
+</tr>
+<tr>
+<td>author_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The user ID of the user who sent this message.</td>
+</tr>
+<tr>
+<td>channel</td>
+<td><a href="general.html#discordchannelhandle">DiscordChannelHandle</a></td>
+<td>The ChannelHandle for the channel this message was sent in.</td>
+</tr>
+<tr>
+<td>channel_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The channel ID this message was sent in.</td>
+</tr>
+<tr>
+<td>disclosure_type</td>
+<td><a href="general.html#discorddisclosuretypes">DiscordDisclosureTypes</a></td>
+<td>If this is an auto-generated message that is explaining some integration behavior to users, this will hold the type of disclosure so you can customize it.</td>
+</tr>
+<tr>
+<td>lobby</td>
+<td><a href="general.html#discordlobbyhandle">DiscordLobbyHandle</a></td>
+<td>The LobbyHandle this message was sent in, if it was sent in a lobby.</td>
+</tr>
+<tr>
+<td>content</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The content of this message, if any.</td>
+</tr>
+<tr>
+<td>edited_timestamp</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The timestamp in millis since the epoch when the message was most recently edited.</td>
+</tr>
+<tr>
+<td>metadata</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Structs.htm">Struct</a></td>
+<td>Any metadata the developer included with this message.</td>
+</tr>
+<tr>
+<td>additional_content</td>
+<td><a href="general.html#discordadditionalcontent">DiscordAdditionalContent</a></td>
+<td>If the message contains non-text content, such as images, videos, embeds, polls, etc., this will hold information about that content.</td>
+</tr>
+<tr>
+<td>raw_content</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/Strings.htm">String</a></td>
+<td>The content of this message, if any, but without replacing any markup from emojis and mentions.</td>
+</tr>
+<tr>
+<td>recipient</td>
+<td><a href="general.html#discorduserhandle">DiscordUserHandle</a></td>
+<td>The UserHandle for the other participant in a DM, if this message was sent in a DM.</td>
+</tr>
+<tr>
+<td>recipient_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>When this message was sent in a DM or Ephemeral DM, this will hold the ID of the other user in that DM.</td>
+</tr>
+<tr>
+<td>sent_from_game</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Boolean</a></td>
+<td>Holds <code>true</code> if this message was sent in-game, otherwise <code>false</code> (i.e. from Discord itself). If you are using parent / child applications, this will be <code>true</code> if the message was sent from any child application.</td>
+</tr>
+<tr>
+<td>sent_timestamp</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The timestamp in millis since the epoch when the message was sent.</td>
+</tr>
+<tr>
+<td>application_id</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Data_Types.htm">Real</a></td>
+<td>The application ID associated with this message, if any. You can use this to identify if the message was sent from another child application in your catalog.</td>
+</tr>
+<tr>
+<td>moderation_metadata</td>
+<td><a href="https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/Structs.htm">Struct</a></td>
+<td>Any moderation metadata the developer set on this message.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="getting_started.html" class="btn btn-neutral float-left" title="Getting Started"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="client.html" class="btn btn-neutral float-right" title="Client">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>YoYoGames 2026</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/YoYoGames/GMEXT-Discord" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="getting_started.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="client.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/gml.min.js"></script>
+      <script src="assets/js/gmext_script.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

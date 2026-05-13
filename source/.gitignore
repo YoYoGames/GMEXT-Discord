@@ -1,27 +1,19 @@
-.vs/
-*/#backups/*
-*/Configs/*/*
+# VS and VSC folders
+**/.vs/
+**/.vsc/
 
-*/extensions/*/*.cpp
+# Common extensions
+**/*.exp
+**/*.ilk
+**/*.lib
+**/*.pdb
+**/*.exp
+**/*.exe
 
-*/Debug/
-*/Release/
-Debug/
-Release/
-export/*.gmz
-export/*.gmez
-export/*.yyz
-export/*.yymp
-export/*.yymps
-export/*.png
-export/*.zip
+# Compilation folders
+**/bin/
+**/obj/
+**/out/build/
 
-*.sdf
-help.rtf
-
-*.exp
-*.lib
-*.pdb
-
-Discord_sdk/
-Discord_gml/options/
+# Don't push the SDK
+discord_social_sdk

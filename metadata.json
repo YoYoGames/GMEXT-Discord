@@ -1,18 +1,1 @@
-{
-    "gitHubUrl": "https://github.com/YoYoGames/GMEXT-Discord",
-    "projectFile": "source/Discord_gml/Discord.yyp",
-    "projectVersion": "LTS22",
-    "releaseTemplate": "templates/release_body.md",
-    "extensionMetaData": [
-        {
-            "extensionFile": "source/Discord_gml/extensions/Discord/Discord.yy",
-            "packageId": "com.yoyogames.discordext",
-            "packageName": "Discord Ext",
-            "packageVersion": "1.1.1",
-            "packageFormat": "LTS22",
-            "includeFolders": null,
-            "includeResources": null,
-            "excludeResources": null
-        }
-    ]
-}
+{"gitHubUrl":"https://github.com/YoYoGames/GMEXT-Discord","projectFile":"source/DiscordSocial_gml/DiscordSocial.yyp","projectVersion":"LTS22","releaseTemplate":"templates/release_body.md","extensionMetaData":[{"extensionFile":"source/DiscordSocial_gml/extensions/GMDiscordSocial/GMDiscordSocial.yy","packageId":"com.yoyogames.discordext","packageName":"DiscordSocial Ext","packageVersion":"2.0.0","packageFormat":"LTS22","includeFolders":null,"includeResources":null,"excludeFolders":null,"excludeResources":null,"postRemovals":["**/.vs/","**/.vsc/","**/*.exp","**/*.ilk","**/*.lib","**/*.pdb","**/*.exp","**/*.exe","**/Debug/","**/Release/",".DS_Store","*.user","xcuserdata/","**/extensions/**/source/out/"]}],"documentationFolder":null}

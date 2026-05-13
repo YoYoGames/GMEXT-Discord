@@ -1,0 +1,5 @@
+
+file_delete(DISCORD_AUTH_FILE)
+
+discord_social_client_disconnect()
+room_goto(rm_discord_social_authentication)

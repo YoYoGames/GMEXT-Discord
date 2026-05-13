@@ -1,0 +1,31 @@
+{
+  "$schema": "./extgen.schema.json",
+  "input": "spec.gmidl",
+  "root": "./",
+  "gamemaker": {
+    "wrappers": {
+      "outputFile": "../../../scripts/GMDiscordSocial_api/GMDiscordSocial_api.gml"
+    },
+    "extension": {
+      "mode": "patch",
+      "outputFile": "../../../extensions/GMDiscordSocial/GMDiscordSocial.yy"
+    },
+    "injectors": { }
+  },
+  "targets": {
+    "windows":{},
+    "macos":{},
+    "linux":{},
+    "android":{
+      "mode": "jni"
+    },
+    "ios":{
+      "mode": "native"
+    }
+  },
+  "extras": {
+    "docs": { 
+      "outputFile": "../../../../../docs/extgen_docs.js"
+    }
+  }
+}

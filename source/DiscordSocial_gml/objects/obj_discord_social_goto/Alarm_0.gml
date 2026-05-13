@@ -1,0 +1,2 @@
+
+room_goto(rm_discord_social_authentication)
