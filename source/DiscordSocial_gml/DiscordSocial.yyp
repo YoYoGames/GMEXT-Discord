@@ -27,7 +27,9 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/GM Extensions Assets/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"GMEXT-Discord.html","CopyToMask":0,"filePath":"datafiles","name":"GMEXT-Discord.html","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
