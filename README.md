@@ -35,7 +35,7 @@ The public API surface is defined in `extensions/GMDiscordSocial/source/spec.gmi
 
 ## Documentation
 
-- Check [the documentation](/YoYoGames/GMEXT-Discord/wiki)
+- Check [the documentation](https://github.com/YoYoGames/GMEXT-Discord/wiki)
 
 The online documentation is regularly updated to ensure it contains the most current information. For those who prefer a different format, we also offer a HTML version. This HTML is directly converted from the GitHub Wiki content, ensuring consistency, although it may follow slightly behind in updates.
 
