@@ -18,7 +18,10 @@ After compilation the exported dll/dylib/so/aar/xcframework file is automaticall
 
 ## Requirements
 
-The pre-compiled Discord Social SDK (headers and binaries for all supported platforms) is bundled with the repository under `source/discord_social_sdk/`, so no separate SDK download is required.
+To compile the native bridge you will need to [download the Discord Social SDK](https://discord.com/developers/docs/social-sdk/overview) and place its contents into `source/discord_social_sdk/`. The SDK is not included in this repository due to third-party distribution restrictions.
+
+> [!IMPORTANT]
+> The Discord Social SDK cannot be redistributed. You must download it directly from Discord and agree to their terms before use.
 
 The native bridge is built with **CMake 3.21+** and a **C++17** compiler. From `source/DiscordSocial_gml/extensions/GMDiscordSocial/source/` you can configure and build using one of the provided presets, for example:
 
