@@ -18,7 +18,11 @@ call %Utils% optionGetValue "linuxSdkPath" LINUX_SDK_PATH
 call %Utils% optionGetValue "androidSdkPath" ANDROID_SDK_PATH
 
 :: Ensure we are on the output path
-pushd "%YYoutputFolder%"
+if "%YYTARGET_runtime%" == "GMRT" (
+    pushd "%YYoutputFolder%\build\assets"
+) else (
+    pushd "%YYoutputFolder%"
+)
 
 :: Call setup method depending on the platform
 :: NOTE: the setup method can be (:setupWindows, :setupMacOS, :setupLinux, :setupAndroid, :setupiOS)

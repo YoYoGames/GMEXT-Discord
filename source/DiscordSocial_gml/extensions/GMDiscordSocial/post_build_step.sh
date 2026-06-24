@@ -64,6 +64,38 @@ setupmacOS() {
 }
 
 # ----------------------------------------------------------------------------------------------------
+setupMac() {
+    # Resolve the SDK path (must exist)
+    pathResolveExisting "$YYprojectDir" "$MACOS_SDK_PATH" SDK_PATH
+
+    SDK_SOURCE="$SDK_PATH/lib/release/libdiscord_partner_sdk.dylib"
+
+    # Strip macOS quarantine flag if present (Gatekeeper would otherwise block the dylib)
+    for f in "${SDK_SOURCE}"; do
+        [ -n "$f" ] || continue
+
+        if [ ! -e "$f" ]; then
+            logWarning "Not found: $f"
+            continue
+        fi
+
+        if xattr -p com.apple.quarantine "$f" >/dev/null 2>&1; then
+            logWarning "'$(basename "$f")' is quarantined. Removing com.apple.quarantine…"
+            if xattr -d com.apple.quarantine "$f" >/dev/null 2>&1; then
+                logInformation "Removed quarantine from '$f'"
+            else
+                logError "Failed to remove quarantine from '$f' (permissions/path?)."
+            fi
+        fi
+    done
+
+    echo "Copying macOS (64 bit) dependencies (GMRT)"
+    pushd "./build/assets/" >/dev/null
+    itemCopyTo "$SDK_SOURCE" "./libdiscord_partner_sdk.dylib"
+    popd >/dev/null
+}
+
+# ----------------------------------------------------------------------------------------------------
 setupLinux() {
     # Resolve the SDK path (must exist)
     pathResolveExisting "$YYprojectDir" "$LINUX_SDK_PATH" SDK_PATH
