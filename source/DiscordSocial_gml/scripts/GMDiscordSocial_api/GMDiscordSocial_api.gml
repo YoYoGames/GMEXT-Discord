@@ -227,13 +227,13 @@ enum DiscordAudioSystem
 // #####################################################################
 
 /**
- * @returns {Struct.DiscordActivityInvite} 
+ * @returns {Struct.DiscordActivityInvite}
  */
 function DiscordActivityInvite() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 177687119;
 
@@ -250,13 +250,13 @@ function DiscordActivityInvite() constructor
 }
 
 /**
- * @returns {Struct.DiscordAudioDevice} 
+ * @returns {Struct.DiscordAudioDevice}
  */
 function DiscordAudioDevice() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 3858747201;
 
@@ -267,13 +267,13 @@ function DiscordAudioDevice() constructor
 }
 
 /**
- * @returns {Struct.DiscordRelationshipSnapshot} 
+ * @returns {Struct.DiscordRelationshipSnapshot}
  */
 function DiscordRelationshipSnapshot() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 4070977821;
 
@@ -285,13 +285,13 @@ function DiscordRelationshipSnapshot() constructor
 }
 
 /**
- * @returns {Struct.DiscordGuildMinimal} 
+ * @returns {Struct.DiscordGuildMinimal}
  */
 function DiscordGuildMinimal() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 3541463613;
 
@@ -301,13 +301,13 @@ function DiscordGuildMinimal() constructor
 }
 
 /**
- * @returns {Struct.DiscordLinkedLobby} 
+ * @returns {Struct.DiscordLinkedLobby}
  */
 function DiscordLinkedLobby() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 2845990322;
 
@@ -317,13 +317,13 @@ function DiscordLinkedLobby() constructor
 }
 
 /**
- * @returns {Struct.DiscordClientResult} 
+ * @returns {Struct.DiscordClientResult}
  */
 function DiscordClientResult() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 3500852089;
 
@@ -339,13 +339,13 @@ function DiscordClientResult() constructor
 }
 
 /**
- * @returns {Struct.DiscordChannelHandle} 
+ * @returns {Struct.DiscordChannelHandle}
  */
 function DiscordChannelHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1253744792;
 
@@ -357,13 +357,13 @@ function DiscordChannelHandle() constructor
 }
 
 /**
- * @returns {Struct.DiscordAdditionalContent} 
+ * @returns {Struct.DiscordAdditionalContent}
  */
 function DiscordAdditionalContent() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 3042072655;
 
@@ -374,13 +374,13 @@ function DiscordAdditionalContent() constructor
 }
 
 /**
- * @returns {Struct.DiscordLinkedChannel} 
+ * @returns {Struct.DiscordLinkedChannel}
  */
 function DiscordLinkedChannel() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 4231637701;
 
@@ -391,13 +391,13 @@ function DiscordLinkedChannel() constructor
 }
 
 /**
- * @returns {Struct.DiscordVoiceStateHandle} 
+ * @returns {Struct.DiscordVoiceStateHandle}
  */
 function DiscordVoiceStateHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 586858698;
 
@@ -407,13 +407,13 @@ function DiscordVoiceStateHandle() constructor
 }
 
 /**
- * @returns {Struct.DiscordActivityParty} 
+ * @returns {Struct.DiscordActivityParty}
  */
 function DiscordActivityParty() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 3139070394;
 
@@ -425,13 +425,13 @@ function DiscordActivityParty() constructor
 }
 
 /**
- * @returns {Struct.DiscordActivitySecrets} 
+ * @returns {Struct.DiscordActivitySecrets}
  */
 function DiscordActivitySecrets() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 2690611567;
 
@@ -440,13 +440,13 @@ function DiscordActivitySecrets() constructor
 }
 
 /**
- * @returns {Struct.DiscordActivityAssets} 
+ * @returns {Struct.DiscordActivityAssets}
  */
 function DiscordActivityAssets() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1265004731;
 
@@ -461,13 +461,13 @@ function DiscordActivityAssets() constructor
 }
 
 /**
- * @returns {Struct.DiscordActivityButton} 
+ * @returns {Struct.DiscordActivityButton}
  */
 function DiscordActivityButton() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1869130158;
 
@@ -477,13 +477,13 @@ function DiscordActivityButton() constructor
 }
 
 /**
- * @returns {Struct.DiscordActivityTimestamps} 
+ * @returns {Struct.DiscordActivityTimestamps}
  */
 function DiscordActivityTimestamps() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 2943193567;
 
@@ -493,13 +493,13 @@ function DiscordActivityTimestamps() constructor
 }
 
 /**
- * @returns {Struct.DiscordUserApplicationProfileHandle} 
+ * @returns {Struct.DiscordUserApplicationProfileHandle}
  */
 function DiscordUserApplicationProfileHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1721643633;
 
@@ -513,13 +513,13 @@ function DiscordUserApplicationProfileHandle() constructor
 }
 
 /**
- * @returns {Struct.DiscordUserMessageSummary} 
+ * @returns {Struct.DiscordUserMessageSummary}
  */
 function DiscordUserMessageSummary() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 938138933;
 
@@ -529,13 +529,13 @@ function DiscordUserMessageSummary() constructor
 }
 
 /**
- * @returns {Struct.DiscordVADThresholdSettings} 
+ * @returns {Struct.DiscordVADThresholdSettings}
  */
 function DiscordVADThresholdSettings() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 4188003828;
 
@@ -545,13 +545,13 @@ function DiscordVADThresholdSettings() constructor
 }
 
 /**
- * @returns {Struct.DiscordAuthorizationArgs} 
+ * @returns {Struct.DiscordAuthorizationArgs}
  */
 function DiscordAuthorizationArgs() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1344950869;
 
@@ -564,13 +564,13 @@ function DiscordAuthorizationArgs() constructor
 }
 
 /**
- * @returns {Struct.DiscordClientCreateOptions} 
+ * @returns {Struct.DiscordClientCreateOptions}
  */
 function DiscordClientCreateOptions() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1415721306;
 
@@ -583,13 +583,13 @@ function DiscordClientCreateOptions() constructor
 }
 
 /**
- * @returns {Struct.DiscordGuildChannel} 
+ * @returns {Struct.DiscordGuildChannel}
  */
 function DiscordGuildChannel() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 3267911093;
 
@@ -606,13 +606,13 @@ function DiscordGuildChannel() constructor
 }
 
 /**
- * @returns {Struct.DiscordCallVoiceStateEntry} 
+ * @returns {Struct.DiscordCallVoiceStateEntry}
  */
 function DiscordCallVoiceStateEntry() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1084323544;
 
@@ -622,13 +622,13 @@ function DiscordCallVoiceStateEntry() constructor
 }
 
 /**
- * @returns {Struct.DiscordActivity} 
+ * @returns {Struct.DiscordActivity}
  */
 function DiscordActivity() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 2561031278;
 
@@ -651,13 +651,13 @@ function DiscordActivity() constructor
 }
 
 /**
- * @returns {Struct.DiscordCall} 
+ * @returns {Struct.DiscordCall}
  */
 function DiscordCall() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 2903076895;
 
@@ -675,13 +675,13 @@ function DiscordCall() constructor
 }
 
 /**
- * @returns {Struct.DiscordCallInfoHandle} 
+ * @returns {Struct.DiscordCallInfoHandle}
  */
 function DiscordCallInfoHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 70622077;
 
@@ -693,13 +693,13 @@ function DiscordCallInfoHandle() constructor
 }
 
 /**
- * @returns {Struct.DiscordUserHandle} 
+ * @returns {Struct.DiscordUserHandle}
  */
 function DiscordUserHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1178519282;
 
@@ -720,13 +720,13 @@ function DiscordUserHandle() constructor
 }
 
 /**
- * @returns {Struct.DiscordRelationshipHandle} 
+ * @returns {Struct.DiscordRelationshipHandle}
  */
 function DiscordRelationshipHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 3574849379;
 
@@ -739,13 +739,13 @@ function DiscordRelationshipHandle() constructor
 }
 
 /**
- * @returns {Struct.DiscordLobbyMemberHandle} 
+ * @returns {Struct.DiscordLobbyMemberHandle}
  */
 function DiscordLobbyMemberHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 1984637501;
 
@@ -758,13 +758,13 @@ function DiscordLobbyMemberHandle() constructor
 }
 
 /**
- * @returns {Struct.DiscordLobbyHandle} 
+ * @returns {Struct.DiscordLobbyHandle}
  */
 function DiscordLobbyHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 2865089355;
 
@@ -778,13 +778,13 @@ function DiscordLobbyHandle() constructor
 }
 
 /**
- * @returns {Struct.DiscordMessageHandle} 
+ * @returns {Struct.DiscordMessageHandle}
  */
 function DiscordMessageHandle() constructor
 {
     /**
      * Internally generated hash for quick validation
-     * @ignore 
+     * @ignore
      */
     static __uid = 657131352;
 
@@ -819,7 +819,7 @@ function DiscordMessageHandle() constructor
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordActivityInvite_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -872,8 +872,8 @@ function __DiscordActivityInvite_encode(_inst, _buffer, _offset, _where = _GMFUN
  * @func __DiscordActivityInvite_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordActivityInvite} 
- * @ignore 
+ * @returns {Struct.DiscordActivityInvite}
+ * @ignore
  */
 function __DiscordActivityInvite_decode(_buffer, _offset)
 {
@@ -922,7 +922,7 @@ function __DiscordActivityInvite_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordAudioDevice_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -950,8 +950,8 @@ function __DiscordAudioDevice_encode(_inst, _buffer, _offset, _where = _GMFUNCTI
  * @func __DiscordAudioDevice_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordAudioDevice} 
- * @ignore 
+ * @returns {Struct.DiscordAudioDevice}
+ * @ignore
  */
 function __DiscordAudioDevice_decode(_buffer, _offset)
 {
@@ -982,7 +982,7 @@ function __DiscordAudioDevice_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordRelationshipSnapshot_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1014,8 +1014,8 @@ function __DiscordRelationshipSnapshot_encode(_inst, _buffer, _offset, _where = 
  * @func __DiscordRelationshipSnapshot_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordRelationshipSnapshot} 
- * @ignore 
+ * @returns {Struct.DiscordRelationshipSnapshot}
+ * @ignore
  */
 function __DiscordRelationshipSnapshot_decode(_buffer, _offset)
 {
@@ -1047,7 +1047,7 @@ function __DiscordRelationshipSnapshot_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordGuildMinimal_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1070,8 +1070,8 @@ function __DiscordGuildMinimal_encode(_inst, _buffer, _offset, _where = _GMFUNCT
  * @func __DiscordGuildMinimal_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordGuildMinimal} 
- * @ignore 
+ * @returns {Struct.DiscordGuildMinimal}
+ * @ignore
  */
 function __DiscordGuildMinimal_decode(_buffer, _offset)
 {
@@ -1098,7 +1098,7 @@ function __DiscordGuildMinimal_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordLinkedLobby_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1120,8 +1120,8 @@ function __DiscordLinkedLobby_encode(_inst, _buffer, _offset, _where = _GMFUNCTI
  * @func __DiscordLinkedLobby_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordLinkedLobby} 
- * @ignore 
+ * @returns {Struct.DiscordLinkedLobby}
+ * @ignore
  */
 function __DiscordLinkedLobby_decode(_buffer, _offset)
 {
@@ -1147,7 +1147,7 @@ function __DiscordLinkedLobby_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordClientResult_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1196,8 +1196,8 @@ function __DiscordClientResult_encode(_inst, _buffer, _offset, _where = _GMFUNCT
  * @func __DiscordClientResult_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordClientResult} 
- * @ignore 
+ * @returns {Struct.DiscordClientResult}
+ * @ignore
  */
 function __DiscordClientResult_decode(_buffer, _offset)
 {
@@ -1243,7 +1243,7 @@ function __DiscordClientResult_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordChannelHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1265,9 +1265,9 @@ function __DiscordChannelHandle_encode(_inst, _buffer, _offset, _where = _GMFUNC
 
         // field: recipients, type: UInt64[]
         if (!is_array(self.recipients)) show_error($"{_where} :: self.recipients expected array", true);
-        var _length = array_length(self.recipients);
-        buffer_write(_buffer, buffer_u32, _length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = array_length(self.recipients);
+        buffer_write(_buffer, buffer_u32, __length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             if (!is_numeric(self.recipients[_i])) show_error($"{_where} :: self.recipients[_i] expected number", true);
             buffer_write(_buffer, buffer_u64, self.recipients[_i]);
@@ -1280,8 +1280,8 @@ function __DiscordChannelHandle_encode(_inst, _buffer, _offset, _where = _GMFUNC
  * @func __DiscordChannelHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordChannelHandle} 
- * @ignore 
+ * @returns {Struct.DiscordChannelHandle}
+ * @ignore
  */
 function __DiscordChannelHandle_decode(_buffer, _offset)
 {
@@ -1301,9 +1301,9 @@ function __DiscordChannelHandle_decode(_buffer, _offset)
         self.type = buffer_read(_buffer, buffer_f64);
 
         // field: recipients, type: UInt64[]
-        var _length = buffer_read(_buffer, buffer_u32);
-        self.recipients = array_create(_length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = buffer_read(_buffer, buffer_u32);
+        self.recipients = array_create(__length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             self.recipients[_i] = buffer_read(_buffer, buffer_u64);
         }
@@ -1319,7 +1319,7 @@ function __DiscordChannelHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordAdditionalContent_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1347,8 +1347,8 @@ function __DiscordAdditionalContent_encode(_inst, _buffer, _offset, _where = _GM
  * @func __DiscordAdditionalContent_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordAdditionalContent} 
- * @ignore 
+ * @returns {Struct.DiscordAdditionalContent}
+ * @ignore
  */
 function __DiscordAdditionalContent_decode(_buffer, _offset)
 {
@@ -1378,7 +1378,7 @@ function __DiscordAdditionalContent_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordLinkedChannel_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1405,8 +1405,8 @@ function __DiscordLinkedChannel_encode(_inst, _buffer, _offset, _where = _GMFUNC
  * @func __DiscordLinkedChannel_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordLinkedChannel} 
- * @ignore 
+ * @returns {Struct.DiscordLinkedChannel}
+ * @ignore
  */
 function __DiscordLinkedChannel_decode(_buffer, _offset)
 {
@@ -1436,7 +1436,7 @@ function __DiscordLinkedChannel_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordVoiceStateHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1458,8 +1458,8 @@ function __DiscordVoiceStateHandle_encode(_inst, _buffer, _offset, _where = _GMF
  * @func __DiscordVoiceStateHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordVoiceStateHandle} 
- * @ignore 
+ * @returns {Struct.DiscordVoiceStateHandle}
+ * @ignore
  */
 function __DiscordVoiceStateHandle_decode(_buffer, _offset)
 {
@@ -1485,7 +1485,7 @@ function __DiscordVoiceStateHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordActivityParty_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1533,8 +1533,8 @@ function __DiscordActivityParty_encode(_inst, _buffer, _offset, _where = _GMFUNC
  * @func __DiscordActivityParty_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordActivityParty} 
- * @ignore 
+ * @returns {Struct.DiscordActivityParty}
+ * @ignore
  */
 function __DiscordActivityParty_decode(_buffer, _offset)
 {
@@ -1581,7 +1581,7 @@ function __DiscordActivityParty_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordActivitySecrets_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1600,8 +1600,8 @@ function __DiscordActivitySecrets_encode(_inst, _buffer, _offset, _where = _GMFU
  * @func __DiscordActivitySecrets_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordActivitySecrets} 
- * @ignore 
+ * @returns {Struct.DiscordActivitySecrets}
+ * @ignore
  */
 function __DiscordActivitySecrets_decode(_buffer, _offset)
 {
@@ -1625,7 +1625,7 @@ function __DiscordActivitySecrets_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordActivityAssets_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1730,8 +1730,8 @@ function __DiscordActivityAssets_encode(_inst, _buffer, _offset, _where = _GMFUN
  * @func __DiscordActivityAssets_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordActivityAssets} 
- * @ignore 
+ * @returns {Struct.DiscordActivityAssets}
+ * @ignore
  */
 function __DiscordActivityAssets_decode(_buffer, _offset)
 {
@@ -1828,7 +1828,7 @@ function __DiscordActivityAssets_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordActivityButton_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1852,8 +1852,8 @@ function __DiscordActivityButton_encode(_inst, _buffer, _offset, _where = _GMFUN
  * @func __DiscordActivityButton_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordActivityButton} 
- * @ignore 
+ * @returns {Struct.DiscordActivityButton}
+ * @ignore
  */
 function __DiscordActivityButton_decode(_buffer, _offset)
 {
@@ -1881,7 +1881,7 @@ function __DiscordActivityButton_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordActivityTimestamps_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -1919,8 +1919,8 @@ function __DiscordActivityTimestamps_encode(_inst, _buffer, _offset, _where = _G
  * @func __DiscordActivityTimestamps_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordActivityTimestamps} 
- * @ignore 
+ * @returns {Struct.DiscordActivityTimestamps}
+ * @ignore
  */
 function __DiscordActivityTimestamps_decode(_buffer, _offset)
 {
@@ -1960,7 +1960,7 @@ function __DiscordActivityTimestamps_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordUserApplicationProfileHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2011,8 +2011,8 @@ function __DiscordUserApplicationProfileHandle_encode(_inst, _buffer, _offset, _
  * @func __DiscordUserApplicationProfileHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordUserApplicationProfileHandle} 
- * @ignore 
+ * @returns {Struct.DiscordUserApplicationProfileHandle}
+ * @ignore
  */
 function __DiscordUserApplicationProfileHandle_decode(_buffer, _offset)
 {
@@ -2062,7 +2062,7 @@ function __DiscordUserApplicationProfileHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordUserMessageSummary_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2084,8 +2084,8 @@ function __DiscordUserMessageSummary_encode(_inst, _buffer, _offset, _where = _G
  * @func __DiscordUserMessageSummary_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordUserMessageSummary} 
- * @ignore 
+ * @returns {Struct.DiscordUserMessageSummary}
+ * @ignore
  */
 function __DiscordUserMessageSummary_decode(_buffer, _offset)
 {
@@ -2111,7 +2111,7 @@ function __DiscordUserMessageSummary_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordVADThresholdSettings_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2133,8 +2133,8 @@ function __DiscordVADThresholdSettings_encode(_inst, _buffer, _offset, _where = 
  * @func __DiscordVADThresholdSettings_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordVADThresholdSettings} 
- * @ignore 
+ * @returns {Struct.DiscordVADThresholdSettings}
+ * @ignore
  */
 function __DiscordVADThresholdSettings_decode(_buffer, _offset)
 {
@@ -2160,7 +2160,7 @@ function __DiscordVADThresholdSettings_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordAuthorizationArgs_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2237,8 +2237,8 @@ function __DiscordAuthorizationArgs_encode(_inst, _buffer, _offset, _where = _GM
  * @func __DiscordAuthorizationArgs_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordAuthorizationArgs} 
- * @ignore 
+ * @returns {Struct.DiscordAuthorizationArgs}
+ * @ignore
  */
 function __DiscordAuthorizationArgs_decode(_buffer, _offset)
 {
@@ -2311,7 +2311,7 @@ function __DiscordAuthorizationArgs_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordClientCreateOptions_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2356,8 +2356,8 @@ function __DiscordClientCreateOptions_encode(_inst, _buffer, _offset, _where = _
  * @func __DiscordClientCreateOptions_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordClientCreateOptions} 
- * @ignore 
+ * @returns {Struct.DiscordClientCreateOptions}
+ * @ignore
  */
 function __DiscordClientCreateOptions_decode(_buffer, _offset)
 {
@@ -2401,7 +2401,7 @@ function __DiscordClientCreateOptions_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordGuildChannel_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2469,8 +2469,8 @@ function __DiscordGuildChannel_encode(_inst, _buffer, _offset, _where = _GMFUNCT
  * @func __DiscordGuildChannel_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordGuildChannel} 
- * @ignore 
+ * @returns {Struct.DiscordGuildChannel}
+ * @ignore
  */
 function __DiscordGuildChannel_decode(_buffer, _offset)
 {
@@ -2532,7 +2532,7 @@ function __DiscordGuildChannel_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordCallVoiceStateEntry_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2554,8 +2554,8 @@ function __DiscordCallVoiceStateEntry_encode(_inst, _buffer, _offset, _where = _
  * @func __DiscordCallVoiceStateEntry_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordCallVoiceStateEntry} 
- * @ignore 
+ * @returns {Struct.DiscordCallVoiceStateEntry}
+ * @ignore
  */
 function __DiscordCallVoiceStateEntry_decode(_buffer, _offset)
 {
@@ -2581,7 +2581,7 @@ function __DiscordCallVoiceStateEntry_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordActivity_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2750,9 +2750,9 @@ function __DiscordActivity_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_
 
         // field: buttons, type: struct DiscordActivityButton[]
         if (!is_array(self.buttons)) show_error($"{_where} :: self.buttons expected array", true);
-        var _length = array_length(self.buttons);
-        buffer_write(_buffer, buffer_u32, _length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = array_length(self.buttons);
+        buffer_write(_buffer, buffer_u32, __length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             if (self.buttons[_i].__uid != 1869130158) show_error($"{_where} :: self.buttons[_i] expected DiscordActivityButton", true);
             __DiscordActivityButton_encode(self.buttons[_i], _buffer, buffer_tell(_buffer), _where);
@@ -2765,8 +2765,8 @@ function __DiscordActivity_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_
  * @func __DiscordActivity_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordActivity} 
- * @ignore 
+ * @returns {Struct.DiscordActivity}
+ * @ignore
  */
 function __DiscordActivity_decode(_buffer, _offset)
 {
@@ -2907,9 +2907,9 @@ function __DiscordActivity_decode(_buffer, _offset)
         }
 
         // field: buttons, type: struct DiscordActivityButton[]
-        var _length = buffer_read(_buffer, buffer_u32);
-        self.buttons = array_create(_length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = buffer_read(_buffer, buffer_u32);
+        self.buttons = array_create(__length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             self.buttons[_i] = __DiscordActivityButton_decode(_buffer, buffer_tell(_buffer));
         }
@@ -2925,7 +2925,7 @@ function __DiscordActivity_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordCall_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -2947,9 +2947,9 @@ function __DiscordCall_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 
         // field: participants, type: UInt64[]
         if (!is_array(self.participants)) show_error($"{_where} :: self.participants expected array", true);
-        var _length = array_length(self.participants);
-        buffer_write(_buffer, buffer_u32, _length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = array_length(self.participants);
+        buffer_write(_buffer, buffer_u32, __length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             if (!is_numeric(self.participants[_i])) show_error($"{_where} :: self.participants[_i] expected number", true);
             buffer_write(_buffer, buffer_u64, self.participants[_i]);
@@ -2987,8 +2987,8 @@ function __DiscordCall_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
  * @func __DiscordCall_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordCall} 
- * @ignore 
+ * @returns {Struct.DiscordCall}
+ * @ignore
  */
 function __DiscordCall_decode(_buffer, _offset)
 {
@@ -3007,9 +3007,9 @@ function __DiscordCall_decode(_buffer, _offset)
         self.guild_id = buffer_read(_buffer, buffer_u64);
 
         // field: participants, type: UInt64[]
-        var _length = buffer_read(_buffer, buffer_u32);
-        self.participants = array_create(_length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = buffer_read(_buffer, buffer_u32);
+        self.participants = array_create(__length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             self.participants[_i] = buffer_read(_buffer, buffer_u64);
         }
@@ -3043,7 +3043,7 @@ function __DiscordCall_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordCallInfoHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -3060,9 +3060,9 @@ function __DiscordCallInfoHandle_encode(_inst, _buffer, _offset, _where = _GMFUN
 
         // field: participants, type: UInt64[]
         if (!is_array(self.participants)) show_error($"{_where} :: self.participants expected array", true);
-        var _length = array_length(self.participants);
-        buffer_write(_buffer, buffer_u32, _length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = array_length(self.participants);
+        buffer_write(_buffer, buffer_u32, __length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             if (!is_numeric(self.participants[_i])) show_error($"{_where} :: self.participants[_i] expected number", true);
             buffer_write(_buffer, buffer_u64, self.participants[_i]);
@@ -3070,9 +3070,9 @@ function __DiscordCallInfoHandle_encode(_inst, _buffer, _offset, _where = _GMFUN
 
         // field: voice_state_handles, type: struct DiscordCallVoiceStateEntry[]
         if (!is_array(self.voice_state_handles)) show_error($"{_where} :: self.voice_state_handles expected array", true);
-        var _length = array_length(self.voice_state_handles);
-        buffer_write(_buffer, buffer_u32, _length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = array_length(self.voice_state_handles);
+        buffer_write(_buffer, buffer_u32, __length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             if (self.voice_state_handles[_i].__uid != 1084323544) show_error($"{_where} :: self.voice_state_handles[_i] expected DiscordCallVoiceStateEntry", true);
             __DiscordCallVoiceStateEntry_encode(self.voice_state_handles[_i], _buffer, buffer_tell(_buffer), _where);
@@ -3085,8 +3085,8 @@ function __DiscordCallInfoHandle_encode(_inst, _buffer, _offset, _where = _GMFUN
  * @func __DiscordCallInfoHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordCallInfoHandle} 
- * @ignore 
+ * @returns {Struct.DiscordCallInfoHandle}
+ * @ignore
  */
 function __DiscordCallInfoHandle_decode(_buffer, _offset)
 {
@@ -3102,17 +3102,17 @@ function __DiscordCallInfoHandle_decode(_buffer, _offset)
         self.guild_id = buffer_read(_buffer, buffer_u64);
 
         // field: participants, type: UInt64[]
-        var _length = buffer_read(_buffer, buffer_u32);
-        self.participants = array_create(_length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = buffer_read(_buffer, buffer_u32);
+        self.participants = array_create(__length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             self.participants[_i] = buffer_read(_buffer, buffer_u64);
         }
 
         // field: voice_state_handles, type: struct DiscordCallVoiceStateEntry[]
-        var _length = buffer_read(_buffer, buffer_u32);
-        self.voice_state_handles = array_create(_length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = buffer_read(_buffer, buffer_u32);
+        self.voice_state_handles = array_create(__length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             self.voice_state_handles[_i] = __DiscordCallVoiceStateEntry_decode(_buffer, buffer_tell(_buffer));
         }
@@ -3128,7 +3128,7 @@ function __DiscordCallInfoHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordUserHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -3225,9 +3225,9 @@ function __DiscordUserHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTIO
 
         // field: user_application_profiles, type: struct DiscordUserApplicationProfileHandle[]
         if (!is_array(self.user_application_profiles)) show_error($"{_where} :: self.user_application_profiles expected array", true);
-        var _length = array_length(self.user_application_profiles);
-        buffer_write(_buffer, buffer_u32, _length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = array_length(self.user_application_profiles);
+        buffer_write(_buffer, buffer_u32, __length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             if (self.user_application_profiles[_i].__uid != 1721643633) show_error($"{_where} :: self.user_application_profiles[_i] expected DiscordUserApplicationProfileHandle", true);
             __DiscordUserApplicationProfileHandle_encode(self.user_application_profiles[_i], _buffer, buffer_tell(_buffer), _where);
@@ -3240,8 +3240,8 @@ function __DiscordUserHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTIO
  * @func __DiscordUserHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordUserHandle} 
- * @ignore 
+ * @returns {Struct.DiscordUserHandle}
+ * @ignore
  */
 function __DiscordUserHandle_decode(_buffer, _offset)
 {
@@ -3321,9 +3321,9 @@ function __DiscordUserHandle_decode(_buffer, _offset)
         }
 
         // field: user_application_profiles, type: struct DiscordUserApplicationProfileHandle[]
-        var _length = buffer_read(_buffer, buffer_u32);
-        self.user_application_profiles = array_create(_length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = buffer_read(_buffer, buffer_u32);
+        self.user_application_profiles = array_create(__length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             self.user_application_profiles[_i] = __DiscordUserApplicationProfileHandle_decode(_buffer, buffer_tell(_buffer));
         }
@@ -3339,7 +3339,7 @@ function __DiscordUserHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordRelationshipHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -3383,8 +3383,8 @@ function __DiscordRelationshipHandle_encode(_inst, _buffer, _offset, _where = _G
  * @func __DiscordRelationshipHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordRelationshipHandle} 
- * @ignore 
+ * @returns {Struct.DiscordRelationshipHandle}
+ * @ignore
  */
 function __DiscordRelationshipHandle_decode(_buffer, _offset)
 {
@@ -3426,7 +3426,7 @@ function __DiscordRelationshipHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordLobbyMemberHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -3468,12 +3468,12 @@ function __DiscordLobbyMemberHandle_encode(_inst, _buffer, _offset, _where = _GM
  * @func __DiscordLobbyMemberHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordLobbyMemberHandle} 
- * @ignore 
+ * @returns {Struct.DiscordLobbyMemberHandle}
+ * @ignore
  */
 function __DiscordLobbyMemberHandle_decode(_buffer, _offset)
 {
-    static __decoders = __GMDiscordSocial_get_decoders();
+    static __decoders__ = __GMDiscordSocial_get_decoders();
 
     buffer_seek(_buffer, buffer_seek_start, _offset);
 
@@ -3500,7 +3500,7 @@ function __DiscordLobbyMemberHandle_decode(_buffer, _offset)
         }
 
         // field: metadata, type: AnyMap
-        self.metadata = __ext_core_buffer_unmarshal_value(_buffer, __decoders);
+        self.metadata = __ext_core_buffer_unmarshal_value(_buffer, __decoders__);
 
     }
 
@@ -3513,7 +3513,7 @@ function __DiscordLobbyMemberHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordLobbyHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -3526,9 +3526,9 @@ function __DiscordLobbyHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTI
 
         // field: lobby_member_ids, type: UInt64[]
         if (!is_array(self.lobby_member_ids)) show_error($"{_where} :: self.lobby_member_ids expected array", true);
-        var _length = array_length(self.lobby_member_ids);
-        buffer_write(_buffer, buffer_u32, _length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = array_length(self.lobby_member_ids);
+        buffer_write(_buffer, buffer_u32, __length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             if (!is_numeric(self.lobby_member_ids[_i])) show_error($"{_where} :: self.lobby_member_ids[_i] expected number", true);
             buffer_write(_buffer, buffer_u64, self.lobby_member_ids[_i]);
@@ -3536,9 +3536,9 @@ function __DiscordLobbyHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTI
 
         // field: lobby_members, type: struct DiscordLobbyMemberHandle[]
         if (!is_array(self.lobby_members)) show_error($"{_where} :: self.lobby_members expected array", true);
-        var _length = array_length(self.lobby_members);
-        buffer_write(_buffer, buffer_u32, _length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = array_length(self.lobby_members);
+        buffer_write(_buffer, buffer_u32, __length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             if (self.lobby_members[_i].__uid != 1984637501) show_error($"{_where} :: self.lobby_members[_i] expected DiscordLobbyMemberHandle", true);
             __DiscordLobbyMemberHandle_encode(self.lobby_members[_i], _buffer, buffer_tell(_buffer), _where);
@@ -3579,12 +3579,12 @@ function __DiscordLobbyHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTI
  * @func __DiscordLobbyHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordLobbyHandle} 
- * @ignore 
+ * @returns {Struct.DiscordLobbyHandle}
+ * @ignore
  */
 function __DiscordLobbyHandle_decode(_buffer, _offset)
 {
-    static __decoders = __GMDiscordSocial_get_decoders();
+    static __decoders__ = __GMDiscordSocial_get_decoders();
 
     buffer_seek(_buffer, buffer_seek_start, _offset);
 
@@ -3595,17 +3595,17 @@ function __DiscordLobbyHandle_decode(_buffer, _offset)
         self.id = buffer_read(_buffer, buffer_u64);
 
         // field: lobby_member_ids, type: UInt64[]
-        var _length = buffer_read(_buffer, buffer_u32);
-        self.lobby_member_ids = array_create(_length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = buffer_read(_buffer, buffer_u32);
+        self.lobby_member_ids = array_create(__length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             self.lobby_member_ids[_i] = buffer_read(_buffer, buffer_u64);
         }
 
         // field: lobby_members, type: struct DiscordLobbyMemberHandle[]
-        var _length = buffer_read(_buffer, buffer_u32);
-        self.lobby_members = array_create(_length);
-        for (var _i = 0; _i < _length; ++_i)
+        var __length__ = buffer_read(_buffer, buffer_u32);
+        self.lobby_members = array_create(__length__);
+        for (var _i = 0; _i < __length__; ++_i)
         {
             self.lobby_members[_i] = __DiscordLobbyMemberHandle_decode(_buffer, buffer_tell(_buffer));
         }
@@ -3631,7 +3631,7 @@ function __DiscordLobbyHandle_decode(_buffer, _offset)
         }
 
         // field: metadata, type: AnyMap
-        self.metadata = __ext_core_buffer_unmarshal_value(_buffer, __decoders);
+        self.metadata = __ext_core_buffer_unmarshal_value(_buffer, __decoders__);
 
     }
 
@@ -3644,7 +3644,7 @@ function __DiscordLobbyHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
  * @param {String} _where
- * @ignore 
+ * @ignore
  */
 function __DiscordMessageHandle_encode(_inst, _buffer, _offset, _where = _GMFUNCTION_)
 {
@@ -3781,12 +3781,12 @@ function __DiscordMessageHandle_encode(_inst, _buffer, _offset, _where = _GMFUNC
  * @func __DiscordMessageHandle_decode(_buffer, _offset)
  * @param {Id.Buffer} _buffer
  * @param {Real} _offset
- * @returns {Struct.DiscordMessageHandle} 
- * @ignore 
+ * @returns {Struct.DiscordMessageHandle}
+ * @ignore
  */
 function __DiscordMessageHandle_decode(_buffer, _offset)
 {
-    static __decoders = __GMDiscordSocial_get_decoders();
+    static __decoders__ = __GMDiscordSocial_get_decoders();
 
     buffer_seek(_buffer, buffer_seek_start, _offset);
 
@@ -3850,7 +3850,7 @@ function __DiscordMessageHandle_decode(_buffer, _offset)
         self.edited_timestamp = buffer_read(_buffer, buffer_u64);
 
         // field: metadata, type: AnyMap
-        self.metadata = __ext_core_buffer_unmarshal_value(_buffer, __decoders);
+        self.metadata = __ext_core_buffer_unmarshal_value(_buffer, __decoders__);
 
         // field: additional_content, type: optional<struct DiscordAdditionalContent>
         if (buffer_read(_buffer, buffer_bool))
@@ -3889,7 +3889,7 @@ function __DiscordMessageHandle_decode(_buffer, _offset)
         }
 
         // field: moderation_metadata, type: AnyMap
-        self.moderation_metadata = __ext_core_buffer_unmarshal_value(_buffer, __decoders);
+        self.moderation_metadata = __ext_core_buffer_unmarshal_value(_buffer, __decoders__);
 
     }
 
@@ -3908,6 +3908,9 @@ function __DiscordMessageHandle_decode(_buffer, _offset)
  */
 function discord_social_init(_options)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _options, type: optional<struct DiscordClientCreateOptions>
@@ -3922,9 +3925,9 @@ function discord_social_init(_options)
         __DiscordClientCreateOptions_encode(_options, __args_buffer, buffer_tell(__args_buffer), _GMFUNCTION_);
     }
 
-    var _return_value = __discord_social_init(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_init(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_shutdown (no wrapper is required)
@@ -3936,7 +3939,10 @@ function discord_social_init(_options)
  */
 function discord_social_client_end_call(_channel_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -3946,12 +3952,12 @@ function discord_social_client_end_call(_channel_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_end_call(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_end_call(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -3959,26 +3965,32 @@ function discord_social_client_end_call(_channel_id, _callback)
  */
 function discord_social_client_end_calls(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_end_calls(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_end_calls(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
- * @returns {Struct.DiscordCall} 
+ * @returns {Struct.DiscordCall}
  */
 function discord_social_client_get_call(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -3987,30 +3999,33 @@ function discord_social_client_get_call(_channel_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_call(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_call(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = __DiscordCall_decode(__ret_buffer, buffer_tell(__ret_buffer));
-    return _result;
+    var __result__ = undefined;
+    __result__ = __DiscordCall_decode(__ret_buffer, buffer_tell(__ret_buffer));
+    return __result__;
 }
 
 /**
- * @returns {Array[Struct.DiscordCall]} 
+ * @returns {Array[Struct.DiscordCall]}
  */
 function discord_social_client_get_calls()
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_calls(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_calls(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    var _length = buffer_read(__ret_buffer, buffer_u32);
-    _result = array_create(_length);
-    for (var _i = 0; _i < _length; ++_i)
+    var __result__ = undefined;
+    var __length__ = buffer_read(__ret_buffer, buffer_u32);
+    __result__ = array_create(__length__);
+    for (var _i = 0; _i < __length__; ++_i)
     {
-        _result[_i] = __DiscordCall_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__[_i] = __DiscordCall_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
-    return _result;
+    return __result__;
 }
 
 /**
@@ -4018,18 +4033,21 @@ function discord_social_client_get_calls()
  */
 function discord_social_client_get_current_input_device(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_current_input_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_current_input_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4037,18 +4055,21 @@ function discord_social_client_get_current_input_device(_callback)
  */
 function discord_social_client_get_current_output_device(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_current_output_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_current_output_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4056,18 +4077,21 @@ function discord_social_client_get_current_output_device(_callback)
  */
 function discord_social_client_get_input_devices(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_input_devices(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_input_devices(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_get_input_volume (no wrapper is required)
@@ -4078,18 +4102,21 @@ function discord_social_client_get_input_devices(_callback)
  */
 function discord_social_client_get_output_devices(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_output_devices(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_output_devices(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_get_output_volume (no wrapper is required)
@@ -4109,18 +4136,21 @@ function discord_social_client_get_output_devices(_callback)
  */
 function discord_social_client_set_device_change_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_device_change_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_device_change_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_set_echo_cancellation (no wrapper is required)
@@ -4132,7 +4162,10 @@ function discord_social_client_set_device_change_callback(_callback)
  */
 function discord_social_client_set_input_device(_device_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4143,12 +4176,12 @@ function discord_social_client_set_input_device(_device_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_input_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_input_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_set_input_volume (no wrapper is required)
@@ -4159,18 +4192,21 @@ function discord_social_client_set_input_device(_device_id, _callback)
  */
 function discord_social_client_set_no_audio_input_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_no_audio_input_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_no_audio_input_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_set_no_audio_input_threshold (no wrapper is required)
@@ -4188,7 +4224,10 @@ function discord_social_client_set_no_audio_input_callback(_callback)
  */
 function discord_social_client_set_output_device(_device_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4199,12 +4238,12 @@ function discord_social_client_set_output_device(_device_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_output_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_output_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_set_output_volume (no wrapper is required)
@@ -4222,6 +4261,9 @@ function discord_social_client_set_output_device(_device_id, _callback)
  */
 function discord_social_client_set_thread_priority(_thread, _priority)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _thread, type: enum DiscordClientThread
@@ -4233,9 +4275,9 @@ function discord_social_client_set_thread_priority(_thread, _priority)
     if (!is_numeric(_priority)) show_error($"{_GMFUNCTION_} :: _priority expected number", true);
     buffer_write(__args_buffer, buffer_s32, _priority);
 
-    var _return_value = __discord_social_client_set_thread_priority(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_thread_priority(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4243,18 +4285,21 @@ function discord_social_client_set_thread_priority(_thread, _priority)
  */
 function discord_social_client_set_voice_participant_changed_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_voice_participant_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_voice_participant_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_show_audio_route_picker (no wrapper is required)
@@ -4262,10 +4307,13 @@ function discord_social_client_set_voice_participant_changed_callback(_callback)
 
 /**
  * @param {Real} _channel_id
- * @returns {Struct.DiscordCall} 
+ * @returns {Struct.DiscordCall}
  */
 function discord_social_client_start_call(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -4274,11 +4322,11 @@ function discord_social_client_start_call(_channel_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_start_call(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_start_call(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = __DiscordCall_decode(__ret_buffer, buffer_tell(__ret_buffer));
-    return _result;
+    var __result__ = undefined;
+    __result__ = __DiscordCall_decode(__ret_buffer, buffer_tell(__ret_buffer));
+    return __result__;
 }
 
 // Skipping function discord_social_call_audio_should_mute (no wrapper is required)
@@ -4288,11 +4336,14 @@ function discord_social_client_start_call(_channel_id)
  * @param {Real} _lobby_id
  * @param {Function} _received_callback
  * @param {Function} _captured_callback
- * @returns {Struct.DiscordCall} 
+ * @returns {Struct.DiscordCall}
  */
 function discord_social_client_start_call_with_audio_callbacks(_lobby_id, _received_callback, _captured_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4302,31 +4353,34 @@ function discord_social_client_start_call_with_audio_callbacks(_lobby_id, _recei
 
     // param: _received_callback, type: Function
     if (!is_callable(_received_callback)) show_error($"{_GMFUNCTION_} :: _received_callback expected callable type", true);
-    var _received_callback_handle = __ext_core_function_register(_received_callback, __dispatcher);
+    var _received_callback_handle = __ext_core_function_register(_received_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _received_callback_handle);
 
     // param: _captured_callback, type: Function
     if (!is_callable(_captured_callback)) show_error($"{_GMFUNCTION_} :: _captured_callback expected callable type", true);
-    var _captured_callback_handle = __ext_core_function_register(_captured_callback, __dispatcher);
+    var _captured_callback_handle = __ext_core_function_register(_captured_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _captured_callback_handle);
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_start_call_with_audio_callbacks(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_start_call_with_audio_callbacks(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = __DiscordCall_decode(__ret_buffer, buffer_tell(__ret_buffer));
-    return _result;
+    var __result__ = undefined;
+    __result__ = __DiscordCall_decode(__ret_buffer, buffer_tell(__ret_buffer));
+    return __result__;
 }
 
 /**
  * @param {Real} _lobby_id
  * @param {Real} _user_id
  * @param {Id.Buffer} _out_buffer
- * @returns {Real} 
+ * @returns {Real}
  */
 function discord_social_call_fetch_received_data(_lobby_id, _user_id, _out_buffer)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _lobby_id, type: UInt64
@@ -4343,20 +4397,23 @@ function discord_social_call_fetch_received_data(_lobby_id, _user_id, _out_buffe
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_call_fetch_received_data(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_call_fetch_received_data(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = buffer_read(__ret_buffer, buffer_u64);
-    return _result;
+    var __result__ = undefined;
+    __result__ = buffer_read(__ret_buffer, buffer_u64);
+    return __result__;
 }
 
 /**
  * @param {Real} _lobby_id
  * @param {Id.Buffer} _out_buffer
- * @returns {Real} 
+ * @returns {Real}
  */
 function discord_social_call_fetch_captured_data(_lobby_id, _out_buffer)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _lobby_id, type: UInt64
@@ -4369,11 +4426,11 @@ function discord_social_call_fetch_captured_data(_lobby_id, _out_buffer)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_call_fetch_captured_data(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_call_fetch_captured_data(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = buffer_read(__ret_buffer, buffer_u64);
-    return _result;
+    var __result__ = undefined;
+    __result__ = buffer_read(__ret_buffer, buffer_u64);
+    return __result__;
 }
 
 // Skipping function discord_social_client_abort_authorize (no wrapper is required)
@@ -4391,7 +4448,10 @@ function discord_social_call_fetch_captured_data(_lobby_id, _out_buffer)
  */
 function discord_social_client_authorize(_args, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4401,12 +4461,12 @@ function discord_social_client_authorize(_args, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_authorize(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_authorize(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_close_authorize_device_screen (no wrapper is required)
@@ -4420,7 +4480,10 @@ function discord_social_client_authorize(_args, _callback)
  */
 function discord_social_client_get_provisional_token(_application_id, _token_type, _token, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4440,12 +4503,12 @@ function discord_social_client_get_provisional_token(_application_id, _token_typ
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_provisional_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_provisional_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4457,7 +4520,10 @@ function discord_social_client_get_provisional_token(_application_id, _token_typ
  */
 function discord_social_client_get_token(_application_id, _code, _code_verifier, _redirect_uri, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4482,12 +4548,12 @@ function discord_social_client_get_token(_application_id, _code, _code_verifier,
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4497,7 +4563,10 @@ function discord_social_client_get_token(_application_id, _code, _code_verifier,
  */
 function discord_social_client_get_token_from_device(_client_id, _scopes, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4512,12 +4581,12 @@ function discord_social_client_get_token_from_device(_client_id, _scopes, _callb
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_token_from_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_token_from_device(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4529,7 +4598,10 @@ function discord_social_client_get_token_from_device(_client_id, _scopes, _callb
  */
 function discord_social_client_get_token_from_device_provisional_merge(_client_id, _scopes, _external_auth_type, _external_auth_token, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4554,12 +4626,12 @@ function discord_social_client_get_token_from_device_provisional_merge(_client_i
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_token_from_device_provisional_merge(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_token_from_device_provisional_merge(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4573,7 +4645,10 @@ function discord_social_client_get_token_from_device_provisional_merge(_client_i
  */
 function discord_social_client_get_token_from_provisional_merge(_application_id, _code, _code_verifier, _redirect_uri, _external_auth_type, _external_auth_token, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4608,12 +4683,12 @@ function discord_social_client_get_token_from_provisional_merge(_application_id,
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_token_from_provisional_merge(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_token_from_provisional_merge(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_is_authenticated (no wrapper is required)
@@ -4625,6 +4700,9 @@ function discord_social_client_get_token_from_provisional_merge(_application_id,
  */
 function discord_social_client_open_authorize_device_screen(_client_id, _user_code)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _client_id, type: UInt64
@@ -4636,9 +4714,9 @@ function discord_social_client_open_authorize_device_screen(_client_id, _user_co
     buffer_write(__args_buffer, buffer_u32, string_byte_length(_user_code));
     buffer_write(__args_buffer, buffer_string, _user_code);
 
-    var _return_value = __discord_social_client_open_authorize_device_screen(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_open_authorize_device_screen(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_provisional_user_merge_completed (no wrapper is required)
@@ -4651,7 +4729,10 @@ function discord_social_client_open_authorize_device_screen(_client_id, _user_co
  */
 function discord_social_client_refresh_token(_application_id, _refresh_token, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4666,12 +4747,12 @@ function discord_social_client_refresh_token(_application_id, _refresh_token, _c
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_refresh_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_refresh_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4679,18 +4760,21 @@ function discord_social_client_refresh_token(_application_id, _refresh_token, _c
  */
 function discord_social_client_set_authorize_device_screen_closed_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_authorize_device_screen_closed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_authorize_device_screen_closed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_set_game_window_pid (no wrapper is required)
@@ -4701,18 +4785,21 @@ function discord_social_client_set_authorize_device_screen_closed_callback(_call
  */
 function discord_social_client_set_token_expiration_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_token_expiration_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_token_expiration_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4721,7 +4808,10 @@ function discord_social_client_set_token_expiration_callback(_callback)
  */
 function discord_social_client_update_provisional_account_display_name(_name, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4732,12 +4822,12 @@ function discord_social_client_update_provisional_account_display_name(_name, _c
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_update_provisional_account_display_name(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_update_provisional_account_display_name(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4747,7 +4837,10 @@ function discord_social_client_update_provisional_account_display_name(_name, _c
  */
 function discord_social_client_update_token(_token_type, _token, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4763,12 +4856,12 @@ function discord_social_client_update_token(_token_type, _token, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_update_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_update_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4778,7 +4871,10 @@ function discord_social_client_update_token(_token_type, _token, _callback)
  */
 function discord_social_client_revoke_token(_application_id, _token, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4793,12 +4889,12 @@ function discord_social_client_revoke_token(_application_id, _token, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_revoke_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_revoke_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4808,7 +4904,10 @@ function discord_social_client_revoke_token(_application_id, _token, _callback)
  */
 function discord_social_client_exchange_child_token(_parent_application_token, _child_application_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4823,12 +4922,12 @@ function discord_social_client_exchange_child_token(_parent_application_token, _
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_exchange_child_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_exchange_child_token(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4839,7 +4938,10 @@ function discord_social_client_exchange_child_token(_parent_application_token, _
  */
 function discord_social_client_unmerge_into_provisional_account(_application_id, _external_auth_type, _external_auth_token, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4859,12 +4961,12 @@ function discord_social_client_unmerge_into_provisional_account(_application_id,
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_unmerge_into_provisional_account(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_unmerge_into_provisional_account(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4872,35 +4974,41 @@ function discord_social_client_unmerge_into_provisional_account(_application_id,
  */
 function discord_social_client_register_authorize_request_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_register_authorize_request_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_register_authorize_request_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _message_id
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_client_can_open_message_in_discord(_message_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _message_id, type: UInt64
     if (!is_numeric(_message_id)) show_error($"{_GMFUNCTION_} :: _message_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _message_id);
 
-    var _return_value = __discord_social_client_can_open_message_in_discord(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_can_open_message_in_discord(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -4910,7 +5018,10 @@ function discord_social_client_can_open_message_in_discord(_message_id)
  */
 function discord_social_client_delete_user_message(_recipient_id, _message_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -4924,20 +5035,23 @@ function discord_social_client_delete_user_message(_recipient_id, _message_id, _
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_delete_user_message(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_delete_user_message(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
- * @returns {Struct.DiscordChannelHandle} 
+ * @returns {Struct.DiscordChannelHandle}
  */
 function discord_social_client_get_channel_handle(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -4946,26 +5060,29 @@ function discord_social_client_get_channel_handle(_channel_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_channel_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_channel_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
+    var __result__ = undefined;
     if (buffer_read(__ret_buffer, buffer_bool))
     {
-        _result = __DiscordChannelHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__ = __DiscordChannelHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
     else
     {
-        _result = undefined;
+        __result__ = undefined;
     }
-    return _result;
+    return __result__;
 }
 
 /**
  * @param {Real} _message_id
- * @returns {Struct.DiscordMessageHandle} 
+ * @returns {Struct.DiscordMessageHandle}
  */
 function discord_social_client_get_message_handle(_message_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _message_id, type: UInt64
@@ -4974,18 +5091,18 @@ function discord_social_client_get_message_handle(_message_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_message_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_message_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
+    var __result__ = undefined;
     if (buffer_read(__ret_buffer, buffer_bool))
     {
-        _result = __DiscordMessageHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__ = __DiscordMessageHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
     else
     {
-        _result = undefined;
+        __result__ = undefined;
     }
-    return _result;
+    return __result__;
 }
 
 /**
@@ -4995,7 +5112,10 @@ function discord_social_client_get_message_handle(_message_id)
  */
 function discord_social_client_open_message_in_discord(_message_id, _provisional_user_merge_required_callback, _open_message_in_discord_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5005,17 +5125,17 @@ function discord_social_client_open_message_in_discord(_message_id, _provisional
 
     // param: _provisional_user_merge_required_callback, type: Function
     if (!is_callable(_provisional_user_merge_required_callback)) show_error($"{_GMFUNCTION_} :: _provisional_user_merge_required_callback expected callable type", true);
-    var _provisional_user_merge_required_callback_handle = __ext_core_function_register(_provisional_user_merge_required_callback, __dispatcher);
+    var _provisional_user_merge_required_callback_handle = __ext_core_function_register(_provisional_user_merge_required_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _provisional_user_merge_required_callback_handle);
 
     // param: _open_message_in_discord_callback, type: Function
     if (!is_callable(_open_message_in_discord_callback)) show_error($"{_GMFUNCTION_} :: _open_message_in_discord_callback expected callable type", true);
-    var _open_message_in_discord_callback_handle = __ext_core_function_register(_open_message_in_discord_callback, __dispatcher);
+    var _open_message_in_discord_callback_handle = __ext_core_function_register(_open_message_in_discord_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _open_message_in_discord_callback_handle);
 
-    var _return_value = __discord_social_client_open_message_in_discord(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_open_message_in_discord(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5025,7 +5145,10 @@ function discord_social_client_open_message_in_discord(_message_id, _provisional
  */
 function discord_social_client_send_lobby_message(_lobby_id, _content, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5040,12 +5163,12 @@ function discord_social_client_send_lobby_message(_lobby_id, _content, _callback
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_lobby_message(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_lobby_message(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5056,9 +5179,12 @@ function discord_social_client_send_lobby_message(_lobby_id, _content, _callback
  */
 function discord_social_client_send_lobby_message_with_metadata(_lobby_id, _content, _metadata, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
 
-    static __decoders = __GMDiscordSocial_get_decoders();
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
+
+    static __decoders__ = __GMDiscordSocial_get_decoders();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5077,12 +5203,12 @@ function discord_social_client_send_lobby_message_with_metadata(_lobby_id, _cont
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_lobby_message_with_metadata(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_lobby_message_with_metadata(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5092,7 +5218,10 @@ function discord_social_client_send_lobby_message_with_metadata(_lobby_id, _cont
  */
 function discord_social_client_send_user_message(_recipient_id, _content, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5107,12 +5236,12 @@ function discord_social_client_send_user_message(_recipient_id, _content, _callb
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_user_message(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_user_message(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5123,9 +5252,12 @@ function discord_social_client_send_user_message(_recipient_id, _content, _callb
  */
 function discord_social_client_send_user_message_with_metadata(_recipient_id, _content, _metadata, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
 
-    static __decoders = __GMDiscordSocial_get_decoders();
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
+
+    static __decoders__ = __GMDiscordSocial_get_decoders();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5144,12 +5276,12 @@ function discord_social_client_send_user_message_with_metadata(_recipient_id, _c
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_user_message_with_metadata(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_user_message_with_metadata(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5157,18 +5289,21 @@ function discord_social_client_send_user_message_with_metadata(_recipient_id, _c
  */
 function discord_social_client_set_message_created_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_message_created_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_message_created_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5176,18 +5311,21 @@ function discord_social_client_set_message_created_callback(_callback)
  */
 function discord_social_client_set_message_deleted_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_message_deleted_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_message_deleted_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5195,18 +5333,21 @@ function discord_social_client_set_message_deleted_callback(_callback)
  */
 function discord_social_client_set_message_updated_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_message_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_message_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_set_showing_chat (no wrapper is required)
@@ -5220,7 +5361,10 @@ function discord_social_client_set_message_updated_callback(_callback)
  */
 function discord_social_client_edit_user_message(_recipient_id, _message_id, _content, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5239,12 +5383,12 @@ function discord_social_client_edit_user_message(_recipient_id, _message_id, _co
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_edit_user_message(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_edit_user_message(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5254,7 +5398,10 @@ function discord_social_client_edit_user_message(_recipient_id, _message_id, _co
  */
 function discord_social_client_get_lobby_messages_with_limit(_lobby_id, _limit, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5268,12 +5415,12 @@ function discord_social_client_get_lobby_messages_with_limit(_lobby_id, _limit, 
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_lobby_messages_with_limit(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_lobby_messages_with_limit(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5281,18 +5428,21 @@ function discord_social_client_get_lobby_messages_with_limit(_lobby_id, _limit, 
  */
 function discord_social_client_get_user_message_summaries(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_user_message_summaries(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_user_message_summaries(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5302,7 +5452,10 @@ function discord_social_client_get_user_message_summaries(_callback)
  */
 function discord_social_client_get_user_messages_with_limit(_recipient_id, _limit, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5316,12 +5469,12 @@ function discord_social_client_get_user_messages_with_limit(_recipient_id, _limi
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_user_messages_with_limit(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_user_messages_with_limit(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5330,7 +5483,10 @@ function discord_social_client_get_user_messages_with_limit(_recipient_id, _limi
  */
 function discord_social_client_add_log_callback(_min_severity, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5341,12 +5497,12 @@ function discord_social_client_add_log_callback(_min_severity, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_add_log_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_add_log_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5355,7 +5511,10 @@ function discord_social_client_add_log_callback(_min_severity, _callback)
  */
 function discord_social_client_add_voice_log_callback(_min_severity, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5366,12 +5525,12 @@ function discord_social_client_add_voice_log_callback(_min_severity, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_add_voice_log_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_add_voice_log_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_connect (no wrapper is required)
@@ -5381,26 +5540,32 @@ function discord_social_client_add_voice_log_callback(_min_severity, _callback)
 
 
 /**
- * @returns {Enum.DiscordClientStatus} 
+ * @returns {Enum.DiscordClientStatus}
  */
 function discord_social_client_get_status()
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_status(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_status(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = buffer_read(__ret_buffer, buffer_u64);
-    return _result;
+    var __result__ = undefined;
+    __result__ = buffer_read(__ret_buffer, buffer_u64);
+    return __result__;
 }
 
 /**
  * @param {String} _path
  * @param {Enum.DiscordLoggingSeverity} _min_severity
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_client_set_log_dir(_path, _min_severity)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _path, type: String
@@ -5413,9 +5578,9 @@ function discord_social_client_set_log_dir(_path, _min_severity)
     if (!is_numeric(_min_severity)) show_error($"{_GMFUNCTION_} :: _min_severity expected number", true);
     buffer_write(__args_buffer, buffer_u64, _min_severity);
 
-    var _return_value = __discord_social_client_set_log_dir(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_log_dir(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5423,18 +5588,21 @@ function discord_social_client_set_log_dir(_path, _min_severity)
  */
 function discord_social_client_set_status_changed_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5443,6 +5611,9 @@ function discord_social_client_set_status_changed_callback(_callback)
  */
 function discord_social_client_set_voice_log_dir(_path, _min_severity)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _path, type: String
@@ -5455,9 +5626,9 @@ function discord_social_client_set_voice_log_dir(_path, _min_severity)
     if (!is_numeric(_min_severity)) show_error($"{_GMFUNCTION_} :: _min_severity expected number", true);
     buffer_write(__args_buffer, buffer_u64, _min_severity);
 
-    var _return_value = __discord_social_client_set_voice_log_dir(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_voice_log_dir(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5466,7 +5637,10 @@ function discord_social_client_set_voice_log_dir(_path, _min_severity)
  */
 function discord_social_client_create_or_join_lobby(_secret, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5477,12 +5651,12 @@ function discord_social_client_create_or_join_lobby(_secret, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_create_or_join_lobby(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_create_or_join_lobby(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5493,9 +5667,12 @@ function discord_social_client_create_or_join_lobby(_secret, _callback)
  */
 function discord_social_client_create_or_join_lobby_with_metadata(_secret, _lobby_metadata_struct, _member_metadata_struct, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
 
-    static __decoders = __GMDiscordSocial_get_decoders();
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
+
+    static __decoders__ = __GMDiscordSocial_get_decoders();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5514,12 +5691,12 @@ function discord_social_client_create_or_join_lobby_with_metadata(_secret, _lobb
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_create_or_join_lobby_with_metadata(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_create_or_join_lobby_with_metadata(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5528,7 +5705,10 @@ function discord_social_client_create_or_join_lobby_with_metadata(_secret, _lobb
  */
 function discord_social_client_get_guild_channels(_guild_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5538,20 +5718,23 @@ function discord_social_client_get_guild_channels(_guild_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_guild_channels(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_guild_channels(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _lobby_id
- * @returns {Struct.DiscordLobbyHandle} 
+ * @returns {Struct.DiscordLobbyHandle}
  */
 function discord_social_client_get_lobby_handle(_lobby_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _lobby_id, type: UInt64
@@ -5560,37 +5743,40 @@ function discord_social_client_get_lobby_handle(_lobby_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_lobby_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_lobby_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
+    var __result__ = undefined;
     if (buffer_read(__ret_buffer, buffer_bool))
     {
-        _result = __DiscordLobbyHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__ = __DiscordLobbyHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
     else
     {
-        _result = undefined;
+        __result__ = undefined;
     }
-    return _result;
+    return __result__;
 }
 
 /**
- * @returns {Array[Real]} 
+ * @returns {Array[Real]}
  */
 function discord_social_client_get_lobby_ids()
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_lobby_ids(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_lobby_ids(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    var _length = buffer_read(__ret_buffer, buffer_u32);
-    _result = array_create(_length);
-    for (var _i = 0; _i < _length; ++_i)
+    var __result__ = undefined;
+    var __length__ = buffer_read(__ret_buffer, buffer_u32);
+    __result__ = array_create(__length__);
+    for (var _i = 0; _i < __length__; ++_i)
     {
-        _result[_i] = buffer_read(__ret_buffer, buffer_u64);
+        __result__[_i] = buffer_read(__ret_buffer, buffer_u64);
     }
-    return _result;
+    return __result__;
 }
 
 /**
@@ -5598,18 +5784,21 @@ function discord_social_client_get_lobby_ids()
  */
 function discord_social_client_get_user_guilds(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_user_guilds(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_user_guilds(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5618,7 +5807,10 @@ function discord_social_client_get_user_guilds(_callback)
  */
 function discord_social_client_leave_lobby(_lobby_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5628,12 +5820,12 @@ function discord_social_client_leave_lobby(_lobby_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_leave_lobby(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_leave_lobby(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5643,7 +5835,10 @@ function discord_social_client_leave_lobby(_lobby_id, _callback)
  */
 function discord_social_client_link_channel_to_lobby(_lobby_id, _channel_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5657,12 +5852,12 @@ function discord_social_client_link_channel_to_lobby(_lobby_id, _channel_id, _ca
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_link_channel_to_lobby(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_link_channel_to_lobby(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5670,18 +5865,21 @@ function discord_social_client_link_channel_to_lobby(_lobby_id, _channel_id, _ca
  */
 function discord_social_client_set_lobby_created_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_lobby_created_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_lobby_created_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5689,18 +5887,21 @@ function discord_social_client_set_lobby_created_callback(_callback)
  */
 function discord_social_client_set_lobby_deleted_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_lobby_deleted_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_lobby_deleted_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5708,18 +5909,21 @@ function discord_social_client_set_lobby_deleted_callback(_callback)
  */
 function discord_social_client_set_lobby_member_added_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_lobby_member_added_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_lobby_member_added_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5727,18 +5931,21 @@ function discord_social_client_set_lobby_member_added_callback(_callback)
  */
 function discord_social_client_set_lobby_member_removed_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_lobby_member_removed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_lobby_member_removed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5746,18 +5953,21 @@ function discord_social_client_set_lobby_member_removed_callback(_callback)
  */
 function discord_social_client_set_lobby_member_updated_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_lobby_member_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_lobby_member_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5765,18 +5975,21 @@ function discord_social_client_set_lobby_member_updated_callback(_callback)
  */
 function discord_social_client_set_lobby_updated_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_lobby_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_lobby_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5785,7 +5998,10 @@ function discord_social_client_set_lobby_updated_callback(_callback)
  */
 function discord_social_client_unlink_channel_from_lobby(_lobby_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5795,12 +6011,12 @@ function discord_social_client_unlink_channel_from_lobby(_lobby_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_unlink_channel_from_lobby(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_unlink_channel_from_lobby(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5810,7 +6026,10 @@ function discord_social_client_unlink_channel_from_lobby(_lobby_id, _callback)
  */
 function discord_social_client_join_linked_lobby_guild(_lobby_id, _provisional_user_merge_required_callback, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5820,17 +6039,17 @@ function discord_social_client_join_linked_lobby_guild(_lobby_id, _provisional_u
 
     // param: _provisional_user_merge_required_callback, type: Function
     if (!is_callable(_provisional_user_merge_required_callback)) show_error($"{_GMFUNCTION_} :: _provisional_user_merge_required_callback expected callable type", true);
-    var _provisional_user_merge_required_callback_handle = __ext_core_function_register(_provisional_user_merge_required_callback, __dispatcher);
+    var _provisional_user_merge_required_callback_handle = __ext_core_function_register(_provisional_user_merge_required_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _provisional_user_merge_required_callback_handle);
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_join_linked_lobby_guild(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_join_linked_lobby_guild(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5839,7 +6058,10 @@ function discord_social_client_join_linked_lobby_guild(_lobby_id, _provisional_u
  */
 function discord_social_client_accept_activity_invite(_activity_invite, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5849,12 +6071,12 @@ function discord_social_client_accept_activity_invite(_activity_invite, _callbac
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_accept_activity_invite(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_accept_activity_invite(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_clear_rich_presence (no wrapper is required)
@@ -5863,10 +6085,13 @@ function discord_social_client_accept_activity_invite(_activity_invite, _callbac
 /**
  * @param {Real} _application_id
  * @param {String} _command
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_client_register_launch_command(_application_id, _command)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _application_id, type: UInt64
@@ -5878,18 +6103,21 @@ function discord_social_client_register_launch_command(_application_id, _command
     buffer_write(__args_buffer, buffer_u32, string_byte_length(_command));
     buffer_write(__args_buffer, buffer_string, _command);
 
-    var _return_value = __discord_social_client_register_launch_command(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_register_launch_command(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _application_id
  * @param {Real} _steam_app_id
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_client_register_launch_steam_application(_application_id, _steam_app_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _application_id, type: UInt64
@@ -5900,9 +6128,9 @@ function discord_social_client_register_launch_steam_application(_application_id
     if (!is_numeric(_steam_app_id)) show_error($"{_GMFUNCTION_} :: _steam_app_id expected number", true);
     buffer_write(__args_buffer, buffer_u32, _steam_app_id);
 
-    var _return_value = __discord_social_client_register_launch_steam_application(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_register_launch_steam_application(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5912,7 +6140,10 @@ function discord_social_client_register_launch_steam_application(_application_id
  */
 function discord_social_client_send_activity_invite(_user_id, _content, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5927,12 +6158,12 @@ function discord_social_client_send_activity_invite(_user_id, _content, _callbac
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_activity_invite(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_activity_invite(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5941,7 +6172,10 @@ function discord_social_client_send_activity_invite(_user_id, _content, _callbac
  */
 function discord_social_client_send_activity_join_request(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5951,12 +6185,12 @@ function discord_social_client_send_activity_join_request(_user_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_activity_join_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_activity_join_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5965,7 +6199,10 @@ function discord_social_client_send_activity_join_request(_user_id, _callback)
  */
 function discord_social_client_send_activity_join_request_reply(_activity_invite, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -5975,12 +6212,12 @@ function discord_social_client_send_activity_join_request_reply(_activity_invite
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_activity_join_request_reply(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_activity_join_request_reply(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -5988,18 +6225,21 @@ function discord_social_client_send_activity_join_request_reply(_activity_invite
  */
 function discord_social_client_set_activity_invite_created_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_activity_invite_created_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_activity_invite_created_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6007,18 +6247,21 @@ function discord_social_client_set_activity_invite_created_callback(_callback)
  */
 function discord_social_client_set_activity_invite_updated_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_activity_invite_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_activity_invite_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6026,18 +6269,21 @@ function discord_social_client_set_activity_invite_updated_callback(_callback)
  */
 function discord_social_client_set_activity_join_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_activity_join_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_activity_join_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6045,18 +6291,21 @@ function discord_social_client_set_activity_join_callback(_callback)
  */
 function discord_social_client_set_activity_join_with_application_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_activity_join_with_application_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_activity_join_with_application_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6065,7 +6314,10 @@ function discord_social_client_set_activity_join_with_application_callback(_call
  */
 function discord_social_client_set_online_status(_status, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6076,12 +6328,12 @@ function discord_social_client_set_online_status(_status, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_online_status(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_online_status(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6090,7 +6342,10 @@ function discord_social_client_set_online_status(_status, _callback)
  */
 function discord_social_client_update_rich_presence(_activity, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6100,12 +6355,12 @@ function discord_social_client_update_rich_presence(_activity, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_update_rich_presence(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_update_rich_presence(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6114,7 +6369,10 @@ function discord_social_client_update_rich_presence(_activity, _callback)
  */
 function discord_social_client_accept_discord_friend_request(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6124,12 +6382,12 @@ function discord_social_client_accept_discord_friend_request(_user_id, _callback
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_accept_discord_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_accept_discord_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6138,7 +6396,10 @@ function discord_social_client_accept_discord_friend_request(_user_id, _callback
  */
 function discord_social_client_accept_game_friend_request(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6148,12 +6409,12 @@ function discord_social_client_accept_game_friend_request(_user_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_accept_game_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_accept_game_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6162,7 +6423,10 @@ function discord_social_client_accept_game_friend_request(_user_id, _callback)
  */
 function discord_social_client_block_user(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6172,12 +6436,12 @@ function discord_social_client_block_user(_user_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_block_user(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_block_user(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6186,7 +6450,10 @@ function discord_social_client_block_user(_user_id, _callback)
  */
 function discord_social_client_cancel_discord_friend_request(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6196,12 +6463,12 @@ function discord_social_client_cancel_discord_friend_request(_user_id, _callback
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_cancel_discord_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_cancel_discord_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6210,7 +6477,10 @@ function discord_social_client_cancel_discord_friend_request(_user_id, _callback
  */
 function discord_social_client_cancel_game_friend_request(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6220,20 +6490,23 @@ function discord_social_client_cancel_game_friend_request(_user_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_cancel_game_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_cancel_game_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _user_id
- * @returns {Struct.DiscordRelationshipHandle} 
+ * @returns {Struct.DiscordRelationshipHandle}
  */
 function discord_social_client_get_relationship_handle(_user_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _user_id, type: UInt64
@@ -6242,38 +6515,44 @@ function discord_social_client_get_relationship_handle(_user_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_relationship_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_relationship_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = __DiscordRelationshipHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
-    return _result;
+    var __result__ = undefined;
+    __result__ = __DiscordRelationshipHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+    return __result__;
 }
 
 /**
- * @returns {Array[Struct.DiscordRelationshipHandle]} 
+ * @returns {Array[Struct.DiscordRelationshipHandle]}
  */
 function discord_social_client_get_relationships()
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_relationships(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_relationships(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    var _length = buffer_read(__ret_buffer, buffer_u32);
-    _result = array_create(_length);
-    for (var _i = 0; _i < _length; ++_i)
+    var __result__ = undefined;
+    var __length__ = buffer_read(__ret_buffer, buffer_u32);
+    __result__ = array_create(__length__);
+    for (var _i = 0; _i < __length__; ++_i)
     {
-        _result[_i] = __DiscordRelationshipHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__[_i] = __DiscordRelationshipHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
-    return _result;
+    return __result__;
 }
 
 /**
  * @param {Enum.DiscordRelationshipGroupType} _group_type
- * @returns {Array[Struct.DiscordRelationshipHandle]} 
+ * @returns {Array[Struct.DiscordRelationshipHandle]}
  */
 function discord_social_client_get_relationships_by_group(_group_type)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _group_type, type: enum DiscordRelationshipGroupType
@@ -6283,16 +6562,16 @@ function discord_social_client_get_relationships_by_group(_group_type)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_relationships_by_group(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_relationships_by_group(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    var _length = buffer_read(__ret_buffer, buffer_u32);
-    _result = array_create(_length);
-    for (var _i = 0; _i < _length; ++_i)
+    var __result__ = undefined;
+    var __length__ = buffer_read(__ret_buffer, buffer_u32);
+    __result__ = array_create(__length__);
+    for (var _i = 0; _i < __length__; ++_i)
     {
-        _result[_i] = __DiscordRelationshipHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__[_i] = __DiscordRelationshipHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
-    return _result;
+    return __result__;
 }
 
 /**
@@ -6301,7 +6580,10 @@ function discord_social_client_get_relationships_by_group(_group_type)
  */
 function discord_social_client_reject_discord_friend_request(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6311,12 +6593,12 @@ function discord_social_client_reject_discord_friend_request(_user_id, _callback
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_reject_discord_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_reject_discord_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6325,7 +6607,10 @@ function discord_social_client_reject_discord_friend_request(_user_id, _callback
  */
 function discord_social_client_reject_game_friend_request(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6335,12 +6620,12 @@ function discord_social_client_reject_game_friend_request(_user_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_reject_game_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_reject_game_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6349,7 +6634,10 @@ function discord_social_client_reject_game_friend_request(_user_id, _callback)
  */
 function discord_social_client_remove_discord_and_game_friend(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6359,12 +6647,12 @@ function discord_social_client_remove_discord_and_game_friend(_user_id, _callbac
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_remove_discord_and_game_friend(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_remove_discord_and_game_friend(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6373,7 +6661,10 @@ function discord_social_client_remove_discord_and_game_friend(_user_id, _callbac
  */
 function discord_social_client_remove_game_friend(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6383,32 +6674,35 @@ function discord_social_client_remove_game_friend(_user_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_remove_game_friend(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_remove_game_friend(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {String} _search_str
- * @returns {Array[Struct.DiscordUserHandle]} 
+ * @returns {Array[Struct.DiscordUserHandle]}
  */
 function discord_social_client_search_friends_by_username(_search_str)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_search_friends_by_username(_search_str, buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_search_friends_by_username(_search_str, buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    var _length = buffer_read(__ret_buffer, buffer_u32);
-    _result = array_create(_length);
-    for (var _i = 0; _i < _length; ++_i)
+    var __result__ = undefined;
+    var __length__ = buffer_read(__ret_buffer, buffer_u32);
+    __result__ = array_create(__length__);
+    for (var _i = 0; _i < __length__; ++_i)
     {
-        _result[_i] = __DiscordUserHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__[_i] = __DiscordUserHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
-    return _result;
+    return __result__;
 }
 
 /**
@@ -6417,7 +6711,10 @@ function discord_social_client_search_friends_by_username(_search_str)
  */
 function discord_social_client_send_discord_friend_request(_username, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6428,12 +6725,12 @@ function discord_social_client_send_discord_friend_request(_username, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_discord_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_discord_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6442,7 +6739,10 @@ function discord_social_client_send_discord_friend_request(_username, _callback)
  */
 function discord_social_client_send_discord_friend_request_by_id(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6452,12 +6752,12 @@ function discord_social_client_send_discord_friend_request_by_id(_user_id, _call
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_discord_friend_request_by_id(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_discord_friend_request_by_id(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6466,7 +6766,10 @@ function discord_social_client_send_discord_friend_request_by_id(_user_id, _call
  */
 function discord_social_client_send_game_friend_request(_username, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6477,12 +6780,12 @@ function discord_social_client_send_game_friend_request(_username, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_game_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_game_friend_request(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6491,7 +6794,10 @@ function discord_social_client_send_game_friend_request(_username, _callback)
  */
 function discord_social_client_send_game_friend_request_by_id(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6501,12 +6807,12 @@ function discord_social_client_send_game_friend_request_by_id(_user_id, _callbac
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_send_game_friend_request_by_id(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_send_game_friend_request_by_id(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6514,18 +6820,21 @@ function discord_social_client_send_game_friend_request_by_id(_user_id, _callbac
  */
 function discord_social_client_set_relationship_created_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_relationship_created_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_relationship_created_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6533,18 +6842,21 @@ function discord_social_client_set_relationship_created_callback(_callback)
  */
 function discord_social_client_set_relationship_deleted_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_relationship_deleted_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_relationship_deleted_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6552,18 +6864,21 @@ function discord_social_client_set_relationship_deleted_callback(_callback)
  */
 function discord_social_client_set_relationship_groups_updated_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_relationship_groups_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_relationship_groups_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6572,7 +6887,10 @@ function discord_social_client_set_relationship_groups_updated_callback(_callbac
  */
 function discord_social_client_unblock_user(_user_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6582,33 +6900,36 @@ function discord_social_client_unblock_user(_user_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_unblock_user(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_unblock_user(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
- * @returns {Struct.DiscordUserHandle} 
+ * @returns {Struct.DiscordUserHandle}
  */
 function discord_social_client_get_current_user()
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_current_user(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_current_user(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
+    var __result__ = undefined;
     if (buffer_read(__ret_buffer, buffer_bool))
     {
-        _result = __DiscordUserHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__ = __DiscordUserHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
     else
     {
-        _result = undefined;
+        __result__ = undefined;
     }
-    return _result;
+    return __result__;
 }
 
 /**
@@ -6617,7 +6938,10 @@ function discord_social_client_get_current_user()
  */
 function discord_social_client_get_discord_client_connected_user(_application_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -6627,20 +6951,23 @@ function discord_social_client_get_discord_client_connected_user(_application_id
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_get_discord_client_connected_user(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_get_discord_client_connected_user(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _user_id
- * @returns {Struct.DiscordUserHandle} 
+ * @returns {Struct.DiscordUserHandle}
  */
 function discord_social_client_get_user(_user_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _user_id, type: UInt64
@@ -6649,18 +6976,18 @@ function discord_social_client_get_user(_user_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_user(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_user(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
+    var __result__ = undefined;
     if (buffer_read(__ret_buffer, buffer_bool))
     {
-        _result = __DiscordUserHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+        __result__ = __DiscordUserHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
     }
     else
     {
-        _result = undefined;
+        __result__ = undefined;
     }
-    return _result;
+    return __result__;
 }
 
 /**
@@ -6668,26 +6995,32 @@ function discord_social_client_get_user(_user_id)
  */
 function discord_social_client_set_user_updated_callback(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_set_user_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_user_updated_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Enum.DiscordClientError} _error
- * @returns {String} 
+ * @returns {String}
  */
 function discord_social_client_error_to_string(_error)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _error, type: enum DiscordClientError
@@ -6695,9 +7028,9 @@ function discord_social_client_error_to_string(_error)
     if (!is_numeric(_error)) show_error($"{_GMFUNCTION_} :: _error expected number", true);
     buffer_write(__args_buffer, buffer_u64, _error);
 
-    var _return_value = __discord_social_client_error_to_string(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_error_to_string(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_get_default_audio_device_id (no wrapper is required)
@@ -6722,17 +7055,20 @@ function discord_social_client_error_to_string(_error)
 
 
 /**
- * @returns {Real} 
+ * @returns {Real}
  */
 function discord_social_client_get_application_id()
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_client_get_application_id(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_client_get_application_id(buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = buffer_read(__ret_buffer, buffer_u64);
-    return _result;
+    var __result__ = undefined;
+    __result__ = buffer_read(__ret_buffer, buffer_u64);
+    return __result__;
 }
 
 /**
@@ -6740,15 +7076,18 @@ function discord_social_client_get_application_id()
  */
 function discord_social_client_set_application_id(_application_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _application_id, type: UInt64
     if (!is_numeric(_application_id)) show_error($"{_GMFUNCTION_} :: _application_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _application_id);
 
-    var _return_value = __discord_social_client_set_application_id(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_set_application_id(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6756,18 +7095,21 @@ function discord_social_client_set_application_id(_application_id)
  */
 function discord_social_client_is_discord_app_installed(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_is_discord_app_installed(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_is_discord_app_installed(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -6775,26 +7117,32 @@ function discord_social_client_is_discord_app_installed(_callback)
  */
 function discord_social_client_open_connected_games_settings_in_discord(_callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_client_open_connected_games_settings_in_discord(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_open_connected_games_settings_in_discord(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Enum.DiscordClientStatus} _status
- * @returns {String} 
+ * @returns {String}
  */
 function discord_social_client_status_to_string(_status)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _status, type: enum DiscordClientStatus
@@ -6802,17 +7150,20 @@ function discord_social_client_status_to_string(_status)
     if (!is_numeric(_status)) show_error($"{_GMFUNCTION_} :: _status expected number", true);
     buffer_write(__args_buffer, buffer_u64, _status);
 
-    var _return_value = __discord_social_client_status_to_string(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_status_to_string(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Enum.DiscordClientThread} _thread
- * @returns {String} 
+ * @returns {String}
  */
 function discord_social_client_thread_to_string(_thread)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _thread, type: enum DiscordClientThread
@@ -6820,18 +7171,21 @@ function discord_social_client_thread_to_string(_thread)
     if (!is_numeric(_thread)) show_error($"{_GMFUNCTION_} :: _thread expected number", true);
     buffer_write(__args_buffer, buffer_u64, _thread);
 
-    var _return_value = __discord_social_client_thread_to_string(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_client_thread_to_string(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Real} _user_id
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_get_local_mute(_channel_id, _user_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -6842,18 +7196,21 @@ function discord_social_call_get_local_mute(_channel_id, _user_id)
     if (!is_numeric(_user_id)) show_error($"{_GMFUNCTION_} :: _user_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _user_id);
 
-    var _return_value = __discord_social_call_get_local_mute(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_get_local_mute(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Real} _user_id
- * @returns {Real} 
+ * @returns {Real}
  */
 function discord_social_call_get_participant_volume(_channel_id, _user_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -6864,34 +7221,40 @@ function discord_social_call_get_participant_volume(_channel_id, _user_id)
     if (!is_numeric(_user_id)) show_error($"{_GMFUNCTION_} :: _user_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _user_id);
 
-    var _return_value = __discord_social_call_get_participant_volume(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_get_participant_volume(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
- * @returns {Real} 
+ * @returns {Real}
  */
 function discord_social_call_get_ptt_release_delay(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
     if (!is_numeric(_channel_id)) show_error($"{_GMFUNCTION_} :: _channel_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _channel_id);
 
-    var _return_value = __discord_social_call_get_ptt_release_delay(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_get_ptt_release_delay(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
- * @returns {Struct.DiscordVADThresholdSettings} 
+ * @returns {Struct.DiscordVADThresholdSettings}
  */
 function discord_social_call_get_vad_threshold(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -6900,20 +7263,23 @@ function discord_social_call_get_vad_threshold(_channel_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_call_get_vad_threshold(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_call_get_vad_threshold(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = __DiscordVADThresholdSettings_decode(__ret_buffer, buffer_tell(__ret_buffer));
-    return _result;
+    var __result__ = undefined;
+    __result__ = __DiscordVADThresholdSettings_decode(__ret_buffer, buffer_tell(__ret_buffer));
+    return __result__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Real} _user_id
- * @returns {Struct.DiscordVoiceStateHandle} 
+ * @returns {Struct.DiscordVoiceStateHandle}
  */
 function discord_social_call_get_voice_state_handle(_channel_id, _user_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -6926,20 +7292,23 @@ function discord_social_call_get_voice_state_handle(_channel_id, _user_id)
 
     var __ret_buffer = __ext_core_get_ret_buffer();
 
-    var _return_value = __discord_social_call_get_voice_state_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
+    var __return_value__ = __discord_social_call_get_voice_state_handle(buffer_get_address(__args_buffer), buffer_tell(__args_buffer), buffer_get_address(__ret_buffer), buffer_get_size(__ret_buffer));
 
-    var _result = undefined;
-    _result = __DiscordVoiceStateHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
-    return _result;
+    var __result__ = undefined;
+    __result__ = __DiscordVoiceStateHandle_decode(__ret_buffer, buffer_tell(__ret_buffer));
+    return __result__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Enum.DiscordAudioModeType} _audio_mode
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_audio_mode(_channel_id, _audio_mode)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -6951,19 +7320,22 @@ function discord_social_call_set_audio_mode(_channel_id, _audio_mode)
     if (!is_numeric(_audio_mode)) show_error($"{_GMFUNCTION_} :: _audio_mode expected number", true);
     buffer_write(__args_buffer, buffer_u64, _audio_mode);
 
-    var _return_value = __discord_social_call_set_audio_mode(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_audio_mode(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Real} _user_id
  * @param {Bool} _mute
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_local_mute(_channel_id, _user_id, _mute)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -6978,19 +7350,22 @@ function discord_social_call_set_local_mute(_channel_id, _user_id, _mute)
     if (!is_bool(_mute)) show_error($"{_GMFUNCTION_} :: _mute expected bool", true);
     buffer_write(__args_buffer, buffer_bool, _mute);
 
-    var _return_value = __discord_social_call_set_local_mute(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_local_mute(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Function} _callback
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_on_voice_state_changed_callback(_channel_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -7000,22 +7375,25 @@ function discord_social_call_set_on_voice_state_changed_callback(_channel_id, _c
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_call_set_on_voice_state_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_on_voice_state_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Function} _callback
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_participant_changed_callback(_channel_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -7025,22 +7403,25 @@ function discord_social_call_set_participant_changed_callback(_channel_id, _call
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_call_set_participant_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_participant_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Real} _user_id
  * @param {Real} _vol
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_participant_volume(_channel_id, _user_id, _vol)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -7055,18 +7436,21 @@ function discord_social_call_set_participant_volume(_channel_id, _user_id, _vol)
     if (!is_numeric(_vol)) show_error($"{_GMFUNCTION_} :: _vol expected number", true);
     buffer_write(__args_buffer, buffer_f32, _vol);
 
-    var _return_value = __discord_social_call_set_participant_volume(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_participant_volume(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Bool} _active
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_ptt_active(_channel_id, _active)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -7077,18 +7461,21 @@ function discord_social_call_set_ptt_active(_channel_id, _active)
     if (!is_bool(_active)) show_error($"{_GMFUNCTION_} :: _active expected bool", true);
     buffer_write(__args_buffer, buffer_bool, _active);
 
-    var _return_value = __discord_social_call_set_ptt_active(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_ptt_active(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Real} _release_delay_ms
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_ptt_release_delay(_channel_id, _release_delay_ms)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -7099,18 +7486,21 @@ function discord_social_call_set_ptt_release_delay(_channel_id, _release_delay_m
     if (!is_numeric(_release_delay_ms)) show_error($"{_GMFUNCTION_} :: _release_delay_ms expected number", true);
     buffer_write(__args_buffer, buffer_u32, _release_delay_ms);
 
-    var _return_value = __discord_social_call_set_ptt_release_delay(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_ptt_release_delay(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Bool} _deaf
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_self_deaf(_channel_id, _deaf)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -7121,18 +7511,21 @@ function discord_social_call_set_self_deaf(_channel_id, _deaf)
     if (!is_bool(_deaf)) show_error($"{_GMFUNCTION_} :: _deaf expected bool", true);
     buffer_write(__args_buffer, buffer_bool, _deaf);
 
-    var _return_value = __discord_social_call_set_self_deaf(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_self_deaf(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Bool} _mute
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_self_mute(_channel_id, _mute)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -7143,19 +7536,22 @@ function discord_social_call_set_self_mute(_channel_id, _mute)
     if (!is_bool(_mute)) show_error($"{_GMFUNCTION_} :: _mute expected bool", true);
     buffer_write(__args_buffer, buffer_bool, _mute);
 
-    var _return_value = __discord_social_call_set_self_mute(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_self_mute(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Function} _callback
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_speaking_status_changed_callback(_channel_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -7165,22 +7561,25 @@ function discord_social_call_set_speaking_status_changed_callback(_channel_id, _
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_call_set_speaking_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_speaking_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Function} _callback
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_status_changed_callback(_channel_id, _callback)
 {
-    static __dispatcher = __GMDiscordSocial_get_dispatcher();
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
+    var __dispatcher__ = __GMDiscordSocial_get_dispatcher();
 
     var __args_buffer = __ext_core_get_args_buffer();
 
@@ -7190,22 +7589,25 @@ function discord_social_call_set_status_changed_callback(_channel_id, _callback)
 
     // param: _callback, type: Function
     if (!is_callable(_callback)) show_error($"{_GMFUNCTION_} :: _callback expected callable type", true);
-    var _callback_handle = __ext_core_function_register(_callback, __dispatcher);
+    var _callback_handle = __ext_core_function_register(_callback, __dispatcher__);
     buffer_write(__args_buffer, buffer_u64, _callback_handle);
 
-    var _return_value = __discord_social_call_set_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
  * @param {Real} _channel_id
  * @param {Bool} _automatic
  * @param {Real} _threshold
- * @returns {Bool} 
+ * @returns {Bool}
  */
 function discord_social_call_set_vad_threshold(_channel_id, _automatic, _threshold)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
@@ -7220,9 +7622,9 @@ function discord_social_call_set_vad_threshold(_channel_id, _automatic, _thresho
     if (!is_numeric(_threshold)) show_error($"{_GMFUNCTION_} :: _threshold expected number", true);
     buffer_write(__args_buffer, buffer_f32, _threshold);
 
-    var _return_value = __discord_social_call_set_vad_threshold(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_set_vad_threshold(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 // Skipping function discord_social_client_remove_device_change_callback (no wrapper is required)
@@ -7305,15 +7707,18 @@ function discord_social_call_set_vad_threshold(_channel_id, _automatic, _thresho
  */
 function discord_social_call_remove_on_voice_state_changed_callback(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
     if (!is_numeric(_channel_id)) show_error($"{_GMFUNCTION_} :: _channel_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _channel_id);
 
-    var _return_value = __discord_social_call_remove_on_voice_state_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_remove_on_voice_state_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -7321,15 +7726,18 @@ function discord_social_call_remove_on_voice_state_changed_callback(_channel_id)
  */
 function discord_social_call_remove_participant_changed_callback(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
     if (!is_numeric(_channel_id)) show_error($"{_GMFUNCTION_} :: _channel_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _channel_id);
 
-    var _return_value = __discord_social_call_remove_participant_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_remove_participant_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -7337,15 +7745,18 @@ function discord_social_call_remove_participant_changed_callback(_channel_id)
  */
 function discord_social_call_remove_speaking_status_changed_callback(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
     if (!is_numeric(_channel_id)) show_error($"{_GMFUNCTION_} :: _channel_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _channel_id);
 
-    var _return_value = __discord_social_call_remove_speaking_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_remove_speaking_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /**
@@ -7353,21 +7764,24 @@ function discord_social_call_remove_speaking_status_changed_callback(_channel_id
  */
 function discord_social_call_remove_status_changed_callback(_channel_id)
 {
+    var __available__ = __GMDiscordSocial_is_available();
+    if (!__available__) return;
+
     var __args_buffer = __ext_core_get_args_buffer();
 
     // param: _channel_id, type: UInt64
     if (!is_numeric(_channel_id)) show_error($"{_GMFUNCTION_} :: _channel_id expected number", true);
     buffer_write(__args_buffer, buffer_u64, _channel_id);
 
-    var _return_value = __discord_social_call_remove_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
+    var __return_value__ = __discord_social_call_remove_status_changed_callback(buffer_get_address(__args_buffer), buffer_tell(__args_buffer));
 
-    return _return_value;
+    return __return_value__;
 }
 
 /// @ignore
 function __GMDiscordSocial_get_decoders()
 {
-    static __decoders = [
+    static __decoders__ = [
         __DiscordActivityInvite_decode,
         __DiscordAudioDevice_decode,
         __DiscordRelationshipSnapshot_decode,
@@ -7399,11 +7813,17 @@ function __GMDiscordSocial_get_decoders()
         __DiscordLobbyHandle_decode,
         __DiscordMessageHandle_decode
     ];
-    return __decoders;
+    return __decoders__;
 }
 /// @ignore
 function __GMDiscordSocial_get_dispatcher()
 {
-    static __dispatcher = new __GMNativeFunctionDispatcher(__GMDiscordSocial_invocation_handler, __GMDiscordSocial_get_decoders());
-    return __dispatcher;
+    static __dispatcher__ = new __GMNativeFunctionDispatcher(__GMDiscordSocial_invocation_handler, __GMDiscordSocial_get_decoders());
+    return __dispatcher__;
+}
+/// @ignore
+function __GMDiscordSocial_is_available()
+{
+    static __available__ = extension_exists("GMDiscordSocial");
+    return __available__;
 }
