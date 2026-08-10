@@ -59,6 +59,27 @@ setupiOS() {
     itemCopyTo "$XCFRAMEWORK_SRC" "$IOS_TEMP/discord_partner_sdk.xcframework"
     folderCompress "$IOS_TEMP" "$IOS_ZIP"
     itemDelete "$IOS_TEMP"
+
+    # Krisp noise-cancellation framework - always bundled on iOS (declared statically in
+    # iosThirdPartyFrameworkEntries; unlike Android/Windows/macOS, GameMaker's Xcode framework-embed
+    # list can't be gated by an extension option, so Krisp_Enable does not apply here)
+    KRISP_XCFRAMEWORK_SRC="$SDK_PATH/lib/release/discord_partner_sdk_krisp.xcframework"
+    if [ ! -d "$KRISP_XCFRAMEWORK_SRC" ]; then
+        logError "discord_partner_sdk_krisp.xcframework not found at '$KRISP_XCFRAMEWORK_SRC'."
+    fi
+
+    KRISP_ZIP="$IOS_DEST_DIR/discord_partner_sdk_krisp.zip"
+    KRISP_TEMP="$IOS_DEST_DIR/_xcf_krisp_temp"
+
+    echo "Building iOS Krisp xcframework zip"
+
+    itemDelete "$KRISP_TEMP"
+    itemDelete "$KRISP_ZIP"
+
+    mkdir -p "$KRISP_TEMP"
+    itemCopyTo "$KRISP_XCFRAMEWORK_SRC" "$KRISP_TEMP/discord_partner_sdk_krisp.xcframework"
+    folderCompress "$KRISP_TEMP" "$KRISP_ZIP"
+    itemDelete "$KRISP_TEMP"
 }
 
 # ######################################################################################

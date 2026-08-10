@@ -41,6 +41,7 @@ public final class GMDiscordSocialBridge {
     public static native double __EXT_JNI__discord_social_client_set_input_volume(double vol);
     public static native double __EXT_JNI__discord_social_client_set_no_audio_input_callback(ByteBuffer __arg_buffer, double __arg_buffer_length);
     public static native double __EXT_JNI__discord_social_client_set_no_audio_input_threshold(double threshold);
+    public static native double __EXT_JNI__discord_social_client_set_noise_cancellation(double on);
     public static native double __EXT_JNI__discord_social_client_set_noise_suppression(double on);
     public static native double __EXT_JNI__discord_social_client_set_opus_hardware_coding(double encode, double decode);
     public static native double __EXT_JNI__discord_social_client_set_output_device(ByteBuffer __arg_buffer, double __arg_buffer_length);

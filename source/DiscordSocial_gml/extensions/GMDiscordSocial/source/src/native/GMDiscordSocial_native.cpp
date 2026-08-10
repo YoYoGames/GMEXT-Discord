@@ -927,6 +927,8 @@ void discord_social_client_set_no_audio_input_threshold(float threshold)
     g_client->SetNoAudioInputThreshold(threshold);
 }
 
+void discord_social_client_set_noise_cancellation(bool on) { g_client->SetNoiseCancellation(on); }
+
 void discord_social_client_set_noise_suppression(bool on) { g_client->SetNoiseSuppression(on); }
 
 void discord_social_client_set_opus_hardware_coding(bool encode, bool decode)

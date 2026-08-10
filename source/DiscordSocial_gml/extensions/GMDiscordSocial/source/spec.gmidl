@@ -70,6 +70,9 @@ function discord_social_client_set_no_audio_input_callback(callback: func) : uni
 function discord_social_client_set_no_audio_input_threshold(threshold: float) : unit;
 
 [global, bind = typed_gml]
+function discord_social_client_set_noise_cancellation(on: bool) : unit;
+
+[global, bind = typed_gml]
 function discord_social_client_set_noise_suppression(on: bool) : unit;
 
 [global, bind = typed_gml]

@@ -25,6 +25,7 @@
 - (double)__EXT_NATIVE__discord_social_client_set_input_volume:(double)vol;
 - (double)__EXT_NATIVE__discord_social_client_set_no_audio_input_callback:(char*)__arg_buffer arg1:(double)__arg_buffer_length;
 - (double)__EXT_NATIVE__discord_social_client_set_no_audio_input_threshold:(double)threshold;
+- (double)__EXT_NATIVE__discord_social_client_set_noise_cancellation:(double)on;
 - (double)__EXT_NATIVE__discord_social_client_set_noise_suppression:(double)on;
 - (double)__EXT_NATIVE__discord_social_client_set_opus_hardware_coding:(double)encode arg1:(double)decode;
 - (double)__EXT_NATIVE__discord_social_client_set_output_device:(char*)__arg_buffer arg1:(double)__arg_buffer_length;

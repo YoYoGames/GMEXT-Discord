@@ -18,6 +18,14 @@ setupWindows() {
 
     echo "Copying Windows (64 bit) dependencies"
     itemCopyTo "$SDK_SOURCE" "./discord_partner_sdk.dll"
+
+    if [[ "${KRISP_ENABLE,,}" == "true" ]]; then
+        echo "Copying Krisp noise-cancellation dependencies"
+        itemCopyTo "$SDK_PATH/bin/release/discord_krisp.dll" "./discord_krisp.dll"
+        for kef in krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef; do
+            itemCopyTo "$SDK_PATH/bin/release/$kef" "./$kef"
+        done
+    fi
 }
 
 # ----------------------------------------------------------------------------------------------------
@@ -60,6 +68,14 @@ setupmacOS() {
         YYfixedProjectName="${YYprojectName// /_}"
 
         itemCopyTo "$SDK_SOURCE" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/libdiscord_partner_sdk.dylib"
+
+        if [[ "${KRISP_ENABLE,,}" == "true" ]]; then
+            echo "Copying Krisp noise-cancellation dependencies"
+            itemCopyTo "$SDK_PATH/lib/release/libdiscord_krisp.dylib" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/libdiscord_krisp.dylib"
+            for kef in krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef; do
+                itemCopyTo "$SDK_PATH/lib/release/$kef" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/$kef"
+            done
+        fi
     fi
 }
 
@@ -92,11 +108,23 @@ setupMac() {
     echo "Copying macOS (64 bit) dependencies (GMRT)"
     pushd "./build/assets/" >/dev/null
     itemCopyTo "$SDK_SOURCE" "./libdiscord_partner_sdk.dylib"
+
+    if [[ "${KRISP_ENABLE,,}" == "true" ]]; then
+        echo "Copying Krisp noise-cancellation dependencies"
+        itemCopyTo "$SDK_PATH/lib/release/libdiscord_krisp.dylib" "./libdiscord_krisp.dylib"
+        for kef in krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef; do
+            itemCopyTo "$SDK_PATH/lib/release/$kef" "./$kef"
+        done
+    fi
     popd >/dev/null
 }
 
 # ----------------------------------------------------------------------------------------------------
 setupLinux() {
+    # NOTE: KRISP_ENABLE is not honored here - Discord does not vendor a Linux Krisp artifact
+    # (no discord_krisp.so ships alongside libdiscord_partner_sdk.so). Nothing to bundle even if the
+    # option is on; voice always falls back to WebRTC noise suppression on this platform.
+
     # Resolve the SDK path (must exist)
     pathResolveExisting "$YYprojectDir" "$LINUX_SDK_PATH" SDK_PATH
 
@@ -130,6 +158,11 @@ setupAndroid() {
     mkdir -p "$EXTENSION_DIR/AndroidSource/libs-aar"
 
     itemCopyTo "$SDK_SOURCE" "$EXTENSION_DIR/AndroidSource/libs-aar/discord_partner_sdk.aar"
+
+    if [[ "${KRISP_ENABLE,,}" == "true" ]]; then
+        echo "Copying Krisp noise-cancellation (aar) dependencies"
+        itemCopyTo "$SDK_PATH/lib/release/discord_partner_sdk_krisp.aar" "$EXTENSION_DIR/AndroidSource/libs-aar/discord_partner_sdk_krisp.aar"
+    fi
 }
 
 # ----------------------------------------------------------------------------------------------------
@@ -152,6 +185,9 @@ optionGetValue "winSdkPath" WIN_SDK_PATH
 optionGetValue "macosSdkPath" MACOS_SDK_PATH
 optionGetValue "linuxSdkPath" LINUX_SDK_PATH
 optionGetValue "androidSdkPath" ANDROID_SDK_PATH
+
+# Whether to bundle Discord's Krisp noise-cancellation library (off by default, see Krisp_Enable)
+optionGetValue "Krisp_Enable" KRISP_ENABLE
 
 # Ensure we are on the output path
 pushd "$YYoutputFolder" >/dev/null

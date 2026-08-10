@@ -1476,6 +1476,7 @@ void discord_social_client_set_input_device(std::string_view device_id, const gm
 void discord_social_client_set_input_volume(float vol);
 void discord_social_client_set_no_audio_input_callback(const gm::wire::GMFunction& callback);
 void discord_social_client_set_no_audio_input_threshold(float threshold);
+void discord_social_client_set_noise_cancellation(bool on);
 void discord_social_client_set_noise_suppression(bool on);
 void discord_social_client_set_opus_hardware_coding(bool encode, bool decode);
 void discord_social_client_set_output_device(std::string_view device_id, const gm::wire::GMFunction& callback);

@@ -100,6 +100,10 @@ public class GMDiscordSocialInternal extends RunnerSocial {
     {
         return __EXT_JNI__discord_social_client_set_no_audio_input_threshold(threshold);
     }
+    public double __EXT_NATIVE__discord_social_client_set_noise_cancellation(double on)
+    {
+        return __EXT_JNI__discord_social_client_set_noise_cancellation(on);
+    }
     public double __EXT_NATIVE__discord_social_client_set_noise_suppression(double on)
     {
         return __EXT_JNI__discord_social_client_set_noise_suppression(on);

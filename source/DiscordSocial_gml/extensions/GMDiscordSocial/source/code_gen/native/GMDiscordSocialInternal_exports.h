@@ -31,6 +31,7 @@ GMEXPORT double __EXT_NATIVE__discord_social_client_set_input_device(char* __arg
 GMEXPORT double __EXT_NATIVE__discord_social_client_set_input_volume(double vol);
 GMEXPORT double __EXT_NATIVE__discord_social_client_set_no_audio_input_callback(char* __arg_buffer, double __arg_buffer_length);
 GMEXPORT double __EXT_NATIVE__discord_social_client_set_no_audio_input_threshold(double threshold);
+GMEXPORT double __EXT_NATIVE__discord_social_client_set_noise_cancellation(double on);
 GMEXPORT double __EXT_NATIVE__discord_social_client_set_noise_suppression(double on);
 GMEXPORT double __EXT_NATIVE__discord_social_client_set_opus_hardware_coding(double encode, double decode);
 GMEXPORT double __EXT_NATIVE__discord_social_client_set_output_device(char* __arg_buffer, double __arg_buffer_length);

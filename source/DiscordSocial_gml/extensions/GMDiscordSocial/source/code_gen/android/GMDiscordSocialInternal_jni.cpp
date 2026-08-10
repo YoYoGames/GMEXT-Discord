@@ -368,6 +368,13 @@ static jdouble __JNI_WRAPPER__discord_social_client_set_no_audio_input_threshold
     return static_cast<jdouble>(__ret);
 }
 
+// discord_social_client_set_noise_cancellation JNI wrapper signature: (D)D
+static jdouble __JNI_WRAPPER__discord_social_client_set_noise_cancellation_514F68EF421F(JNIEnv* /* env */, jclass /* GMDiscordSocialBridge */, jdouble on)
+{
+    double __ret = __EXT_NATIVE__discord_social_client_set_noise_cancellation(static_cast<double>(on));
+    return static_cast<jdouble>(__ret);
+}
+
 // discord_social_client_set_noise_suppression JNI wrapper signature: (D)D
 static jdouble __JNI_WRAPPER__discord_social_client_set_noise_suppression_ACF639AC4083(JNIEnv* /* env */, jclass /* GMDiscordSocialBridge */, jdouble on)
 {
@@ -2489,6 +2496,7 @@ extern "C" {
             { "__EXT_JNI__discord_social_client_set_input_volume", "(D)D", (void*)__JNI_WRAPPER__discord_social_client_set_input_volume_EAC7439F0ED4 },
             { "__EXT_JNI__discord_social_client_set_no_audio_input_callback", "(Ljava/nio/ByteBuffer;D)D", (void*)__JNI_WRAPPER__discord_social_client_set_no_audio_input_callback_29ADCDCF299B },
             { "__EXT_JNI__discord_social_client_set_no_audio_input_threshold", "(D)D", (void*)__JNI_WRAPPER__discord_social_client_set_no_audio_input_threshold_06B82F3469C6 },
+            { "__EXT_JNI__discord_social_client_set_noise_cancellation", "(D)D", (void*)__JNI_WRAPPER__discord_social_client_set_noise_cancellation_514F68EF421F },
             { "__EXT_JNI__discord_social_client_set_noise_suppression", "(D)D", (void*)__JNI_WRAPPER__discord_social_client_set_noise_suppression_ACF639AC4083 },
             { "__EXT_JNI__discord_social_client_set_opus_hardware_coding", "(DD)D", (void*)__JNI_WRAPPER__discord_social_client_set_opus_hardware_coding_C8CE2C8881DE },
             { "__EXT_JNI__discord_social_client_set_output_device", "(Ljava/nio/ByteBuffer;D)D", (void*)__JNI_WRAPPER__discord_social_client_set_output_device_FCBC874BDC0B },

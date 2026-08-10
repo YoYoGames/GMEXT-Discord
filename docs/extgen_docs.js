@@ -132,6 +132,12 @@
  */
 
 /**
+ * @function_partial discord_social_client_set_noise_cancellation
+ * @param {Bool} on
+ * @function_end
+ */
+
+/**
  * @function_partial discord_social_client_set_noise_suppression
  * @param {Bool} on
  * @function_end

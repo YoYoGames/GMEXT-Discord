@@ -4212,6 +4212,9 @@ function discord_social_client_set_no_audio_input_callback(_callback)
 // Skipping function discord_social_client_set_no_audio_input_threshold (no wrapper is required)
 
 
+// Skipping function discord_social_client_set_noise_cancellation (no wrapper is required)
+
+
 // Skipping function discord_social_client_set_noise_suppression (no wrapper is required)
 
 

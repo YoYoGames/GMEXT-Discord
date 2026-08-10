@@ -72,4 +72,25 @@ exit /b 0
     call %Utils% itemCopyTo "%XCFRAMEWORK_SRC%" "%IOS_TEMP%\discord_partner_sdk.xcframework"
     call %Utils% folderCompress "%IOS_TEMP%" "%IOS_ZIP%"
     call %Utils% itemDelete "%IOS_TEMP%"
+
+    :: Krisp noise-cancellation framework - always bundled on iOS (declared statically in
+    :: iosThirdPartyFrameworkEntries; unlike Android/Windows/macOS, GameMaker's Xcode framework-embed
+    :: list can't be gated by an extension option, so Krisp_Enable does not apply here)
+    set "KRISP_XCFRAMEWORK_SRC=%SDK_PATH%\lib\release\discord_partner_sdk_krisp.xcframework"
+    if not exist "%KRISP_XCFRAMEWORK_SRC%" (
+        call %Utils% logError "discord_partner_sdk_krisp.xcframework not found at '%KRISP_XCFRAMEWORK_SRC%'."
+    )
+
+    set "KRISP_ZIP=%IOS_DEST_DIR%\discord_partner_sdk_krisp.zip"
+    set "KRISP_TEMP=%IOS_DEST_DIR%\_xcf_krisp_temp"
+
+    echo "Building iOS Krisp xcframework zip"
+
+    call %Utils% itemDelete "%KRISP_TEMP%"
+    call %Utils% itemDelete "%KRISP_ZIP%"
+
+    mkdir "%KRISP_TEMP%"
+    call %Utils% itemCopyTo "%KRISP_XCFRAMEWORK_SRC%" "%KRISP_TEMP%\discord_partner_sdk_krisp.xcframework"
+    call %Utils% folderCompress "%KRISP_TEMP%" "%KRISP_ZIP%"
+    call %Utils% itemDelete "%KRISP_TEMP%"
 exit /b 0

@@ -176,6 +176,10 @@ static void GMInjectSelectorsIntoSubclass(Class subclass, Class base)
 {
     return __EXT_NATIVE__discord_social_client_set_no_audio_input_threshold(threshold);
 }
+- (double)__EXT_NATIVE__discord_social_client_set_noise_cancellation:(double)on
+{
+    return __EXT_NATIVE__discord_social_client_set_noise_cancellation(on);
+}
 - (double)__EXT_NATIVE__discord_social_client_set_noise_suppression:(double)on
 {
     return __EXT_NATIVE__discord_social_client_set_noise_suppression(on);

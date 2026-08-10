@@ -227,6 +227,12 @@ GMEXPORT double __EXT_NATIVE__discord_social_client_set_no_audio_input_threshold
     return 0;
 }
 
+GMEXPORT double __EXT_NATIVE__discord_social_client_set_noise_cancellation(double on)
+{
+    discord_social_client_set_noise_cancellation(static_cast<bool>(on));
+    return 0;
+}
+
 GMEXPORT double __EXT_NATIVE__discord_social_client_set_noise_suppression(double on)
 {
     discord_social_client_set_noise_suppression(static_cast<bool>(on));
