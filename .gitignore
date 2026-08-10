@@ -42,3 +42,6 @@ source/Discord_gml/extensions/Discord/scriptUtils.bat.bak
 source/Discord_gml/extensions/Discord/scriptUtils.sh.bak
 
 source/DiscordSocial_gml/options/
+
+# Android AAR dependencies copied fresh from the vendored SDK by post_build_step at build time
+source/DiscordSocial_gml/extensions/GMDiscordSocial/AndroidSource/libs-aar/
