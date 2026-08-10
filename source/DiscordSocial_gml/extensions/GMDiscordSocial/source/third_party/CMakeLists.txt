@@ -72,29 +72,20 @@ if(WIN32)
   set(SDK_WIN_DLL_DEBUG    "${SDK_ROOT}/bin/debug/${SDK_BASENAME}.dll"     CACHE FILEPATH "Win runtime DLL (Debug)")
   set(SDK_WIN_DLL_RELEASE  "${SDK_ROOT}/bin/release/${SDK_BASENAME}.dll"   CACHE FILEPATH "Win runtime DLL (Release)")
 
-  add_library(${SDK_BASENAME}_win SHARED IMPORTED GLOBAL)
-  set_target_properties(${SDK_BASENAME}_win PROPERTIES
-    IMPORTED_CONFIGURATIONS             "Debug;Release"
-    IMPORTED_IMPLIB_DEBUG               "${SDK_WIN_LIB_DEBUG}"
-    IMPORTED_IMPLIB_RELEASE             "${SDK_WIN_LIB_RELEASE}"
-    IMPORTED_LOCATION_DEBUG             "${SDK_WIN_DLL_DEBUG}"
-    IMPORTED_LOCATION_RELEASE           "${SDK_WIN_DLL_RELEASE}"
-    MAP_IMPORTED_CONFIG_RELWITHDEBINFO  "${_MAP_REL_CONFIGS}"
-    MAP_IMPORTED_CONFIG_MINSIZEREL      "${_MAP_REL_CONFIGS}"
-    INTERFACE_INCLUDE_DIRECTORIES       "$<TARGET_PROPERTY:ext_third_party,INTERFACE_INCLUDE_DIRECTORIES>"
+  # IMPORTANT: link ONLY the import library (.lib), as a raw file path - not a SHARED IMPORTED CMake
+  # target with IMPORTED_LOCATION set. Matches GMEXT-Steamworks' third_party/CMakeLists.txt exactly.
+  # A SHARED IMPORTED target with IMPORTED_LOCATION makes the runtime DLL visible to CMake's own
+  # $<TARGET_RUNTIME_DLLS:...> generator expression (used by cmake/windows/extgen_post_build.cmake,
+  # framework-managed, not ours to edit), which would auto-copy it into the extension folder on every
+  # build regardless of EXT_TP_RUNTIME_DLLS. The runtime DLL is intentionally NOT registered for copying
+  # here - it's deployed at the game's build time by post_build_step.bat/.sh instead.
+  target_link_libraries(ext_third_party INTERFACE
+    $<$<CONFIG:Debug>:${SDK_WIN_LIB_DEBUG}>
+    $<$<OR:$<CONFIG:Release>,$<CONFIG:RelWithDebInfo>,$<CONFIG:MinSizeRel>>:${SDK_WIN_LIB_RELEASE}>
   )
 
   # OPTIONAL SECT.: system libs (uncomment if SDK needs them)
-  # target_link_libraries(${SDK_BASENAME}_win INTERFACE ws2_32 user32 advapi32)
-
-  # ext_third_party consumes it
-  target_link_libraries(ext_third_party INTERFACE ${SDK_BASENAME}_win)
-
-  # Publish runtime dlls (parent may copy post-build)
-  _ext_tp_append_runtime(
-    $<$<CONFIG:Debug>:${SDK_WIN_DLL_DEBUG}>
-    $<$<OR:$<CONFIG:Release>,$<CONFIG:RelWithDebInfo>,$<CONFIG:MinSizeRel>>:${SDK_WIN_DLL_RELEASE}>
-  )
+  # target_link_libraries(ext_third_party INTERFACE ws2_32 user32 advapi32)
 endif()
 
 # =============================================================================
@@ -137,10 +128,12 @@ if(APPLE)
       )
       target_link_libraries(ext_third_party INTERFACE ${SDK_BASENAME}_mac_dylib)
 
-      _ext_tp_append_runtime(
-        $<$<CONFIG:Debug>:${SDK_MAC_DYLIB_DEBUG}>
-        $<$<OR:$<CONFIG:Release>,$<CONFIG:RelWithDebInfo>,$<CONFIG:MinSizeRel>>:${SDK_MAC_DYLIB_RELEASE}>
-      )
+      # Runtime dylib delivery is handled by pre_build_step/post_build_step + the checked-in static
+      # Source File placeholder, not by this CMake build - see the Windows section above for why.
+      # _ext_tp_append_runtime(
+      #   $<$<CONFIG:Debug>:${SDK_MAC_DYLIB_DEBUG}>
+      #   $<$<OR:$<CONFIG:Release>,$<CONFIG:RelWithDebInfo>,$<CONFIG:MinSizeRel>>:${SDK_MAC_DYLIB_RELEASE}>
+      # )
     endif()
 
     if(EXT_TP_MAC_USE_FRAMEWORK)
@@ -232,10 +225,12 @@ if(UNIX AND NOT APPLE AND NOT ANDROID)
     )
     target_link_libraries(ext_third_party INTERFACE ${SDK_BASENAME}_linux_so)
 
-    _ext_tp_append_runtime(
-      $<$<CONFIG:Debug>:${SDK_LNX_SO_DEBUG}>
-      $<$<OR:$<CONFIG:Release>,$<CONFIG:RelWithDebInfo>,$<CONFIG:MinSizeRel>>:${SDK_LNX_SO_RELEASE}>
-    )
+    # Runtime .so delivery is handled by pre_build_step/post_build_step, not by this CMake build -
+    # see the Windows section above for why.
+    # _ext_tp_append_runtime(
+    #   $<$<CONFIG:Debug>:${SDK_LNX_SO_DEBUG}>
+    #   $<$<OR:$<CONFIG:Release>,$<CONFIG:RelWithDebInfo>,$<CONFIG:MinSizeRel>>:${SDK_LNX_SO_RELEASE}>
+    # )
   endif()
 
   if(EXT_TP_LINUX_USE_STATIC)
@@ -332,7 +327,7 @@ if(ANDROID)
     )
     target_link_libraries(ext_third_party INTERFACE ${SDK_BASENAME}_android)
 
-    _ext_tp_append_runtime("${SDK_ANDROID_SO_PER_ABI}")
+    # _ext_tp_append_runtime("${SDK_ANDROID_SO_PER_ABI}")
   else()
     message(WARNING "[third_party] ANDROID set, but neither EXT_TP_ANDROID_USE_AAR nor EXT_TP_ANDROID_USE_RAW_SO is ON.")
   endif()
