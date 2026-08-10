@@ -45,3 +45,9 @@ source/DiscordSocial_gml/options/
 
 # Android AAR dependencies copied fresh from the vendored SDK by post_build_step at build time
 source/DiscordSocial_gml/extensions/GMDiscordSocial/AndroidSource/libs-aar/
+
+# Vendored SDK runtime binaries a local CMake build can leave next to the extension (Windows/Linux only -
+# macOS's libdiscord_partner_sdk.dylib at this same path is a deliberate checked-in Source File
+# placeholder, don't ignore that one). Delivered to actual game builds by post_build_step instead.
+source/DiscordSocial_gml/extensions/GMDiscordSocial/discord_partner_sdk.dll
+source/DiscordSocial_gml/extensions/GMDiscordSocial/libdiscord_partner_sdk.so
