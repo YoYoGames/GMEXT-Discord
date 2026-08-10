@@ -81,12 +81,15 @@ exit /b 0
         :: This is used for YYC compilation
         call %Utils% itemCopyTo %SDK_SOURCE% "!YYfixedProjectName!\!YYfixedProjectName!\Supporting Files\libdiscord_partner_sdk.dylib"
 
-        if /I "%KRISP_ENABLE%"=="True" (
-            echo "Copying Krisp noise-cancellation dependencies"
-            call %Utils% itemCopyTo "%SDK_PATH%\lib\release\libdiscord_krisp.dylib" "!YYfixedProjectName!\!YYfixedProjectName!\Supporting Files\libdiscord_krisp.dylib"
-            for %%K in (krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef) do (
-                call %Utils% itemCopyTo "%SDK_PATH%\lib\release\%%K" "!YYfixedProjectName!\!YYfixedProjectName!\Supporting Files\%%K"
-            )
+        :: Krisp on macOS is NOT gated by Krisp_Enable - the extension ships a static placeholder Source
+        :: File (libdiscord_krisp.dylib) purely so Xcode's project includes a reference to it;
+        :: this copy overwrites it with the real vendored library, same as the main dylib above. Always
+        :: bundled by default; the only way to opt out is manually unchecking that file's "copy to macOS"
+        :: flag in the extension's Files panel in the IDE (per-game, not scriptable).
+        echo "Copying Krisp noise-cancellation dependencies"
+        call %Utils% itemCopyTo "%SDK_PATH%\lib\release\libdiscord_krisp.dylib" "!YYfixedProjectName!\!YYfixedProjectName!\Supporting Files\libdiscord_krisp.dylib"
+        for %%K in (krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef) do (
+            call %Utils% itemCopyTo "%SDK_PATH%\lib\release\%%K" "!YYfixedProjectName!\!YYfixedProjectName!\Supporting Files\%%K"
         )
         endlocal
     )

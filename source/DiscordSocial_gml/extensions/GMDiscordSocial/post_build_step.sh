@@ -69,13 +69,16 @@ setupmacOS() {
 
         itemCopyTo "$SDK_SOURCE" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/libdiscord_partner_sdk.dylib"
 
-        if [[ "${KRISP_ENABLE,,}" == "true" ]]; then
-            echo "Copying Krisp noise-cancellation dependencies"
-            itemCopyTo "$SDK_PATH/lib/release/libdiscord_krisp.dylib" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/libdiscord_krisp.dylib"
-            for kef in krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef; do
-                itemCopyTo "$SDK_PATH/lib/release/$kef" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/$kef"
-            done
-        fi
+        # Krisp on macOS is NOT gated by Krisp_Enable - the extension ships a static placeholder Source
+        # File (libdiscord_krisp.dylib) purely so Xcode's project includes a reference to it;
+        # this copy overwrites it with the real vendored library, same as the main dylib above. Always
+        # bundled by default; the only way to opt out is manually unchecking that file's "copy to macOS"
+        # flag in the extension's Files panel in the IDE (per-game, not scriptable).
+        echo "Copying Krisp noise-cancellation dependencies"
+        itemCopyTo "$SDK_PATH/lib/release/libdiscord_krisp.dylib" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/libdiscord_krisp.dylib"
+        for kef in krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef; do
+            itemCopyTo "$SDK_PATH/lib/release/$kef" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/$kef"
+        done
     fi
 }
 
@@ -109,13 +112,12 @@ setupMac() {
     pushd "./build/assets/" >/dev/null
     itemCopyTo "$SDK_SOURCE" "./libdiscord_partner_sdk.dylib"
 
-    if [[ "${KRISP_ENABLE,,}" == "true" ]]; then
-        echo "Copying Krisp noise-cancellation dependencies"
-        itemCopyTo "$SDK_PATH/lib/release/libdiscord_krisp.dylib" "./libdiscord_krisp.dylib"
-        for kef in krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef; do
-            itemCopyTo "$SDK_PATH/lib/release/$kef" "./$kef"
-        done
-    fi
+    # Krisp on macOS is NOT gated by Krisp_Enable - see setupmacOS() above for why.
+    echo "Copying Krisp noise-cancellation dependencies"
+    itemCopyTo "$SDK_PATH/lib/release/libdiscord_krisp.dylib" "./libdiscord_krisp.dylib"
+    for kef in krisp-bvc-o-pro-v3.kef krisp-nc-o-lite-v1.kef krisp-nc-o-med-v7.kef krisp-nc-o-nb-v2.kef krisp-vad-o-v2.kef; do
+        itemCopyTo "$SDK_PATH/lib/release/$kef" "./$kef"
+    done
     popd >/dev/null
 }
 
