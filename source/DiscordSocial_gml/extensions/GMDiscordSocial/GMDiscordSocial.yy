@@ -14,7 +14,7 @@
   "copyToTargets":206,
   "description":"",
   "exportToGame":true,
-  "extensionVersion":"2.0.1",
+  "extensionVersion":"2.0.2",
   "files":[
     {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":206,"filename":"GMDiscordSocial.ext","final":"discord_social_shutdown","functions":[
         {"$GMExtensionFunction":"","%Name":"discord_social_run_callbacks","argCount":0,"args":[],"documentation":"@returns {Real}","externalName":"__EXT_NATIVE__discord_social_run_callbacks","help":"","hidden":false,"kind":4,"name":"discord_social_run_callbacks","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
