@@ -67,3 +67,15 @@ discord_social_client_set_message_updated_callback(function(_message_id) {
     message_handle = discord_social_client_get_message_handle(_message_id);
 });
 ```
+
+## Extension Options
+
+This section documents all other extension options available.
+
+![Other Extension Options](assets/otherextension_options.png)
+
+- **\<Platform\> SDK**: This lets you set the SDK directory for each available platform
+- **Application Id**: ID of the application created on the Discord Developer Portal
+- **Enable Krisp Noise Cancellation**: Krisp ships as additional libraries and model files alongside the core SDK, which adds to your installation size. If you’re optimizing for size, for example on mobile, you can ship without Krisp and rely on the WebRTC noise suppression instead.
+- **Use Voice**: Disable if you are not making use of voice features, removes various permissions from build
+- **Log Level**: How verbose logging should be, where 0 is least verbose and 2 is most
